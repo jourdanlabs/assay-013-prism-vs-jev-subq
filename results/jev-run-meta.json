@@ -1,0 +1,15 @@
+{
+ "vendor": "jev",
+ "endpoint": "https://api.typesafe.ai/v1/systemone",
+ "requested_model": "jev-latest",
+ "returned_models": [
+  "jev-1.14.0"
+ ],
+ "started_utc": "2026-11-24T16:30:07.059959+00:00",
+ "finished_utc": "2026-11-24T16:30:20.651598+00:00",
+ "passages": 100,
+ "predictions": 100,
+ "answer": 55,
+ "refuse": 45,
+ "errors": []
+}

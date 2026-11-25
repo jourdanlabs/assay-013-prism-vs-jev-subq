@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "B001",
+    "pairId": "P14",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "ANSWER",
+    "rational": "1/6",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=compromised, H0=sterile, A=show a gap in the seal, B=fail the dye-penetration test. Conditional independence within each category: P(A,B|H)=P(A|H)P(B|H): H1 9/10*5/6=3/4, H0 3/10*1/4=3/40. P(H0|A,B) = 1/20/3/10 = 1/6."
+  },
+  {
+    "id": "B002",
+    "pairId": "P38",
+    "family": "POPULATION_STRATA",
+    "status": "ANSWER",
+    "rational": "15/22",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "Query stratum = lower gallery (the stratum with data). H1=drifting, H0=calibrated, E=log a spurious humidity spike. P(H1|E,lower gallery) = (2/9*3/4) / (2/9*3/4 + 7/9*1/10) = 1/6/11/45 = 15/22."
+  },
+  {
+    "id": "B003",
+    "pairId": "P11",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "ANSWER",
+    "rational": "75/89",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=fatigued, H0=sound, A=show a broken outer wire, B=return a magnetic-flux anomaly. Conditional independence within each category: P(A,B|H)=P(A|H)P(B|H): H1 5/8*1/2=5/16, H0 1/8*1/5=1/40. P(H1|A,B) = 3/32/89/800 = 75/89."
+  },
+  {
+    "id": "B004",
+    "pairId": "P48",
+    "family": "PREMISE_VALIDITY",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "DISPUTED_PREMISE",
+    "derivation": "Trap DISPUTED_PREMISE: the split between failed and established grafts is rendered unusable. Treating that quantity as free in (0,1), P(H0|E) ranges over (0/1, 1/1) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B005",
+    "pairId": "P20",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "ANSWER",
+    "rational": "6/11",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=toxic, H0=edible, A=have blade-like false gills, B=glow faintly in the dark. Rule EQUIV: A iff B so P(A,B|H)=P(A|H)=P(B|H); inequality check holds in both categories. Observed cell: A and B. Cell likelihoods: H1 3/5, H0 1/10. P(H1|obs) = 1/10/11/60 = 6/11."
+  },
+  {
+    "id": "B006",
+    "pairId": "P31",
+    "family": "DIRECT_POSTERIOR",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: the stated figure is the reversed conditional P(E|H)=18/25 and no base rate is given, so P(H|E) is unconstrained: it ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B007",
+    "pairId": "P36",
+    "family": "POPULATION_STRATA",
+    "status": "ANSWER",
+    "rational": "5/7",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "Query stratum = south dock (the stratum with data). H1=mislabelled, H0=correctly labelled, E=fail the weight-manifest cross-check. P(H1|E,south dock) = (1/5*5/6) / (1/5*5/6 + 4/5*1/12) = 1/6/7/30 = 5/7."
+  },
+  {
+    "id": "B008",
+    "pairId": "P44",
+    "family": "PREMISE_VALIDITY",
+    "status": "ANSWER",
+    "rational": "7/10",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=stressed, H0=well-annealed, E=show a rainbow under the polariscope. The secondary remark concerns a feature unrelated to any stated probability and does not affect the computation. P(H1|E) = (1/7*7/10) / (1/7*7/10 + 6/7*1/20) = 1/10/1/7 = 7/10."
+  },
+  {
+    "id": "B009",
+    "pairId": "P45",
+    "family": "PREMISE_VALIDITY",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "22/31"
+    ],
+    "trapType": "DISPUTED_PREMISE",
+    "derivation": "Trap DISPUTED_PREMISE: the rate at which sound casings return a bubble on the shearography scan is rendered unusable. Treating that quantity as free in (0,1), P(H0|E) ranges over (0/1, 22/31) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B010",
+    "pairId": "P21",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "7/43",
+      "7/9"
+    ],
+    "trapType": "LINKAGE_COUNTEREXAMPLE",
+    "derivation": "Trap LINKAGE_COUNTEREXAMPLE: a concrete counterexample in the same population contradicts the stated universal rule; the joint behaviour is then only bounded by the marginals (Frechet). Observed-cell likelihood in [1/20,9/20] under H1 and [1/20,1/10] under H0, so P(H1|obs) ranges over (7/43, 7/9) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B011",
+    "pairId": "P03",
+    "family": "STANDARD_BAYES",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "8/19"
+    ],
+    "trapType": "INCOMPLETE_FACTORIZATION",
+    "derivation": "Trap INCOMPLETE_FACTORIZATION: P(E|H1) is omitted (priors and the other likelihood are given). With P(E|H1) free in (0,1), P(H1|E) ranges over (0/1, 8/19) (infimum/supremum), so no single value is determined."
+  },
+  {
+    "id": "B012",
+    "pairId": "P12",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/3"
+    ],
+    "trapType": "NEGATED_INDEPENDENCE",
+    "derivation": "Trap NEGATED_INDEPENDENCE: independence is explicitly negated; joint likelihoods are only Frechet-bounded (direction/strength unknown). P(A,B|H1) in [5/12,2/3], P(A,B|H0) in [0/1,1/6], so P(H0|A,B) ranges over (0/1, 1/3) (infimum/supremum)."
+  },
+  {
+    "id": "B013",
+    "pairId": "P17",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "64/109",
+      "1/1"
+    ],
+    "trapType": "HYPOTHESIS_RESTRICTED_INDEPENDENCE",
+    "derivation": "Trap HYPOTHESIS_RESTRICTED_INDEPENDENCE: independence holds only under H1; under H0 the joint likelihood is only Frechet-bounded. P(A,B|H1) in [8/15,8/15], P(A,B|H0) in [0/1,1/4], so P(H1|A,B) ranges over (64/109, 1/1) (infimum/supremum)."
+  },
+  {
+    "id": "B014",
+    "pairId": "P32",
+    "family": "DIRECT_POSTERIOR",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: the stated figure is the reversed conditional P(E|H)=4/11 and no base rate is given, so P(H|E) is unconstrained: it ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B015",
+    "pairId": "P06",
+    "family": "STANDARD_BAYES",
+    "status": "ANSWER",
+    "rational": "72/103",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=slack, H0=properly tensioned, E=drift flat within an hour. P(H1|E) = P(H1)P(E|H1) / [P(H1)P(E|H1)+P(H0)P(E|H0)] = (9/40*4/5) / (9/40*4/5 + 31/40*1/10) = 9/50/103/400 = 72/103."
+  },
+  {
+    "id": "B016",
+    "pairId": "P15",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "11/76",
+      "1/1"
+    ],
+    "trapType": "UNLICENSED_INDEPENDENCE",
+    "derivation": "Trap UNLICENSED_INDEPENDENCE: no independence is licensed; joint likelihoods only obey Frechet bounds in both categories. P(A,B|H1) in [3/40,9/20], P(A,B|H0) in [0/1,1/8], so P(H1|A,B) ranges over (11/76, 1/1) (infimum/supremum)."
+  },
+  {
+    "id": "B017",
+    "pairId": "P16",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "27/41",
+      "1/1"
+    ],
+    "trapType": "NEGATED_INDEPENDENCE",
+    "derivation": "Trap NEGATED_INDEPENDENCE: independence is explicitly negated; joint likelihoods are only Frechet-bounded (direction/strength unknown). P(A,B|H1) in [9/20,7/10], P(A,B|H0) in [0/1,1/10], so P(H1|A,B) ranges over (27/41, 1/1) (infimum/supremum)."
+  },
+  {
+    "id": "B018",
+    "pairId": "P10",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "2/5",
+      "1/1"
+    ],
+    "trapType": "UNLICENSED_INDEPENDENCE",
+    "derivation": "Trap UNLICENSED_INDEPENDENCE: no independence is licensed; joint likelihoods only obey Frechet bounds in both categories. P(A,B|H1) in [1/5,3/5], P(A,B|H0) in [0/1,1/10], so P(H1|A,B) ranges over (2/5, 1/1) (infimum/supremum)."
+  },
+  {
+    "id": "B019",
+    "pairId": "P05",
+    "family": "STANDARD_BAYES",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: both P(H1) and P(H0) are omitted. With the prior free in (0,1) and the stated likelihoods 22/25 and 3/25, P(H1|E) ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B020",
+    "pairId": "P49",
+    "family": "PREMISE_VALIDITY",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "RETRACTED_PREMISE",
+    "derivation": "Trap RETRACTED_PREMISE: the split between mis-pinned and correctly pinned cylinders is rendered unusable. Treating that quantity as free in (0,1), P(H1|E) ranges over (0/1, 1/1) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B021",
+    "pairId": "P05",
+    "family": "STANDARD_BAYES",
+    "status": "ANSWER",
+    "rational": "22/37",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=worn, H0=serviceable, E=leak air during the pressure-hold test. P(H1|E) = P(H1)P(E|H1) / [P(H1)P(E|H1)+P(H0)P(E|H0)] = (1/6*22/25) / (1/6*22/25 + 5/6*3/25) = 11/75/37/150 = 22/37."
+  },
+  {
+    "id": "B022",
+    "pairId": "P28",
+    "family": "DIRECT_POSTERIOR",
+    "status": "ANSWER",
+    "rational": "2/5",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H=decaying, E=smell of vinegar. The stated figure is the posterior P(H|E) directly: 2/5. No base rate is needed."
+  },
+  {
+    "id": "B023",
+    "pairId": "P24",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "16/23",
+      "1/1"
+    ],
+    "trapType": "LINKAGE_COUNTEREXAMPLE",
+    "derivation": "Trap LINKAGE_COUNTEREXAMPLE: a concrete counterexample in the same population contradicts the stated universal rule; the joint behaviour is then only bounded by the marginals (Frechet). Observed-cell likelihood in [2/5,7/10] under H1 and [0/1,1/8] under H0, so P(H1|obs) ranges over (16/23, 1/1) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B024",
+    "pairId": "P43",
+    "family": "PREMISE_VALIDITY",
+    "status": "ANSWER",
+    "rational": "25/37",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=outbreak-linked, H0=background, E=amplify in the first PCR run. The secondary remark concerns a feature unrelated to any stated probability and does not affect the computation. P(H1|E) = (1/5*5/6) / (1/5*5/6 + 4/5*1/10) = 1/6/37/150 = 25/37."
+  },
+  {
+    "id": "B025",
+    "pairId": "P25",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "45/52",
+      "1/1"
+    ],
+    "trapType": "LINKAGE_COUNTEREXAMPLE",
+    "derivation": "Trap LINKAGE_COUNTEREXAMPLE: a concrete counterexample in the same population contradicts the stated universal rule; the joint behaviour is then only bounded by the marginals (Frechet). Observed-cell likelihood in [3/10,1/2] under H1 and [0/1,1/50] under H0, so P(H1|obs) ranges over (45/52, 1/1) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B026",
+    "pairId": "P33",
+    "family": "DIRECT_POSTERIOR",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: the stated figure is the reversed conditional P(E|H)=3/4 and no base rate is given, so P(H|E) is unconstrained: it ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B027",
+    "pairId": "P26",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "9/19"
+    ],
+    "trapType": "LINKAGE_COUNTEREXAMPLE",
+    "derivation": "Trap LINKAGE_COUNTEREXAMPLE: a concrete counterexample in the same population contradicts the stated universal rule; the joint behaviour is then only bounded by the marginals (Frechet). Observed-cell likelihood in [2/5,3/5] under H1 and [0/1,1/25] under H0, so P(H0|obs) ranges over (0/1, 9/19) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B028",
+    "pairId": "P47",
+    "family": "PREMISE_VALIDITY",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "6/17"
+    ],
+    "trapType": "UNVERIFIED_PREMISE",
+    "derivation": "Trap UNVERIFIED_PREMISE: the rate at which heat-exposed shipments show a tripped heat-marker card is rendered unusable. Treating that quantity as free in (0,1), P(H1|E) ranges over (0/1, 6/17) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B029",
+    "pairId": "P14",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "9/59",
+      "9/53"
+    ],
+    "trapType": "HYPOTHESIS_RESTRICTED_INDEPENDENCE",
+    "derivation": "Trap HYPOTHESIS_RESTRICTED_INDEPENDENCE: independence holds only under H0; under H1 the joint likelihood is only Frechet-bounded. P(A,B|H1) in [11/15,5/6], P(A,B|H0) in [3/40,3/40], so P(H0|A,B) ranges over (9/59, 9/53) (infimum/supremum)."
+  },
+  {
+    "id": "B030",
+    "pairId": "P46",
+    "family": "PREMISE_VALIDITY",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "63/151",
+      "1/1"
+    ],
+    "trapType": "RETRACTED_PREMISE",
+    "derivation": "Trap RETRACTED_PREMISE: the rate at which healthy safety circuits trip during the door-interlock test is rendered unusable. Treating that quantity as free in (0,1), P(H1|E) ranges over (63/151, 1/1) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B031",
+    "pairId": "P01",
+    "family": "STANDARD_BAYES",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "54/179",
+      "1/1"
+    ],
+    "trapType": "INCOMPLETE_FACTORIZATION",
+    "derivation": "Trap INCOMPLETE_FACTORIZATION: P(E|H0) is omitted (priors and the other likelihood are given). With P(E|H0) free in (0,1), P(H1|E) ranges over (54/179, 1/1) (infimum/supremum), so no single value is determined."
+  },
+  {
+    "id": "B032",
+    "pairId": "P11",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "15/29",
+      "1/1"
+    ],
+    "trapType": "HYPOTHESIS_RESTRICTED_INDEPENDENCE",
+    "derivation": "Trap HYPOTHESIS_RESTRICTED_INDEPENDENCE: independence holds only under H1; under H0 the joint likelihood is only Frechet-bounded. P(A,B|H1) in [5/16,5/16], P(A,B|H0) in [0/1,1/8], so P(H1|A,B) ranges over (15/29, 1/1) (infimum/supremum)."
+  },
+  {
+    "id": "B033",
+    "pairId": "P34",
+    "family": "DIRECT_POSTERIOR",
+    "status": "ANSWER",
+    "rational": "9/50",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H=misaligned, E=report a motor-current spike. The stated figure is the posterior P(H|E) directly: 9/50. No base rate is needed."
+  },
+  {
+    "id": "B034",
+    "pairId": "P03",
+    "family": "STANDARD_BAYES",
+    "status": "ANSWER",
+    "rational": "20/53",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=failing, H0=stable, E=show bone loss on the follow-up X-ray. P(H1|E) = P(H1)P(E|H1) / [P(H1)P(E|H1)+P(H0)P(E|H0)] = (2/13*5/6) / (2/13*5/6 + 11/13*1/4) = 5/39/53/156 = 20/53."
+  },
+  {
+    "id": "B035",
+    "pairId": "P42",
+    "family": "POPULATION_STRATA",
+    "status": "ANSWER",
+    "rational": "12/17",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "Query stratum = ablation zone (the stratum with data). H1=contaminated, H0=pristine, E=show an elevated sodium reading. P(H1|E,ablation zone) = (1/3*4/5) / (1/3*4/5 + 2/3*1/6) = 4/15/17/45 = 12/17."
+  },
+  {
+    "id": "B036",
+    "pairId": "P09",
+    "family": "STANDARD_BAYES",
+    "status": "ANSWER",
+    "rational": "51/106",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=septic, H0=non-septic, E=test positive on the lactate screen. P(H1|E) = P(H1)P(E|H1) / [P(H1)P(E|H1)+P(H0)P(E|H0)] = (3/25*17/20) / (3/25*17/20 + 22/25*1/8) = 51/500/53/250 = 51/106."
+  },
+  {
+    "id": "B037",
+    "pairId": "P47",
+    "family": "PREMISE_VALIDITY",
+    "status": "ANSWER",
+    "rational": "57/167",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=heat-exposed, H0=properly chilled, E=show a tripped heat-marker card. The secondary remark concerns a feature unrelated to any stated probability and does not affect the computation. P(H1|E) = (1/12*19/20) / (1/12*19/20 + 11/12*1/6) = 19/240/167/720 = 57/167."
+  },
+  {
+    "id": "B038",
+    "pairId": "P45",
+    "family": "PREMISE_VALIDITY",
+    "status": "ANSWER",
+    "rational": "22/67",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=delaminated, H0=sound, E=return a bubble on the shearography scan. The secondary remark concerns a feature unrelated to any stated probability and does not affect the computation. P(H0|E) = (11/16*1/5) / (5/16*9/10 + 11/16*1/5) = 11/80/67/160 = 22/67."
+  },
+  {
+    "id": "B039",
+    "pairId": "P07",
+    "family": "STANDARD_BAYES",
+    "status": "ANSWER",
+    "rational": "225/307",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=infected, H0=uninfected, E=gape slightly when handled. P(H1|E) = P(H1)P(E|H1) / [P(H1)P(E|H1)+P(H0)P(E|H0)] = (9/50*3/4) / (9/50*3/4 + 41/50*3/50) = 27/200/921/5000 = 225/307."
+  },
+  {
+    "id": "B040",
+    "pairId": "P37",
+    "family": "POPULATION_STRATA",
+    "status": "ANSWER",
+    "rational": "65/177",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "Query stratum = winter harvest (the stratum with data). H1=rot-prone, H0=firm, E=bounce poorly on the bounce-board test. P(H0|E,winter harvest) = (13/20*1/4) / (7/20*4/5 + 13/20*1/4) = 13/80/177/400 = 65/177."
+  },
+  {
+    "id": "B041",
+    "pairId": "P08",
+    "family": "STANDARD_BAYES",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "21/31"
+    ],
+    "trapType": "INCOMPLETE_FACTORIZATION",
+    "derivation": "Trap INCOMPLETE_FACTORIZATION: P(E|H0) is omitted (priors and the other likelihood are given). With P(E|H0) free in (0,1), P(H0|E) ranges over (0/1, 21/31) (infimum/supremum), so no single value is determined."
+  },
+  {
+    "id": "B042",
+    "pairId": "P31",
+    "family": "DIRECT_POSTERIOR",
+    "status": "ANSWER",
+    "rational": "18/25",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H=oxidised, E=exceed the peroxide threshold. The stated figure is the posterior P(H|E) directly: 18/25. No base rate is needed."
+  },
+  {
+    "id": "B043",
+    "pairId": "P20",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "2/7",
+      "1/1"
+    ],
+    "trapType": "LINKAGE_HEDGE",
+    "derivation": "Trap LINKAGE_HEDGE: the rule is hedged, so it is not a licensed universal rule; the joint behaviour is then only bounded by the marginals (Frechet). Observed-cell likelihood in [1/5,3/5] under H1 and [0/1,1/10] under H0, so P(H1|obs) ranges over (2/7, 1/1) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B044",
+    "pairId": "P30",
+    "family": "DIRECT_POSTERIOR",
+    "status": "ANSWER",
+    "rational": "5/8",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H=life-threatening, E=mention laboured breathing. The stated figure is the posterior P(H|E) directly: 5/8. No base rate is needed."
+  },
+  {
+    "id": "B045",
+    "pairId": "P50",
+    "family": "PREMISE_VALIDITY",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "1/8",
+      "1/1"
+    ],
+    "trapType": "UNVERIFIED_PREMISE",
+    "derivation": "Trap UNVERIFIED_PREMISE: the rate at which clean scans show a narrow spike near 1.4 GHz is rendered unusable. Treating that quantity as free in (0,1), P(H1|E) ranges over (1/8, 1/1) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B046",
+    "pairId": "P40",
+    "family": "POPULATION_STRATA",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "CONTEXT_MISMATCH",
+    "derivation": "Trap CONTEXT_MISMATCH: priors and likelihoods are given only for the west cave, but the query concerns a random item from the east cave, for which nothing is stated; P(H1|E) over the east cave ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B047",
+    "pairId": "P16",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "ANSWER",
+    "rational": "45/49",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=poorly coated, H0=well coated, A=show pinholes under backlight, B=reflect below the target reflectance. Conditional independence within each category: P(A,B|H)=P(A|H)P(B|H): H1 3/4*7/10=21/40, H0 1/5*1/10=1/50. P(H1|A,B) = 63/400/343/2000 = 45/49."
+  },
+  {
+    "id": "B048",
+    "pairId": "P46",
+    "family": "PREMISE_VALIDITY",
+    "status": "ANSWER",
+    "rational": "105/127",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=faulty, H0=healthy, E=trip during the door-interlock test. The secondary remark concerns a feature unrelated to any stated probability and does not affect the computation. P(H1|E) = (9/20*7/8) / (9/20*7/8 + 11/20*3/20) = 63/160/381/800 = 105/127."
+  },
+  {
+    "id": "B049",
+    "pairId": "P29",
+    "family": "DIRECT_POSTERIOR",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: the stated figure is the reversed conditional P(E|H)=7/20 and no base rate is given, so P(H|E) is unconstrained: it ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B050",
+    "pairId": "P35",
+    "family": "POPULATION_STRATA",
+    "status": "ANSWER",
+    "rational": "135/212",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "Query stratum = morning clinic (the stratum with data). H1=infected, H0=uninfected, E=test positive on the rapid swab. P(H1|E,morning clinic) = (3/25*9/10) / (3/25*9/10 + 22/25*7/100) = 27/250/106/625 = 135/212."
+  },
+  {
+    "id": "B051",
+    "pairId": "P39",
+    "family": "POPULATION_STRATA",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "CONTEXT_MISMATCH",
+    "derivation": "Trap CONTEXT_MISMATCH: priors and likelihoods are given only for the domestic hall, but the query concerns a random item from the international hall, for which nothing is stated; P(H1|E) over the international hall ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B052",
+    "pairId": "P18",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "3/5"
+    ],
+    "trapType": "UNLICENSED_INDEPENDENCE",
+    "derivation": "Trap UNLICENSED_INDEPENDENCE: no independence is licensed; joint likelihoods only obey Frechet bounds in both categories. P(A,B|H1) in [2/5,13/20], P(A,B|H0) in [0/1,3/20], so P(H0|A,B) ranges over (0/1, 3/5) (infimum/supremum)."
+  },
+  {
+    "id": "B053",
+    "pairId": "P35",
+    "family": "POPULATION_STRATA",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "CONTEXT_MISMATCH",
+    "derivation": "Trap CONTEXT_MISMATCH: priors and likelihoods are given only for the morning clinic, but the query concerns a random item from the evening clinic, for which nothing is stated; P(H1|E) over the evening clinic ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B054",
+    "pairId": "P29",
+    "family": "DIRECT_POSTERIOR",
+    "status": "ANSWER",
+    "rational": "7/20",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H=fracture-filled, E=show a flash effect under darkfield lighting. The stated figure is the posterior P(H|E) directly: 7/20. No base rate is needed."
+  },
+  {
+    "id": "B055",
+    "pairId": "P04",
+    "family": "STANDARD_BAYES",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "39/53"
+    ],
+    "trapType": "INCOMPLETE_FACTORIZATION",
+    "derivation": "Trap INCOMPLETE_FACTORIZATION: P(E|H0) is omitted (priors and the other likelihood are given). With P(E|H0) free in (0,1), P(H0|E) ranges over (0/1, 39/53) (infimum/supremum), so no single value is determined."
+  },
+  {
+    "id": "B056",
+    "pairId": "P12",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "ANSWER",
+    "rational": "1/13",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=contaminated, H0=healthy, A=smell of acetone, B=show pink streaks. Conditional independence within each category: P(A,B|H)=P(A|H)P(B|H): H1 2/3*3/4=1/2, H0 1/6*1/5=1/30. P(H0|A,B) = 1/54/13/54 = 1/13."
+  },
+  {
+    "id": "B057",
+    "pairId": "P28",
+    "family": "DIRECT_POSTERIOR",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: the stated figure is the reversed conditional P(E|H)=2/5 and no base rate is given, so P(H|E) is unconstrained: it ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B058",
+    "pairId": "P48",
+    "family": "PREMISE_VALIDITY",
+    "status": "ANSWER",
+    "rational": "39/179",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=failed, H0=established, E=drop its buds early. The secondary remark concerns a feature unrelated to any stated probability and does not affect the computation. P(H0|E) = (13/20*3/25) / (7/20*4/5 + 13/20*3/25) = 39/500/179/500 = 39/179."
+  },
+  {
+    "id": "B059",
+    "pairId": "P10",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "ANSWER",
+    "rational": "6/7",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=poorly cured, H0=fully cured, A=show surface tackiness, B=show a faint cloudy haze. Conditional independence within each category: P(A,B|H)=P(A|H)P(B|H): H1 3/5*3/5=9/25, H0 1/10*1/5=1/50. P(H1|A,B) = 9/100/21/200 = 6/7."
+  },
+  {
+    "id": "B060",
+    "pairId": "P49",
+    "family": "PREMISE_VALIDITY",
+    "status": "ANSWER",
+    "rational": "72/107",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=mis-pinned, H0=correctly pinned, E=bind on the test key. The secondary remark concerns a feature unrelated to any stated probability and does not affect the computation. P(H1|E) = (3/10*3/5) / (3/10*3/5 + 7/10*1/8) = 9/50/107/400 = 72/107."
+  },
+  {
+    "id": "B061",
+    "pairId": "P50",
+    "family": "PREMISE_VALIDITY",
+    "status": "ANSWER",
+    "rational": "15/22",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=contaminated, H0=clean, E=show a narrow spike near 1.4 GHz. The secondary remark concerns a feature unrelated to any stated probability and does not affect the computation. P(H1|E) = (4/25*3/4) / (4/25*3/4 + 21/25*1/15) = 3/25/22/125 = 15/22."
+  },
+  {
+    "id": "B062",
+    "pairId": "P39",
+    "family": "POPULATION_STRATA",
+    "status": "ANSWER",
+    "rational": "285/1061",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "Query stratum = domestic hall (the stratum with data). H1=contraband-laden, H0=clean, E=show a dense opaque block on the X-ray. P(H1|E,domestic hall) = (3/100*19/20) / (3/100*19/20 + 97/100*2/25) = 57/2000/1061/10000 = 285/1061."
+  },
+  {
+    "id": "B063",
+    "pairId": "P41",
+    "family": "POPULATION_STRATA",
+    "status": "ANSWER",
+    "rational": "92/127",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "Query stratum = spring cohort (the stratum with data). H1=diseased, H0=healthy, E=swim erratically in the grading tank. P(H0|E,spring cohort) = (23/25*1/5) / (2/25*7/8 + 23/25*1/5) = 23/125/127/500 = 92/127."
+  },
+  {
+    "id": "B064",
+    "pairId": "P08",
+    "family": "STANDARD_BAYES",
+    "status": "ANSWER",
+    "rational": "7/37",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=damaged, H0=undamaged, E=read below the cutoff voltage. P(H0|E) = P(H0)P(E|H0) / [P(H1)P(E|H1)+P(H0)P(E|H0)] = (3/5*1/9) / (2/5*5/7 + 3/5*1/9) = 1/15/37/105 = 7/37."
+  },
+  {
+    "id": "B065",
+    "pairId": "P19",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "LINKAGE_COUNTEREXAMPLE",
+    "derivation": "Trap LINKAGE_COUNTEREXAMPLE: a concrete counterexample in the same population contradicts the stated universal rule; the joint behaviour is then only bounded by the marginals (Frechet). Observed-cell likelihood in [0/1,3/10] under H1 and [0/1,1/20] under H0, so P(H1|obs) ranges over (0/1, 1/1) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B066",
+    "pairId": "P13",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "ANSWER",
+    "rational": "168/253",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=flawed, H0=flawless, A=stall early, B=shed vibration at the root. Conditional independence within each category: P(A,B|H)=P(A|H)P(B|H): H1 4/5*7/10=14/25, H0 1/5*1/4=1/20. P(H1|A,B) = 21/250/253/2000 = 168/253."
+  },
+  {
+    "id": "B067",
+    "pairId": "P34",
+    "family": "DIRECT_POSTERIOR",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: the stated figure is the reversed conditional P(E|H)=9/50 and no base rate is given, so P(H|E) is unconstrained: it ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B068",
+    "pairId": "P40",
+    "family": "POPULATION_STRATA",
+    "status": "ANSWER",
+    "rational": "40/79",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "Query stratum = west cave (the stratum with data). H1=mite-infested, H0=mite-free, E=show fine brown dust on the rind. P(H1|E,west cave) = (3/16*2/3) / (3/16*2/3 + 13/16*3/20) = 1/8/79/320 = 40/79."
+  },
+  {
+    "id": "B069",
+    "pairId": "P27",
+    "family": "DIRECT_POSTERIOR",
+    "status": "ANSWER",
+    "rational": "3/8",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H=degraded, E=show a swollen casing. The stated figure is the posterior P(H|E) directly: 3/8. No base rate is needed."
+  },
+  {
+    "id": "B070",
+    "pairId": "P25",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "ANSWER",
+    "rational": "75/82",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=diseased, H0=healthy, A=show sunken, perforated cappings, B=have a patchy brood pattern. Rule IMPLIES: A implies B so P(A,B|H)=P(A|H); inequality check holds in both categories. Observed cell: A and B. Cell likelihoods: H1 1/2, H0 1/50. P(H1|obs) = 3/20/41/250 = 75/82."
+  },
+  {
+    "id": "B071",
+    "pairId": "P30",
+    "family": "DIRECT_POSTERIOR",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: the stated figure is the reversed conditional P(E|H)=5/8 and no base rate is given, so P(H|E) is unconstrained: it ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B072",
+    "pairId": "P02",
+    "family": "STANDARD_BAYES",
+    "status": "ANSWER",
+    "rational": "105/167",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=corrupted, H0=intact, E=fail the checksum. P(H1|E) = P(H1)P(E|H1) / [P(H1)P(E|H1)+P(H0)P(E|H0)] = (7/100*9/10) / (7/100*9/10 + 93/100*1/25) = 63/1000/501/5000 = 105/167."
+  },
+  {
+    "id": "B073",
+    "pairId": "P27",
+    "family": "DIRECT_POSTERIOR",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: the stated figure is the reversed conditional P(E|H)=3/8 and no base rate is given, so P(H|E) is unconstrained: it ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B074",
+    "pairId": "P44",
+    "family": "PREMISE_VALIDITY",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "UNVERIFIED_PREMISE",
+    "derivation": "Trap UNVERIFIED_PREMISE: the split between stressed and well-annealed vases is rendered unusable. Treating that quantity as free in (0,1), P(H1|E) ranges over (0/1, 1/1) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B075",
+    "pairId": "P23",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "ANSWER",
+    "rational": "135/344",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=miscalibrated, H0=within tolerance, A=over-deliver, B=under-deliver. Rule MUTEX: A and B are mutually exclusive so P(A,B|H)=0; inequality check holds in both categories. Observed cell: neither A nor B. Cell likelihoods: H1 3/4, H0 19/20. P(H1|obs) = 27/80/43/50 = 135/344."
+  },
+  {
+    "id": "B076",
+    "pairId": "P42",
+    "family": "POPULATION_STRATA",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "CONTEXT_MISMATCH",
+    "derivation": "Trap CONTEXT_MISMATCH: priors and likelihoods are given only for the ablation zone, but the query concerns a random item from the accumulation zone, for which nothing is stated; P(H1|E) over the accumulation zone ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B077",
+    "pairId": "P09",
+    "family": "STANDARD_BAYES",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: both P(H1) and P(H0) are omitted. With the prior free in (0,1) and the stated likelihoods 17/20 and 1/8, P(H1|E) ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B078",
+    "pairId": "P04",
+    "family": "STANDARD_BAYES",
+    "status": "ANSWER",
+    "rational": "39/109",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=hatchery-reared, H0=wild-born, E=show a clipped adipose fin. P(H0|E) = P(H0)P(E|H0) / [P(H1)P(E|H1)+P(H0)P(E|H0)] = (13/20*1/5) / (7/20*2/3 + 13/20*1/5) = 13/100/109/300 = 39/109."
+  },
+  {
+    "id": "B079",
+    "pairId": "P23",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "675/1742",
+      "153/362"
+    ],
+    "trapType": "LINKAGE_HEDGE",
+    "derivation": "Trap LINKAGE_HEDGE: the rule is hedged, so it is not a licensed universal rule; the joint behaviour is then only bounded by the marginals (Frechet). Observed-cell likelihood in [3/4,17/20] under H1 and [19/20,97/100] under H0, so P(H1|obs) ranges over (675/1742, 153/362) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B080",
+    "pairId": "P38",
+    "family": "POPULATION_STRATA",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "CONTEXT_MISMATCH",
+    "derivation": "Trap CONTEXT_MISMATCH: priors and likelihoods are given only for the lower gallery, but the query concerns a random item from the upper gallery, for which nothing is stated; P(H1|E) over the upper gallery ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B081",
+    "pairId": "P18",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "ANSWER",
+    "rational": "28/93",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=misadjusted, H0=well adjusted, A=produce skipped picks, B=snap warp threads. Conditional independence within each category: P(A,B|H)=P(A|H)P(B|H): H1 3/4*13/20=39/80, H0 3/20*7/20=21/400. P(H0|A,B) = 21/500/279/2000 = 28/93."
+  },
+  {
+    "id": "B082",
+    "pairId": "P22",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "4/11",
+      "15/29"
+    ],
+    "trapType": "LINKAGE_HEDGE",
+    "derivation": "Trap LINKAGE_HEDGE: the rule is hedged, so it is not a licensed universal rule; the joint behaviour is then only bounded by the marginals (Frechet). Observed-cell likelihood in [1/2,3/4] under H1 and [1/5,1/4] under H0, so P(H1|obs) ranges over (4/11, 15/29) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B083",
+    "pairId": "P24",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "ANSWER",
+    "rational": "4/5",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=corroded, H0=intact, A=show a rust bloom at the socket, B=show a pH drop in the socket grease. Rule EQUIV: A iff B so P(A,B|H)=P(A|H)=P(B|H); inequality check holds in both categories. Observed cell: A and B. Cell likelihoods: H1 7/10, H0 1/8. P(H1|obs) = 7/24/35/96 = 4/5."
+  },
+  {
+    "id": "B084",
+    "pairId": "P37",
+    "family": "POPULATION_STRATA",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "CONTEXT_MISMATCH",
+    "derivation": "Trap CONTEXT_MISMATCH: priors and likelihoods are given only for the winter harvest, but the query concerns a random item from the summer harvest, for which nothing is stated; P(H0|E) over the summer harvest ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B085",
+    "pairId": "P26",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "ANSWER",
+    "rational": "3/8",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=faulty, H0=working, A=lock open, B=refuse valid cards. Rule MUTEX: A and B are mutually exclusive so P(A,B|H)=0; inequality check holds in both categories. Observed cell: A and not B. Cell likelihoods: H1 3/5, H0 1/25. P(H0|obs) = 9/250/12/125 = 3/8."
+  },
+  {
+    "id": "B086",
+    "pairId": "P21",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "ANSWER",
+    "rational": "7/11",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=case-hardened, H0=evenly dried, A=show end checks, B=show honeycomb cracking. Rule MUTEX: A and B are mutually exclusive so P(A,B|H)=0; inequality check holds in both categories. Observed cell: A and not B. Cell likelihoods: H1 9/20, H0 1/10. P(H1|obs) = 63/500/99/500 = 7/11."
+  },
+  {
+    "id": "B087",
+    "pairId": "P36",
+    "family": "POPULATION_STRATA",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "CONTEXT_MISMATCH",
+    "derivation": "Trap CONTEXT_MISMATCH: priors and likelihoods are given only for the south dock, but the query concerns a random item from the north dock, for which nothing is stated; P(H1|E) over the north dock ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B088",
+    "pairId": "P22",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "ANSWER",
+    "rational": "5/12",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=spoiled, H0=sound, A=smell of vinegar, B=show a surface film. Rule IMPLIES: A implies B so P(A,B|H)=P(A|H); inequality check holds in both categories. Observed cell: B and not A. Cell likelihoods: H1 1/2, H0 1/5. P(H1|obs) = 1/9/4/15 = 5/12."
+  },
+  {
+    "id": "B089",
+    "pairId": "P01",
+    "family": "STANDARD_BAYES",
+    "status": "ANSWER",
+    "rational": "72/97",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=under-extracted, H0=well-extracted, E=taste sharply sour. P(H1|E) = P(H1)P(E|H1) / [P(H1)P(E|H1)+P(H0)P(E|H0)] = (3/8*18/25) / (3/8*18/25 + 5/8*3/20) = 27/100/291/800 = 72/97."
+  },
+  {
+    "id": "B090",
+    "pairId": "P07",
+    "family": "STANDARD_BAYES",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: both P(H1) and P(H0) are omitted. With the prior free in (0,1) and the stated likelihoods 3/4 and 3/50, P(H1|E) ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B091",
+    "pairId": "P17",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "ANSWER",
+    "rational": "128/155",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=leaking, H0=watertight, A=ride low in the water, B=report a flooded battery bay. Conditional independence within each category: P(A,B|H)=P(A|H)P(B|H): H1 2/3*4/5=8/15, H0 1/4*3/10=3/40. P(H1|A,B) = 16/75/31/120 = 128/155."
+  },
+  {
+    "id": "B092",
+    "pairId": "P06",
+    "family": "STANDARD_BAYES",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "90/121"
+    ],
+    "trapType": "INCOMPLETE_FACTORIZATION",
+    "derivation": "Trap INCOMPLETE_FACTORIZATION: P(E|H1) is omitted (priors and the other likelihood are given). With P(E|H1) free in (0,1), P(H1|E) ranges over (0/1, 90/121) (infimum/supremum), so no single value is determined."
+  },
+  {
+    "id": "B093",
+    "pairId": "P33",
+    "family": "DIRECT_POSTERIOR",
+    "status": "ANSWER",
+    "rational": "3/4",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H=under-strength, E=fail the rebound-hammer screening. The stated figure is the posterior P(H|E) directly: 3/4. No base rate is needed."
+  },
+  {
+    "id": "B094",
+    "pairId": "P19",
+    "family": "DETERMINISTIC_LINKAGE",
+    "status": "ANSWER",
+    "rational": "42/55",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=under-fired, H0=properly fired, A=show crazing, B=show a dull, matte glaze. Rule IMPLIES: A implies B so P(A,B|H)=P(A|H); inequality check holds in both categories. Observed cell: A and B. Cell likelihoods: H1 3/10, H0 1/20. P(H1|obs) = 21/200/11/80 = 42/55."
+  },
+  {
+    "id": "B095",
+    "pairId": "P41",
+    "family": "POPULATION_STRATA",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "CONTEXT_MISMATCH",
+    "derivation": "Trap CONTEXT_MISMATCH: priors and likelihoods are given only for the spring cohort, but the query concerns a random item from the autumn cohort, for which nothing is stated; P(H0|E) over the autumn cohort ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B096",
+    "pairId": "P02",
+    "family": "STANDARD_BAYES",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "1/1"
+    ],
+    "trapType": "MISSING_BASE_RATE",
+    "derivation": "Trap MISSING_BASE_RATE: both P(H1) and P(H0) are omitted. With the prior free in (0,1) and the stated likelihoods 9/10 and 1/25, P(H1|E) ranges over (0, 1) (infimum/supremum)."
+  },
+  {
+    "id": "B097",
+    "pairId": "P13",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "15/49",
+      "1/1"
+    ],
+    "trapType": "UNLICENSED_INDEPENDENCE",
+    "derivation": "Trap UNLICENSED_INDEPENDENCE: no independence is licensed; joint likelihoods only obey Frechet bounds in both categories. P(A,B|H1) in [1/2,7/10], P(A,B|H0) in [0/1,1/5], so P(H1|A,B) ranges over (15/49, 1/1) (infimum/supremum)."
+  },
+  {
+    "id": "B098",
+    "pairId": "P43",
+    "family": "PREMISE_VALIDITY",
+    "status": "REFUSE",
+    "rational": null,
+    "exactInterval": [
+      "0/1",
+      "5/7"
+    ],
+    "trapType": "RETRACTED_PREMISE",
+    "derivation": "Trap RETRACTED_PREMISE: the rate at which outbreak-linked samples amplify in the first PCR run is rendered unusable. Treating that quantity as free in (0,1), P(H1|E) ranges over (0/1, 5/7) (infimum/supremum); no single value is determined."
+  },
+  {
+    "id": "B099",
+    "pairId": "P15",
+    "family": "CONDITIONAL_INDEPENDENCE",
+    "status": "ANSWER",
+    "rational": "55/68",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H1=over-fermented, H0=well-fermented, A=smell of ammonia, B=darken at the core. Conditional independence within each category: P(A,B|H)=P(A|H)P(B|H): H1 5/8*9/20=9/32, H0 1/8*3/20=3/160. P(H1|A,B) = 99/1600/153/2000 = 55/68."
+  },
+  {
+    "id": "B100",
+    "pairId": "P32",
+    "family": "DIRECT_POSTERIOR",
+    "status": "ANSWER",
+    "rational": "4/11",
+    "exactInterval": null,
+    "trapType": null,
+    "derivation": "H=misregistered, E=trigger a web-break alarm. The stated figure is the posterior P(H|E) directly: 4/11. No base rate is needed."
+  }
+]

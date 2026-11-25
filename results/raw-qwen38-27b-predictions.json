@@ -1,0 +1,802 @@
+[
+  {
+    "id": "B001",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"1/3\", \"decimal\": 0.3333333333333333, \"reason\": \"Let C be compromised and S be sterile. P(C)=1/3, P(S)=2/3. Given independence of gap (G) and dye failure (D) within each category: P(G|C)=0.9, P(D|C)=5/6, P(G|S)=0.3, P(D|S)=1/4. We want P(S|G,D). P(G,D|C) = 0.9 * 5/6 = 0.75. P(G,D|S) = 0.3 * 1/4 = 0.075. P(G,D) = P(C)P(G,D|C) + P(S)P(G,D|S) = (1/3)(0.75) + (2/3)(0.075) = 0.25 + 0.05 = 0.30. P(S|G,D) = P(S)P(G,D|S) / P(G,D) = (2/3 * 0.075) / 0.30 = 0.05 / 0.30 = 1/6. Wait, let me re-calculate. \\nP(S|G,D) = [P(S) * P(G|S) * P(D|S)] / [P(C) * P(G|C) * P(D|C) + P(S) * P(G|S) * P(D|S)]\\nNumerator: (2/3) * (3/10) * (1/4) = (2/3) * (3/40) = 6/120 = 1/20 = 0.05.\\nDenominator term C: (1/3) * (9/10) * (5/6) = (1/3) * (45/60) = (1/3) * (3/4) = 3/12 = 1/4 = 0.25.\\nTotal Denominator: 0.25 + 0.05 = 0.30 = 3",
+    "latencyMs": 36591
+  },
+  {
+    "id": "B002",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"21/28\", \"decimal\": 0.75, \"reason\": \"Using Bayes' theorem: P(Drifting|Spike) = P(Spike|Drifting)*P(Drifting) / [P(Spike|Drifting)*P(Drifting) + P(Spike|Calibrated)*P(Calibrated)] = (3/4 * 2/9) / [(3/4 * 2/9) + (1/10 * 7/9)] = (6/36) / [(6/36) + (7/90)] = (15/90) / [(15/90) + (7/90)] = 15/22. Wait, let me re-calculate. \\nNumerator: (3/4) * (2/9) = 6/36 = 1/6.\\nDenominator term 2: (1/10) * (7/9) = 7/90.\\nTotal Denominator: 1/6 + 7/90 = 15/90 + 7/90 = 22/90 = 11/45.\\nProbability: (1/6) / (11/45) = (1/6) * (45/11) = 45/66 = 15/22.\\nLet me re-read the prompt carefully. \\nDrifting: 2/9. Calibrated: 7/9.\\nP(Spike|Drifting) = 3/4. P(Spike|Calibrated) = 1/10.\\nP(Drifting|Spike) = (3/4 * 2/9) / (3/4 * 2/9 + 1/10 * 7/9) \\n= (6/36) / (6/36 + 7/90) \\n= (1/6) / (1/6 + 7/90) \\nMultiply numerator and denominator by 180: \\n= 30 / (30 + 14) \\n= 30 / 44 \\n= 15 / 22.\\n\\nLet me double check",
+    "latencyMs": 25860
+  },
+  {
+    "id": "B003",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"1/2\", \"decimal\": 0.5, \"reason\": \"Using Bayes' theorem: P(Fatigued | Broken, Anomaly) = P(Broken, Anomaly | Fatigued) * P(Fatigued) / [P(Broken, Anomaly | Fatigued) * P(Fatigued) + P(Broken, Anomaly | Sound) * P(Sound)]. Given independence within categories: P(Broken, Anomaly | Fatigued) = (5/8) * 0.5 = 5/16. P(Broken, Anomaly | Sound) = (1/8) * 0.2 = 1/40. Numerator = (5/16) * 0.3 = 1.5/16 = 3/32. Denominator = (3/32) + (1/40) * 0.7 = 3/32 + 0.7/40 = 3/32 + 7/400. Common denominator 1600: 3/32 = 150/1600, 7/400 = 28/1600. Total = 178/1600. Probability = (150/1600) / (178/1600) = 150/178 = 75/89. Wait, let me re-calculate carefully.\\n\\nP(F) = 0.3, P(S) = 0.7\\nP(B|F) = 5/8, P(A|F) = 0.5. Since independent within F, P(B and A | F) = 5/8 * 1/2 = 5/16.\\nP(B|S) = 1/8, P(A|S) = 0.2. Since independent within S, P(B and A | S) = 1/8 * 1/5 = 1/40.\\n\\nNumerator: P(B and A | F) * P(F) = (5/16) * (3/10) = 15/160 = 3/32.\\nDenominator term 2",
+    "latencyMs": 25484
+  },
+  {
+    "id": "B004",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage states that a rival audit contests the base rates (0.35 failed / 0.65 established) and that the sources have not been reconciled. Because the true base rate for failed vs. established grafts is disputed and unresolved, the prior probability P(Established) is not uniquely determined. Without a single agreed-upon base rate, Bayes' theorem cannot yield a unique exact probability for the graft being established given the evidence.\"}",
+    "latencyMs": 6638
+  },
+  {
+    "id": "B005",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage contains a logical contradiction. It states that for toxic specimens, the probability of having blade-like false gills is 0.6 and the probability of glowing is 3/5 (0.6), and for edible specimens, the probability of having blade-like false gills is 0.1 and the probability of glowing is 10% (0.1). However, it also states that a specimen has blade-like false gills if and only if it glows faintly in the dark. This implies that the events are identical, so P(Gills) must equal P(Glow) for any subset. While the individual probabilities match (0.6=0.6 and 0.1=0.1), the 'if and only if' condition implies perfect correlation. If we assume the probabilities given are marginal probabilities, the condition 'if and only if' means P(Gills and Glow) = P(Gills) = P(Glow). Thus, for toxic, P(Gills|Toxic) = 0.6 implies P(Glow|Toxic) = 0.6, which is consistent. For edible, P(Gills|Edible) = 0.1 implies P(Glow|Edible) = 0.1, which is consistent. \\n\\nLet's re-evaluate. Is there a missing base rate or unlicensed assumption? \\nLet T be Toxic, E be Edible. \\nP(T) = 1/6, P(E) = 5/6. \\nLet G be Gills, L be Glow. \\nCondition: G <-> L. So G and L are the same event. Let's call it X. \\nP(X|T) = 0.6. \\nP(X|E) = 0.1. \\nWe want P(T|X). \\nBy Bayes' theorem: \\nP(T|X) = P(X|T)P(T) / [P(X|T)P(T) + P(X|E)P(E)] \\nP(T|X) = (0.6 * 1/6) / [(0.6 * 1/6) + (0.1 * 5/6)] \\nP(T|X) = (0.1) / [0.1 + (0.5/6)]",
+    "latencyMs": 24850
+  },
+  {
+    "id": "B006",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides P(Exceeds | Oxidised) = 0.72 but does not provide the base rate P(Oxidised) or the total proportion of lots that exceed the threshold P(Exceeds). Without the prior probability of a lot being oxidised, Bayes' theorem cannot be applied to determine P(Oxidised | Exceeds).\"}",
+    "latencyMs": 6176
+  },
+  {
+    "id": "B007",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"10/11\", \"decimal\": 0.9090909090909091, \"reason\": \"Using Bayes' theorem: P(Mislabelled | Fail) = P(Fail | Mislabelled) * P(Mislabelled) / [P(Fail | Mislabelled) * P(Mislabelled) + P(Fail | Correct) * P(Correct)]. Given P(Mislabelled) = 1/5, P(Correct) = 4/5, P(Fail | Mislabelled) = 5/6, and P(Fail | Correct) = 1/12. Numerator = (5/6) * (1/5) = 1/6. Denominator = (1/6) + (1/12) * (4/5) = 1/6 + 4/60 = 10/60 + 4/60 = 14/60 = 7/30. Probability = (1/6) / (7/30) = (1/6) * (30/7) = 5/7. Wait, let me re-calculate. \\nNumerator: (5/6) * (1/5) = 5/30 = 1/6.\\nDenominator term 2: (1/12) * (4/5) = 4/60 = 1/15.\\nTotal Denominator: 1/6 + 1/15 = 5/30 + 2/30 = 7/30.\\nResult: (1/6) / (7/30) = (1/6) * (30/7) = 30/42 = 5/7.\\nLet me double check the arithmetic.\\nP(M) = 1/5. P(C) = 4/5.\\nP(F|M) = 5/6. P(F|C) = 1/12.\\nP(F) = P(F|M)P(M) + P(F|C)P(C) = (5/6)(1/5) + (1/12)(4/5) = 1/6 + 4/60 = ",
+    "latencyMs": 24527
+  },
+  {
+    "id": "B008",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"14/15\", \"decimal\": 0.9333333333333333, \"reason\": \"Using Bayes' theorem: P(Stressed|Rainbow) = P(Rainbow|Stressed)*P(Stressed) / [P(Rainbow|Stressed)*P(Stressed) + P(Rainbow|Well)*P(Well)]. P(Stressed)=1/7, P(Well)=6/7, P(Rainbow|Stressed)=0.7=7/10, P(Rainbow|Well)=0.05=1/20. Numerator = (7/10)*(1/7) = 1/10. Denominator = 1/10 + (1/20)*(6/7) = 1/10 + 6/140 = 14/140 + 6/140 = 20/140 = 1/7. Result = (1/10) / (1/7) = 7/10? Wait. Let's re-calculate carefully.\\n\\nP(S) = 1/7\\nP(W) = 6/7\\nP(R|S) = 0.7 = 7/10\\nP(R|W) = 0.05 = 1/20\\n\\nP(R) = P(R|S)P(S) + P(R|W)P(W)\\nP(R) = (7/10 * 1/7) + (1/20 * 6/7)\\nP(R) = (1/10) + (6/140)\\nP(R) = (14/140) + (6/140) = 20/140 = 1/7\\n\\nP(S|R) = P(R|S)P(S) / P(R)\\nP(S|R) = (1/10) / (1/7) = 7/10 = 0.7\\n\\nWait, let me double check the arithmetic.\\n(7/10) * (1/7) = 7/70 = 1/10. Correct.\\n(1/20) * (",
+    "latencyMs": 24840
+  },
+  {
+    "id": "B009",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The premise regarding the probability of a sound casing returning a bubble is explicitly stated to be disputed and unresolved, preventing the unique determination of the posterior probability.\"}",
+    "latencyMs": 3253
+  },
+  {
+    "id": "B010",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage contains a logical contradiction: it states that end checks and honeycomb cracking never occur together, yet asserts that a board from this population shows both. This inconsistency invalidates the probabilistic model, making it impossible to determine a unique exact probability.\"}",
+    "latencyMs": 4262
+  },
+  {
+    "id": "B011",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The probability of bone loss given a failing implant is not provided, making it impossible to calculate the posterior probability using Bayes' theorem.\"}",
+    "latencyMs": 2828
+  },
+  {
+    "id": "B012",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The joint probability of smelling acetone and showing pink streaks for both healthy and contaminated jars is not uniquely determined because the dependence between the two symptoms within each category is unknown. Without knowing the specific joint distributions (e.g., P(Acetone and Pink | Healthy) and P(Acetone and Pink | Contaminated)), Bayes' theorem cannot be applied to calculate a single exact probability.\"}",
+    "latencyMs": 5595
+  },
+  {
+    "id": "B013",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage states that for watertight buoys, nothing is known about the independence of the two behaviors (riding low and reporting a flooded battery bay). Without knowing the joint probability P(Ride Low AND Flooded Battery | Watertight), Bayes' theorem cannot be applied to calculate the posterior probability that the buoy is leaking.\"}",
+    "latencyMs": 5038
+  },
+  {
+    "id": "B014",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides the conditional probability P(Alarm | Misregistered) = 4/11, but does not provide the base rate of misregistered runs P(Misregistered) or the probability of an alarm for aligned runs P(Alarm | Aligned). Without these values, Bayes' theorem cannot be applied to determine P(Misregistered | Alarm).\"}",
+    "latencyMs": 4987
+  },
+  {
+    "id": "B015",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"12/17\", \"decimal\": 0.7058823529411765, \"reason\": \"Using Bayes' theorem: P(Slack|Flat) = P(Flat|Slack)P(Slack) / [P(Flat|Slack)P(Slack) + P(Flat|Tensioned)P(Tensioned)] = (4/5 * 9/40) / [(4/5 * 9/40) + (1/10 * 31/40)] = (36/200) / (36/200 + 31/400) = (72/400) / (72/400 + 31/400) = 72/103. Wait, let me re-calculate.\\n\\nP(Slack) = 9/40\\nP(Tensioned) = 31/40\\nP(Flat|Slack) = 4/5\\nP(Flat|Tensioned) = 1/10\\n\\nNumerator: (4/5) * (9/40) = 36/200 = 9/50\\nDenominator: (4/5 * 9/40) + (1/10 * 31/40) = 36/200 + 31/400 = 72/400 + 31/400 = 103/400\\n\\nP(Slack|Flat) = (36/200) / (103/400) = (72/400) / (103/400) = 72/103.\\n\\nLet me double check the arithmetic.\\n36/200 = 0.18\\n31/400 = 0.0775\\nSum = 0.2575\\n0.18 / 0.2575 = 1800 / 2575 = 72 / 103.\\n\\nIs 72/103 reducible? 103 is",
+    "latencyMs": 23804
+  },
+  {
+    "id": "B016",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides marginal probabilities for the symptoms (ammonia smell and dark core) given the fermentation state, but explicitly states there is no record of how often both appeared on the same heap. This means the joint probability P(Ammonia AND Dark | State) is unknown. Without assuming independence between the symptoms (which is not licensed by the text and is likely invalid for biological processes), the conditional probability cannot be uniquely determined.\"}",
+    "latencyMs": 5973
+  },
+  {
+    "id": "B017",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage explicitly states that the two behaviors (pinholes and low reflectance) are not independent within each category, but the strength of this dependence (the joint probability P(Pinholes AND LowReflectance | Coating)) is unknown. Without the specific joint probabilities for each coating type, the likelihood of observing the evidence given the hypothesis cannot be calculated, making it impossible to determine the posterior probability.\"}",
+    "latencyMs": 6041
+  },
+  {
+    "id": "B018",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage states that the two logs (tackiness and haze) were never cross-referenced, implying that the joint probability of observing both symptoms is not provided. Without the conditional probability of haze given tackiness (or vice versa) or an explicit statement of independence between the two symptoms within each cure status, the joint likelihood P(Tackiness and Haze | Poorly Cured) cannot be determined. Therefore, Bayes' theorem cannot be applied to find the posterior probability.\"}",
+    "latencyMs": 8193
+  },
+  {
+    "id": "B019",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The base rate (prior probability) of a brake valve being worn versus serviceable is not provided, making it impossible to calculate the posterior probability using Bayes' theorem.\"}",
+    "latencyMs": 3185
+  },
+  {
+    "id": "B020",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The prior probabilities for the base rates (mis-pinned vs. correctly pinned) were explicitly retracted and no replacement figures were provided, making it impossible to calculate the posterior probability.\"}",
+    "latencyMs": 3722
+  },
+  {
+    "id": "B021",
+    "status": "ANSWER",
+    "rational": "11/13",
+    "decimal": 0.8461538461538461,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"11/13\", \"decimal\": 0.8461538461538461, \"reason\": \"Using Bayes' theorem: P(Worn|Leak) = P(Leak|Worn)P(Worn) / [P(Leak|Worn)P(Worn) + P(Leak|Serviceable)P(Serviceable)] = (0.88 * 1/6) / [(0.88 * 1/6) + (0.12 * 5/6)] = (0.88/6) / [(0.88 + 0.60)/6] = 0.88 / 1.48 = 88/148 = 11/13.\"}",
+    "latencyMs": 9558
+  },
+  {
+    "id": "B022",
+    "status": "ANSWER",
+    "rational": "2/5",
+    "decimal": 0.4,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"2/5\", \"decimal\": 0.4, \"reason\": \"The question asks for the probability that a randomly drawn reel is decaying, given that it smells of vinegar. The passage explicitly states that among the reels that smell of vinegar, two fifths turned out to be decaying. This is a direct conditional probability P(Decaying | Smells of Vinegar) = 2/5. No base rate for the proportion of vinegar-smelling reels is needed because the sample space is restricted to the vinegar-smelling reels.\"}",
+    "latencyMs": 6381
+  },
+  {
+    "id": "B023",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage contains a logical contradiction: it states that rust bloom and pH drop are equivalent (if and only if), yet records a cable with a pH drop but no rust bloom. This inconsistency makes the probability undefined.\"}",
+    "latencyMs": 3796
+  },
+  {
+    "id": "B024",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"2/3\", \"decimal\": 0.6666666666666666, \"reason\": \"Using Bayes' theorem: P(Outbreak|Amplify) = P(Amplify|Outbreak)*P(Outbreak) / [P(Amplify|Outbreak)*P(Outbreak) + P(Amplify|Background)*P(Background)] = (5/6 * 0.2) / [(5/6 * 0.2) + (0.1 * 0.8)] = (1/6) / [(1/6) + (0.08)] = (1/6) / [(1/6) + (2/25)] = (25/150) / [(25/150) + (12/150)] = 25/37. Wait, let me re-calculate. \\n\\nP(Outbreak) = 0.2 = 1/5\\nP(Background) = 0.8 = 4/5\\nP(Amplify|Outbreak) = 5/6\\nP(Amplify|Background) = 0.1 = 1/10\\n\\nNumerator: (5/6) * (1/5) = 1/6\\nDenominator: (1/6) + (1/10 * 4/5) = 1/6 + 4/50 = 1/6 + 2/25\\nCommon denominator for 1/6 and 2/25 is 150.\\n1/6 = 25/150\\n2/25 = 12/150\\nDenominator = 25/150 + 12/150 = 37/150\\nProbability = (25/150) / (37/150) = 25/37.\\n\\nLet me double check the numbers.\\n0.2 = 1/5. 5/6 * 1/5 = 1/6. Correct.\\n0.8 = 4/5. 0.1 = 1/10. 1/10 * 4/5 = ",
+    "latencyMs": 25136
+  },
+  {
+    "id": "B025",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage contains a logical contradiction: it states that 'Without exception, any frame that shows sunken, perforated cappings also has a patchy brood pattern,' yet it also records a frame from this population that shows sunken, perforated cappings but does not have a patchy brood pattern. This contradiction invalidates the premises, making it impossible to determine a unique probability.\"}",
+    "latencyMs": 5246
+  },
+  {
+    "id": "B026",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides P(Fail | Under-strength) = 3/4, but the question asks for P(Under-strength | Fail). To calculate this, the base rate of under-strength slabs (P(Under-strength)) or the overall failure rate (P(Fail)) is required. Without this information, Bayes' theorem cannot be applied to determine the posterior probability.\"}",
+    "latencyMs": 5437
+  },
+  {
+    "id": "B027",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage contains a logical contradiction: it states that locking open and refusing valid cards are mutually exclusive events for this population, yet explicitly records a turnstile that exhibits both behaviors simultaneously. This unresolved contradiction invalidates the probabilistic model, making it impossible to determine a unique exact probability.\"}",
+    "latencyMs": 4607
+  },
+  {
+    "id": "B028",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The premise regarding the probability of a tripped heat-marker card for heat-exposed shipments (0.95) is explicitly stated to be unverified and passed along second-hand, violating the requirement for verified premises.\"}",
+    "latencyMs": 5945
+  },
+  {
+    "id": "B029",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage states that for compromised packs, nothing is known about the independence of the two behaviors (gap and dye test failure). Without knowing the joint probability P(Gap and Fail | Compromised), the posterior probability cannot be uniquely determined.\"}",
+    "latencyMs": 4104
+  },
+  {
+    "id": "B030",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage explicitly states that the rate at which healthy safety circuits trip (3/20) has been withdrawn without a corrected value, making the necessary likelihood for the denominator of Bayes' theorem undefined.\"}",
+    "latencyMs": 5579
+  },
+  {
+    "id": "B031",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The probability that a well-extracted espresso shot tastes sharply sour is not provided, making it impossible to calculate the posterior probability using Bayes' theorem.\"}",
+    "latencyMs": 3103
+  },
+  {
+    "id": "B032",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage states that for sound cable sections, nothing is known about the independence of the two behaviors (broken outer wire and magnetic-flux anomaly). Therefore, the joint probability P(Broken Wire AND Anomaly | Sound) cannot be determined from the marginal probabilities provided (1/8 and 0.2) without assuming independence, which is explicitly not licensed for the sound class. Consequently, the posterior probability cannot be uniquely determined.\"}",
+    "latencyMs": 5499
+  },
+  {
+    "id": "B033",
+    "status": "ANSWER",
+    "rational": "9/50",
+    "decimal": 0.18,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"9/50\", \"decimal\": 0.18, \"reason\": \"The passage explicitly states that among the trackers reporting a motor-current spike, 0.18 turned out to be misaligned. This is the conditional probability P(Misaligned | Spike). Since the tracker is drawn randomly from the group reporting a spike, the probability is exactly 0.18, which reduces to the fraction 9/50.\"}",
+    "latencyMs": 8296
+  },
+  {
+    "id": "B034",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"10/13\", \"decimal\": 0.7692307692307693, \"reason\": \"Using Bayes' theorem: P(Failing | Bone Loss) = [P(Bone Loss | Failing) * P(Failing)] / [P(Bone Loss | Failing) * P(Failing) + P(Bone Loss | Stable) * P(Stable)]. Substituting the values: [(5/6) * (2/13)] / [(5/6) * (2/13) + (1/4) * (11/13)] = (10/78) / (10/78 + 11/52) = (10/78) / (20/156 + 21/156) = (20/156) / (41/156) = 20/41. Wait, let me re-calculate carefully.\\n\\nP(F) = 2/13\\nP(S) = 11/13\\nP(B|F) = 5/6\\nP(B|S) = 0.25 = 1/4\\n\\nNumerator: P(B|F)*P(F) = (5/6)*(2/13) = 10/78 = 5/39\\nDenominator: P(B) = P(B|F)*P(F) + P(B|S)*P(S) = 5/39 + (1/4)*(11/13) = 5/39 + 11/52\\nCommon denominator for 39 and 52 is 156.\\n5/39 = 20/156\\n11/52 = 33/156\\nTotal P(B) = 20/156 + 33/156 = 53/156\\n\\nP(F|B) = (20/156) / (53/156) = 20/53.\\n\\nLet me re-read the prompt numbers.\\nFailing prob: 2/13\\nStable prob: 11/13\\nBone",
+    "latencyMs": 23639
+  },
+  {
+    "id": "B035",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"4/7\", \"decimal\": 0.5714285714285714, \"reason\": \"Using Bayes' theorem for the ablation zone: P(Contaminated | Elevated) = [P(Elevated | Contaminated) * P(Contaminated)] / [P(Elevated | Contaminated) * P(Contaminated) + P(Elevated | Pristine) * P(Pristine)]. Given P(Contaminated) = 1/3, P(Pristine) = 2/3, P(Elevated | Contaminated) = 4/5, and P(Elevated | Pristine) = 1/6. Numerator = (4/5) * (1/3) = 4/15. Denominator = (4/15) + (1/6) * (2/3) = 4/15 + 2/18 = 4/15 + 1/9 = 12/45 + 5/45 = 17/45. Probability = (4/15) / (17/45) = (4/15) * (45/17) = 12/17. Wait, let me re-calculate. \\nNumerator: 4/5 * 1/3 = 4/15.\\nDenominator term 2: 1/6 * 2/3 = 2/18 = 1/9.\\nTotal Denominator: 4/15 + 1/9. Common denominator is 45. 4/15 = 12/45. 1/9 = 5/45. Sum = 17/45.\\nResult: (4/15) / (17/45) = (4/15) * (45/17) = 4 * 3 / 17 = 12/17.\\nLet me double check the arithmetic.\\n4/15 = 0.2666...\\n1/9 = 0.1111...\\nSum = 0.3777...\\n12/17 = 0.7",
+    "latencyMs": 24445
+  },
+  {
+    "id": "B036",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"17/20\", \"decimal\": 0.85, \"reason\": \"Using Bayes' theorem: P(Septic|Positive) = P(Positive|Septic)*P(Septic) / [P(Positive|Septic)*P(Septic) + P(Positive|Non-Septic)*P(Non-Septic)]. Given P(Septic)=0.12, P(Non-Septic)=0.88, P(Positive|Septic)=0.85, and P(Positive|Non-Septic)=1/8=0.125. Numerator = 0.85 * 0.12 = 0.102. Denominator = 0.102 + (0.125 * 0.88) = 0.102 + 0.11 = 0.212. Probability = 0.102 / 0.212 = 102/212 = 51/106. Wait, let me re-calculate. 0.125 * 0.88 = 1/8 * 88/100 = 11/100 = 0.11. 0.85 * 0.12 = 85/100 * 12/100 = 1020/10000 = 0.102. Sum = 0.212. 0.102 / 0.212 = 102/212 = 51/106. 51/106 is approx 0.481. Let me re-read the prompt carefully. 'against one eighth for a non-septic patient'. Yes, 1/8. '12% of the patients are septic'. Yes. '0.85' for septic. Yes. Calculation: (0.85 * 0.12) / (0.85 * 0.12 + 0.125 * 0.88) = 0.102 / (0.102 + 0.11) = 0.102",
+    "latencyMs": 24862
+  },
+  {
+    "id": "B037",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"19/20\", \"decimal\": 0.95, \"reason\": \"Using Bayes' theorem: P(Heat|Tripped) = P(Tripped|Heat)*P(Heat) / [P(Tripped|Heat)*P(Heat) + P(Tripped|Chilled)*P(Chilled)]. P(Heat)=1/12, P(Chilled)=11/12. P(Tripped|Heat)=0.95=19/20. P(Tripped|Chilled)=1/6. Numerator = (19/20)*(1/12) = 19/240. Denominator = 19/240 + (1/6)*(11/12) = 19/240 + 11/72. Common denominator 720: 19/240 = 57/720; 11/72 = 110/720. Sum = 167/720. Probability = (57/720) / (167/720) = 57/167. Wait, let me re-calculate. \\n\\nP(Heat) = 1/12\\nP(Chilled) = 11/12\\nP(T|H) = 0.95 = 19/20\\nP(T|C) = 1/6\\n\\nP(T) = P(T|H)P(H) + P(T|C)P(C)\\nP(T) = (19/20)(1/12) + (1/6)(11/12)\\nP(T) = 19/240 + 11/72\\nLCM of 240 and 72 is 720.\\n19/240 = 57/720\\n11/72 = 110/720\\nP(T) = (57 + 110)/720 = 167/720\\n\\nP(H|T) = P(T|H)P(H) / P(T) = (19/240) / (",
+    "latencyMs": 23313
+  },
+  {
+    "id": "B038",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"11/126\", \"decimal\": 0.0873015873015873, \"reason\": \"Using Bayes' theorem: P(Sound|Bubble) = P(Bubble|Sound)*P(Sound) / [P(Bubble|Sound)*P(Sound) + P(Bubble|Delam)*P(Delam)] = (1/5 * 11/16) / [(1/5 * 11/16) + (0.9 * 5/16)] = (11/80) / (11/80 + 45/80) = 11/56. Wait, let me re-calculate. P(Delam) = 5/16, P(Sound) = 11/16. P(Bubble|Delam) = 0.9 = 9/10. P(Bubble|Sound) = 1/5 = 2/10. Numerator: (2/10)*(11/16) = 22/160. Denominator: (2/10)*(11/16) + (9/10)*(5/16) = 22/160 + 45/160 = 67/160. Result: (22/160) / (67/160) = 22/67. Let me re-read the prompt carefully. 'share of delaminated casings at 5/16', 'share of sound ones at 11/16'. 'chance that a delaminated casing will return a bubble... is 0.9', 'against one fifth for a sound casing'. So P(B|D)=0.9, P(B|S)=0.2. P(D)=5/16, P(S)=11/16. P(S|B) = P(B|S)P(S) / (P(B|S)P(S) + P(B|D)P(D)) = (0.2 * 11/16) / (0.2 * 11/16 + 0.9 * 5/16) = (2.2/",
+    "latencyMs": 27992
+  },
+  {
+    "id": "B039",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"135/141\", \"decimal\": 0.9574468085106383, \"reason\": \"Using Bayes' theorem: P(Infected | Gape) = [P(Gape | Infected) * P(Infected)] / [P(Gape | Infected) * P(Infected) + P(Gape | Uninfected) * P(Uninfected)]. Numerator = 0.75 * 0.18 = 0.135. Denominator = 0.135 + (0.06 * 0.82) = 0.135 + 0.0492 = 0.1842. Probability = 0.135 / 0.1842 = 13500 / 18420 = 135 / 184.2 -> 1350/1842 -> 225/307. Wait, let me re-calculate the fraction reduction. 0.135 / 0.1842 = 13500 / 18420. Divide by 10: 1350 / 1842. Divide by 2: 675 / 921. Divide by 3: 225 / 307. 225 is 3*75, 307 is prime? 307 is not divisible by 2,3,5,7,11,13,17. sqrt(307) ~ 17.5. 307/7=43.8, 307/11=27.9, 307/13=23.6, 307/17=18.05. So 225/307 is the reduced fraction. Let me re-check the previous rational string I generated in the thought process. I wrote 135/141 which was wrong. Correct is 225/307. Decimal: 225/307 ≈ 0.732899. Let me re",
+    "latencyMs": 25191
+  },
+  {
+    "id": "B040",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"13/17\", \"decimal\": 0.7647058823529411, \"reason\": \"Using Bayes' theorem: P(Firm | Poor Bounce) = P(Poor Bounce | Firm) * P(Firm) / [P(Poor Bounce | Firm) * P(Firm) + P(Poor Bounce | Rot-prone) * P(Rot-prone)]. Given P(Firm)=0.65, P(Rot-prone)=0.35, P(Poor|Firm)=0.25, P(Poor|Rot-prone)=0.8. Numerator = 0.25 * 0.65 = 0.1625. Denominator = 0.1625 + (0.8 * 0.35) = 0.1625 + 0.28 = 0.4425. Probability = 0.1625 / 0.4425 = 1625 / 4425 = 13 / 34? Wait. 1625/4425. Divide by 25: 65/177. Let me re-calculate. 0.25 * 0.65 = 1/4 * 13/20 = 13/80. 0.8 * 0.35 = 4/5 * 7/20 = 28/100 = 7/25 = 22.4/80. Sum = (13 + 22.4)/80? No, fractions. 13/80 + 7/25. LCD of 80 and 25 is 400. 13/80 = 65/400. 7/25 = 112/400. Sum = 177/400. Result = (65/400) / (177/400) = 65/177. 65 = 5*13. 177 = 3*59. No common factors. So 65",
+    "latencyMs": 24865
+  },
+  {
+    "id": "B041",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage does not provide the probability that an undamaged cell reads below the cutoff voltage. Without this conditional probability, Bayes' theorem cannot be applied to determine the posterior probability that the cell is undamaged given it reads below the cutoff.\"}",
+    "latencyMs": 3729
+  },
+  {
+    "id": "B042",
+    "status": "ANSWER",
+    "rational": "18/25",
+    "decimal": 0.72,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"18/25\", \"decimal\": 0.72, \"reason\": \"The passage explicitly states that among the oil lots that exceed the peroxide threshold, 72% turned out to be oxidised. The question asks for the probability that a randomly drawn lot from this specific group (exceeding the threshold) is oxidised. Therefore, the probability is directly given as 72%, which is 72/100 or 18/25.\"}",
+    "latencyMs": 5505
+  },
+  {
+    "id": "B043",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The statement 'A specimen has blade-like false gills almost always exactly when it glows faintly in the dark' is ambiguous and does not provide a precise joint probability or a valid independence assumption. It implies a strong correlation but does not define the exact conditional probabilities P(Glow | Gills) or P(Gills | Glow) needed to calculate the posterior probability without assuming independence (which is contradicted by the 'almost always exactly when' phrasing) or making an unlicensed assumption about the strength of the correlation. Therefore, the exact probability cannot be uniquely determined.\"}",
+    "latencyMs": 7019
+  },
+  {
+    "id": "B044",
+    "status": "ANSWER",
+    "rational": "5/8",
+    "decimal": 0.625,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"5/8\", \"decimal\": 0.625, \"reason\": \"The question asks for the probability that a randomly drawn call mentioning laboured breathing is life-threatening. The passage explicitly states that among calls mentioning laboured breathing, the fraction found life-threatening was five in eight. This is a direct conditional probability P(Life-threatening | Laboured Breathing) = 5/8. No base rate for all calls is needed because the sample space is restricted to calls mentioning laboured breathing.\"}",
+    "latencyMs": 8010
+  },
+  {
+    "id": "B045",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage explicitly states that the rate for clean scans (1/15) has not been checked against the underlying data, making it an unverified premise. Therefore, the probability cannot be uniquely determined with certainty based on the provided text.\"}",
+    "latencyMs": 3811
+  },
+  {
+    "id": "B046",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides no data regarding the base rate of mite-infestation or the probability of observing brown dust in the east cave. The statistics provided are exclusively for the west cave, and there is no information to assume the east cave shares these parameters or to derive them from the given text.\"}",
+    "latencyMs": 7132
+  },
+  {
+    "id": "B047",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"14/17\", \"decimal\": 0.8235294117647058, \"reason\": \"Using Bayes' theorem: P(Poorly | Pinholes & LowReflectance) = [P(Poorly) * P(Pinholes|Poorly) * P(LowReflectance|Poorly)] / ([P(Poorly) * P(Pinholes|Poorly) * P(LowReflectance|Poorly)] + [P(Well) * P(Pinholes|Well) * P(LowReflectance|Well)]). Numerator: (3/10) * (3/4) * (7/10) = 63/400. Denominator: 63/400 + (7/10) * (1/5) * (1/10) = 63/400 + 7/500 = 315/2000 + 28/2000 = 343/2000. Probability = (63/400) / (343/2000) = (63/400) * (2000/343) = 63 * 5 / 343 = 315 / 343. Dividing numerator and denominator by 7 gives 45/49. Wait, let me re-calculate. \\nNumerator: 0.3 * 0.75 * 0.7 = 0.1575. \\nDenominator part 2: 0.7 * 0.2 * 0.1 = 0.014. \\nTotal Denominator: 0.1575 + 0.014 = 0.1715. \\nProbability: 0.1575 / 0.1715 = 1575 / 1715. \\nDivide by 5: 315 / 343. \\nDivide by 7: 45 / 49. \\nLet's check the fraction reduction again. \\n315 / 343. \\n31",
+    "latencyMs": 24816
+  },
+  {
+    "id": "B048",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"126/133\", \"decimal\": 0.9473684210526315, \"reason\": \"Using Bayes' theorem: P(Faulty|Trips) = P(Trips|Faulty)*P(Faulty) / [P(Trips|Faulty)*P(Faulty) + P(Trips|Healthy)*P(Healthy)] = (7/8 * 45/100) / (7/8 * 45/100 + 3/20 * 55/100) = (315/800) / (315/800 + 165/2000) = (315/800) / (315/800 + 33/400) = (315/800) / (315/800 + 66/800) = 315/381 = 105/127. Wait, let me re-calculate carefully.\\n\\nP(F) = 0.45 = 9/20\\nP(H) = 0.55 = 11/20\\nP(T|F) = 7/8\\nP(T|H) = 3/20\\n\\nNumerator: P(T|F)P(F) = (7/8) * (9/20) = 63/160\\nDenominator term 2: P(T|H)P(H) = (3/20) * (11/20) = 33/400\\n\\nCommon denominator for 160 and 400 is 800.\\n63/160 = 315/800\\n33/400 = 66/800\\n\\nTotal P(T) = 315/800 + 66/800 = 381/800\\n\\nP(F|T) = (315/800) / (381/800) = 315/381\\n\\nDivide by 3: ",
+    "latencyMs": 25647
+  },
+  {
+    "id": "B049",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The base rate (proportion of fracture-filled stones among all stones) and the probability of a flash effect for untreated stones are not provided, making it impossible to calculate the posterior probability using Bayes' theorem.\"}",
+    "latencyMs": 3370
+  },
+  {
+    "id": "B050",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"12/13\", \"decimal\": 0.9230769230769231, \"reason\": \"Using Bayes' theorem for the morning clinic: P(Infected|Positive) = P(Positive|Infected)*P(Infected) / [P(Positive|Infected)*P(Infected) + P(Positive|Uninfected)*P(Uninfected)] = (0.90 * 0.12) / [(0.90 * 0.12) + (0.07 * 0.88)] = 0.108 / (0.108 + 0.0616) = 0.108 / 0.1696 = 1080/1696 = 135/212. Wait, let me re-calculate. 0.108 / 0.1696. Multiply by 10000: 1080 / 1696. Divide by 8: 135 / 212. 135/212 is approx 0.636. Let me re-read the numbers. Infected 0.12, Uninfected 0.88. Sensitivity 0.90, False Positive 0.07. Numerator: 0.12 * 0.90 = 0.108. Denominator: 0.108 + (0.88 * 0.07) = 0.108 + 0.0616 = 0.1696. 0.108 / 0.1696 = 1080 / 1696. Divide by 8: 135 / 212. Is 135/212 reducible? 135 = 5 * 27 = 5 * 3^3. 212 = 4 * 53. No common factors. So 135/212. My previous mental math of 12/13 was wrong. Let's double check. 12/13 is ~",
+    "latencyMs": 22939
+  },
+  {
+    "id": "B051",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides statistics for the domestic hall but explicitly states that the international hall keeps its own books which were not part of the review. Therefore, the base rate of contraband and the sensitivity/specificity of the X-ray for the international hall are unknown, making it impossible to calculate the probability for a bag from the international hall.\"}",
+    "latencyMs": 5605
+  },
+  {
+    "id": "B052",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides marginal probabilities for skipped picks and snapped warp threads given the loom's adjustment status, but explicitly states there is no record of how often both appeared on the same loom (i.e., the joint probability P(Skipped AND Snapped | Status) is unknown). Without assuming independence between the two defects conditional on the loom status, which is not licensed by the text, the probability cannot be uniquely determined.\"}",
+    "latencyMs": 8890
+  },
+  {
+    "id": "B053",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides no data regarding the infection rate or test accuracy for the evening clinic, making it impossible to calculate the probability for a visitor from that specific clinic.\"}",
+    "latencyMs": 3062
+  },
+  {
+    "id": "B054",
+    "status": "ANSWER",
+    "rational": "7/20",
+    "decimal": 0.35,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"7/20\", \"decimal\": 0.35, \"reason\": \"The passage explicitly states that of all stones showing a flash effect, 0.35 were confirmed fracture-filled. This is the conditional probability P(Fracture-Filled | Flash Effect). Since the stone is drawn from the population of stones showing a flash effect, the probability is exactly 0.35, which reduces to the fraction 7/20.\"}",
+    "latencyMs": 5081
+  },
+  {
+    "id": "B055",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The probability of a wild-born salmon having a clipped adipose fin is not provided, making it impossible to calculate the posterior probability using Bayes' theorem.\"}",
+    "latencyMs": 2844
+  },
+  {
+    "id": "B056",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"1/3\", \"decimal\": 0.3333333333333333, \"reason\": \"Let H be healthy, C be contaminated. P(H)=5/9, P(C)=4/9. Given H, P(A)=1/6, P(P)=1/5. The problem states 'In both categories, a starter jar is equally likely to show pink streaks regardless of whether it also smells of acetone', which implies P(P|A,H) = P(P|H) = 1/5 and P(P|A,C) = P(P|C) = 3/4. Thus, P(A and P | H) = P(A|H) * P(P|A,H) = (1/6)*(1/5) = 1/30. P(A and P | C) = P(A|C) * P(P|A,C) = (2/3)*(3/4) = 1/2. The total probability of observing A and P is P(A and P) = P(A and P | H)P(H) + P(A and P | C)P(C) = (1/30)*(5/9) + (1/2)*(4/9) = 5/270 + 4/18 = 1/54 + 12/54 = 13/54. The probability that the jar is healthy given A and P is P(H | A and P) = P(A and P | H)P(H) / P(A and P) = (1/54) / (13/54) = 1/13. Wait, let me re-read carefully. 'In both categories, a starter jar is equally likely to show pink streaks regardless of whether it also smells of acetone.' This means P(P|A, H) = P(P|not A, H) = P(P|H). So P(P|A, H) = 1/5. Similarly P(P|A, C) = 3/4. My calculation: P(A∩P|H) = P(A|H)P(P|A,H) = (1/6)(1/5) = 1/30. P(A∩P|C) = P(A|",
+    "latencyMs": 23113
+  },
+  {
+    "id": "B057",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides P(smell | decaying) = 2/5 but does not provide the base rate of decaying reels P(decaying) or the probability of smelling vinegar for non-decaying reels P(smell | not decaying). Without these values, Bayes' theorem cannot be applied to determine P(decaying | smell).\"}",
+    "latencyMs": 6065
+  },
+  {
+    "id": "B058",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"13/14\", \"decimal\": 0.9285714285714286, \"reason\": \"Using Bayes' theorem: P(Established | Drops) = P(Drops | Established) * P(Established) / [P(Drops | Established) * P(Established) + P(Drops | Failed) * P(Failed)] = (0.12 * 0.65) / [(0.12 * 0.65) + (0.8 * 0.35)] = 0.078 / (0.078 + 0.28) = 0.078 / 0.358 = 78/358 = 39/179. Wait, let me re-calculate. 0.12 * 0.65 = 0.078. 4/5 = 0.8. 0.8 * 0.35 = 0.28. Sum = 0.358. 0.078 / 0.358 = 78/358 = 39/179. Let me check the fraction reduction. 39 and 179. 179 is prime? sqrt(179) ~ 13.4. Primes to check: 2, 3, 5, 7, 11, 13. 179 not div by 2, 3 (1+7+9=17), 5, 7 (179=140+39, no), 11 (179=110+69, no), 13 (179=130+49, no). So 39/179 is reduced. My previous mental math for 13/14 was wrong. Let's re-read the prompt numbers. Failed=0.35, Est=0.65. P(Drop|Fail)=4/5=0.8. P(Drop|Est)=0.12. Numerator: 0.65 * 0.12 = 0.078",
+    "latencyMs": 23487
+  },
+  {
+    "id": "B059",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"1/2\", \"decimal\": 0.5, \"reason\": \"Using Bayes' theorem: P(Poorly | Tack, Haze) = [P(Poorly) * P(Tack|Poorly) * P(Haze|Poorly)] / ([P(Poorly) * P(Tack|Poorly) * P(Haze|Poorly)] + [P(Fully) * P(Tack|Fully) * P(Haze|Fully)]). Substituting values: [0.25 * 0.6 * 0.6] / ([0.25 * 0.6 * 0.6] + [0.75 * 0.1 * 0.2]) = 0.09 / (0.09 + 0.015) = 0.09 / 0.105 = 90/105 = 6/7? Wait. Let's re-calculate. 0.25 * 0.6 * 0.6 = 1/4 * 3/5 * 3/5 = 9/100. 0.75 * 0.1 * 0.2 = 3/4 * 1/10 * 1/5 = 3/200. Numerator: 9/100 = 18/200. Denominator: 18/200 + 3/200 = 21/200. Result: (18/200) / (21/200) = 18/21 = 6/7. My previous mental math was wrong. Let's re-verify. P(P) = 1/4. P(T|P) = 0.6 = 3/5. P(H|P) = 3/5. Joint P(P, T, H) = 1/4 * 3/5 * 3/5 = 9/100. P(F) = 3/4. P(T|F) = 0.1 = 1/10. P(H|F) = 1/5. Joint P(F, T, H) = 3/4 * 1/10 *",
+    "latencyMs": 26116
+  },
+  {
+    "id": "B060",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"14/19\", \"decimal\": 0.7368421052631579, \"reason\": \"Using Bayes' theorem: P(Mis|Bind) = P(Bind|Mis)P(Mis) / [P(Bind|Mis)P(Mis) + P(Bind|Correct)P(Correct)] = (3/5 * 3/10) / [(3/5 * 3/10) + (1/8 * 7/10)] = (9/50) / (9/50 + 7/80) = (36/200) / (36/200 + 17.5/200) -> wait, 7/80 = 17.5/200 is not integer. Let's use common denominator 400. (3/5 * 3/10) = 9/50 = 72/400. (1/8 * 7/10) = 7/80 = 35/400. Total = 107/400. Result = 72/107. Let me re-calculate. \\n\\nP(Mis) = 3/10. P(Correct) = 7/10.\\nP(Bind|Mis) = 3/5. P(Bind|Correct) = 1/8.\\nNumerator: (3/10) * (3/5) = 9/50.\\nDenominator: (9/50) + (7/10 * 1/8) = 9/50 + 7/80.\\nLCM of 50 and 80 is 400.\\n9/50 = 72/400.\\n7/80 = 35/400.\\nSum = 107/400.\\nProbability = (72/400) / (107/400) = 72/107.\\n\\nWait, did I make a mistake in the previous thought? Let's check the numbers again.\\nMis-pinned share: 3/10",
+    "latencyMs": 24471
+  },
+  {
+    "id": "B061",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"15/16\", \"decimal\": 0.9375, \"reason\": \"Using Bayes' theorem: P(Contaminated | Spike) = [P(Spike | Contaminated) * P(Contaminated)] / [P(Spike | Contaminated) * P(Contaminated) + P(Spike | Clean) * P(Clean)].\\n\\nGiven:\\nP(Contaminated) = 0.16 = 4/25\\nP(Clean) = 0.84 = 21/25\\nP(Spike | Contaminated) = 0.75 = 3/4\\nP(Spike | Clean) = 1/15\\n\\nNumerator: (3/4) * (4/25) = 3/25\\nDenominator: (3/25) + (1/15) * (21/25) = 3/25 + 21/375 = 45/375 + 21/375 = 66/375\\n\\nProbability: (3/25) / (66/375) = (3/25) * (375/66) = (3 * 15) / 66 = 45 / 66 = 15 / 22? Wait.\\n\\nLet's re-calculate carefully.\\nP(C) = 0.16\\nP(K) = 0.84\\nP(S|C) = 0.75\\nP(S|K) = 1/15\\n\\nP(S) = P(S|C)P(C) + P(S|K)P(K)\\nP(S) = 0.75 * 0.16 + (1/15) * 0.84\\n0.75 * 0.16 = 0.12\\n(1/15) * 0.84 = 0.84 / 15 = 0.056\\nP(S) = 0.12 + 0.056 = 0.176\\n\\nP(C|S) = P(S|C)P(C) / P(S",
+    "latencyMs": 26213
+  },
+  {
+    "id": "B062",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"595/626\", \"decimal\": 0.9504792332268371, \"reason\": \"Using Bayes' theorem with the provided domestic hall statistics: P(Contraband|Block) = (P(Block|Contraband)*P(Contraband)) / (P(Block|Contraband)*P(Contraband) + P(Block|Clean)*P(Clean)) = (0.95 * 0.03) / ((0.95 * 0.03) + (0.08 * 0.97)) = 0.0285 / (0.0285 + 0.0776) = 0.0285 / 0.1061 = 285/1061. Wait, let me re-calculate. 0.95 * 0.03 = 0.0285. 0.08 * 0.97 = 0.0776. Sum = 0.1061. 0.0285 / 0.1061 = 285/1061. Let me check the fraction reduction. 285 = 5 * 57 = 5 * 3 * 19. 1061 is not divisible by 3 (1+0+6+1=8), not by 5, not by 19 (19*55=1045, 19*56=1064). So 285/1061 is the reduced fraction. My previous mental math for the rational field was wrong. Let's re-verify the decimal. 285/1061 ≈ 0.2686. Let me re-read the prompt carefully. 'contraband-laden bags making up 0.03... clean ones 0.97'. 'chance that a contraband-laden bag will show a dense opaque block... is 0.95, against 0.08 for a clean bag'. Calculation: Numerator = 0.95 * 0.03 = 0.0285. Den",
+    "latencyMs": 23852
+  },
+  {
+    "id": "B063",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"23/26\", \"decimal\": 0.8846153846153846, \"reason\": \"Using Bayes' theorem for the spring cohort: P(Healthy | Erratic) = P(Erratic | Healthy) * P(Healthy) / [P(Erratic | Healthy) * P(Healthy) + P(Erratic | Diseased) * P(Diseased)]. Given P(Healthy)=0.92, P(Diseased)=0.08, P(Erratic|Healthy)=0.2, and P(Erratic|Diseased)=7/8=0.875. Numerator = 0.2 * 0.92 = 0.184. Denominator = 0.184 + (0.875 * 0.08) = 0.184 + 0.07 = 0.254. Probability = 0.184 / 0.254 = 184/254 = 92/127. Wait, let me re-calculate. 0.2 * 0.92 = 0.184. 7/8 * 0.08 = 0.875 * 0.08 = 0.07. Sum = 0.254. 0.184 / 0.254 = 184/254 = 92/127. Let me check the fraction reduction. 184/254 divides by 2 to 92/127. 127 is prime. So 92/127. Let me re-read the prompt carefully. 'seven eighths' is 7/8. '0.2' is 1/5. P(H)=0.92=23/25. P(D)=0.08=2/25. P(E|H)=1/5. P(E|D)=7/8. P(H|E) = (1/5 * 23/25) / (1/5 * 23/25 + 7/8 * 2/25) =",
+    "latencyMs": 25690
+  },
+  {
+    "id": "B064",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"1/11\", \"decimal\": 0.0909090909090909, \"reason\": \"Using Bayes' theorem: P(Undamaged | Below) = P(Below | Undamaged) * P(Undamaged) / [P(Below | Undamaged) * P(Undamaged) + P(Below | Damaged) * P(Damaged)] = (1/9 * 3/5) / [(1/9 * 3/5) + (5/7 * 2/5)] = (3/45) / [(3/45) + (10/35)] = (1/15) / [(1/15) + (2/7)] = (1/15) / [(7/105) + (30/105)] = (1/15) / (37/105) = (1/15) * (105/37) = 7/37. Wait, let me re-calculate.\\n\\nP(U) = 3/5\\nP(D) = 2/5\\nP(B|U) = 1/9\\nP(B|D) = 5/7\\n\\nP(B) = P(B|U)P(U) + P(B|D)P(D) = (1/9)(3/5) + (5/7)(2/5) = 3/45 + 10/35 = 1/15 + 2/7 = 7/105 + 30/105 = 37/105.\\n\\nP(U|B) = P(B|U)P(U) / P(B) = (1/15) / (37/105) = (1/15) * (105/37) = 7/37.\\n\\nLet me double check the arithmetic.\\n1/15 = 7/105.\\n2/7 = 30/105.\\nSum = 37/105.\\nNumerator = 7/105.\\nRatio = (7/105) / (37/105)",
+    "latencyMs": 23451
+  },
+  {
+    "id": "B065",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage contains a logical contradiction: it states that 'Without exception, any bowl that shows crazing also shows a dull, matte glaze,' yet simultaneously records a bowl that 'shows crazing but does not show a dull, matte glaze.' This contradiction invalidates the premises, making it impossible to determine a unique probability.\"}",
+    "latencyMs": 7175
+  },
+  {
+    "id": "B066",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"12/17\", \"decimal\": 0.7058823529411765, \"reason\": \"Using Bayes' theorem: P(Flawed | Stall, Vibration) = [P(Flawed) * P(Stall|Flawed) * P(Vibration|Flawed)] / ([P(Flawed) * P(Stall|Flawed) * P(Vibration|Flawed)] + [P(Flawless) * P(Stall|Flawless) * P(Vibration|Flawless)]). Numerator: 0.15 * 0.80 * 0.70 = 0.084. Denominator term for flawless: 0.85 * 0.20 * 0.25 = 0.0425. Total probability of evidence: 0.084 + 0.0425 = 0.1265. Probability = 0.084 / 0.1265 = 840 / 1265 = 168 / 253. Wait, let me re-calculate. 0.15 * 0.8 * 0.7 = 0.084. 0.85 * 0.2 * 0.25 = 0.0425. Sum = 0.1265. 0.084 / 0.1265 = 8400 / 12650 = 840 / 1265. Divide by 5: 168 / 253. 168 and 253 share no common factors (253 = 11 * 23, 168 = 8 * 21 = 2^3 * 3 * 7). So the fraction is 168/253. Let me re-read the prompt's example format. It asks for reduced fraction. 168/253 is reduced. Let me double check the arithmetic. 0.15 * 0.8 = 0.12. 0.12 * 0.7 = 0",
+    "latencyMs": 24011
+  },
+  {
+    "id": "B067",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The base rate of misaligned trackers (P(Misaligned)) and the probability of a motor-current spike given the tracker is aligned (P(Spike | Aligned)) are not provided. Without these values, Bayes' theorem cannot be applied to determine the posterior probability P(Misaligned | Spike).\"}",
+    "latencyMs": 6241
+  },
+  {
+    "id": "B068",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"20/29\", \"decimal\": 0.6896551724137931, \"reason\": \"Using Bayes' theorem with the provided west cave statistics: P(Infested|Dust) = P(Dust|Infested)*P(Infested) / [P(Dust|Infested)*P(Infested) + P(Dust|Free)*P(Free)] = (2/3 * 3/16) / [(2/3 * 3/16) + (0.15 * 13/16)] = (1/8) / [(1/8) + (0.195)] = 0.125 / (0.125 + 0.195) = 0.125 / 0.32 = 125/320 = 25/64? Wait. Let's re-calculate carefully.\\n\\nP(Infested) = 3/16\\nP(Free) = 13/16\\nP(Dust|Infested) = 2/3\\nP(Dust|Free) = 0.15 = 3/20\\n\\nNumerator: (2/3) * (3/16) = 6/48 = 1/8 = 0.125\\nDenominator term 2: (3/20) * (13/16) = 39/320 = 0.121875\\nTotal Denominator: 1/8 + 39/320 = 40/320 + 39/320 = 79/320\\n\\nProbability = (1/8) / (79/320) = (40/320) / (79/320) = 40/79.\\n\\nLet me re-read the numbers.\\nInfested: 3/16\\nFree: 13/16\\nDust|Infested: 2/3\\nDust|Free: 0.15\\n\\nCalculation:\\nP(Dust) = P(Dust|I)P(I) + P(Dust|F",
+    "latencyMs": 23870
+  },
+  {
+    "id": "B069",
+    "status": "ANSWER",
+    "rational": "3/8",
+    "decimal": 0.375,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"3/8\", \"decimal\": 0.375, \"reason\": \"The question asks for the probability that a randomly drawn battery pack from the specific subset of packs showing a swollen casing is degraded. The passage explicitly states that within this subset, the fraction found degraded is 3/8. Therefore, the conditional probability P(Degraded | Swollen) is exactly 3/8.\"}",
+    "latencyMs": 7209
+  },
+  {
+    "id": "B070",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"12/13\", \"decimal\": 0.9230769230769231, \"reason\": \"Let D be diseased (P=0.3) and H be healthy (P=0.7). Let S be sunken/perforated cappings and P be patchy brood pattern. Given: P(S|D)=0.5, P(P|D)=0.8, P(S|H)=0.02, P(P|H)=0.1. The condition 'any frame that shows S also has P' implies P(S and not P) = 0, so P(S and P) = P(S). We need P(D | S and P) = P(D | S) because S implies S and P. Using Bayes' theorem for P(D|S): P(S|D)P(D) / [P(S|D)P(D) + P(S|H)P(H)] = (0.5 * 0.3) / [(0.5 * 0.3) + (0.02 * 0.7)] = 0.15 / (0.15 + 0.014) = 0.15 / 0.164 = 150/164 = 75/82. Wait, let me re-read carefully. 'Without exception, any frame that shows sunken, perforated cappings also has a patchy brood pattern.' This means S -> P. So the event observed is S (which automatically includes P). The question asks for P(D | S and P). Since S implies P, P(D | S and P) = P(D | S). \\nCalculation: \\nP(D) = 0.3, P(H) = 0.7\\nP(S|D) = 0.5\\nP(S|H) = 0.02\\nP(S) = P(S|D)P(D) + P(S|H)P(H) = 0.5*0.3 + 0.02*0.7 = 0.15 + 0.014 = 0.164\\nP(D|S) = P(S|D)P(D) / P(S) = 0.",
+    "latencyMs": 25498
+  },
+  {
+    "id": "B071",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides P(laboured breathing | life-threatening) = 5/8, but does not provide the base rate of life-threatening calls P(life-threatening) or the probability of laboured breathing in non-life-threatening calls P(laboured breathing | not life-threatening). Without these values, Bayes' theorem cannot be applied to determine P(life-threatening | laboured breathing).\"}",
+    "latencyMs": 6746
+  },
+  {
+    "id": "B072",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"63/65\", \"decimal\": 0.9692307692307692, \"reason\": \"Using Bayes' theorem: P(Corrupted | Fail) = P(Fail | Corrupted) * P(Corrupted) / [P(Fail | Corrupted) * P(Corrupted) + P(Fail | Intact) * P(Intact)] = (0.9 * 0.07) / [(0.9 * 0.07) + (0.04 * 0.93)] = 0.063 / (0.063 + 0.0372) = 0.063 / 0.1002 = 6300/10020 = 63/100.2 -> 630/1002 -> 105/167? Wait. Let's re-calculate carefully.\\n\\nP(C) = 0.07\\nP(I) = 0.93\\nP(F|C) = 0.9\\nP(F|I) = 0.04\\n\\nNumerator: 0.9 * 0.07 = 0.063\\nDenominator: 0.063 + (0.04 * 0.93) = 0.063 + 0.0372 = 0.1002\\n\\nProbability = 0.063 / 0.1002\\nMultiply by 10000: 630 / 1002\\nDivide by 6: 105 / 167\\n\\nLet's check the fraction reduction.\\n630 / 1002\\nBoth divisible by 2: 315 / 501\\nBoth divisible by 3: 105 / 167\\n167 is prime? sqrt(167) ~ 12.9. Primes to check: 2, 3, 5, 7, 11.\\n167 is not div by 2, 3 (sum=14), 5.\\n167 / ",
+    "latencyMs": 23630
+  },
+  {
+    "id": "B073",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides P(Swollen | Degraded) = 3/8 but does not provide the base rate of degraded battery packs (P(Degraded)) or the overall probability of a swollen casing (P(Swollen)). Without the prior probability of degradation, Bayes' theorem cannot be applied to determine P(Degraded | Swollen).\"}",
+    "latencyMs": 8277
+  },
+  {
+    "id": "B074",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage explicitly states that the prior probabilities (1/7 stressed, 6/7 well-annealed) have not been checked against the underlying data, implying they are unverified or potentially disputed premises. Therefore, the probability cannot be uniquely determined as a fact based on the provided text.\"}",
+    "latencyMs": 4751
+  },
+  {
+    "id": "B075",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"11/22\", \"decimal\": 0.5, \"reason\": \"Let M be miscalibrated (P=0.45) and W be within tolerance (P=0.55). Let N be the event of no over-delivery and no under-delivery. For M, P(N|M) = 1 - 0.10 - 0.15 = 0.75. For W, P(N|W) = 1 - 0.02 - 0.03 = 0.95. P(N) = P(N|M)P(M) + P(N|W)P(W) = (0.75 * 0.45) + (0.95 * 0.55) = 0.3375 + 0.5225 = 0.86. P(M|N) = P(N|M)P(M) / P(N) = 0.3375 / 0.86 = 3375 / 8600 = 135 / 344. Wait, let me re-calculate. 0.3375 / 0.86 = 3375/8600. Divide by 25: 135/344. 135/344 is approx 0.3924. Let me re-read the numbers. M=0.45, W=0.55. Over M=0.10, Under M=0.15. Over W=0.02, Under W=0.03. P(N|M) = 1 - 0.10 - 0.15 = 0.75. P(N|W) = 1 - 0.02 - 0.03 = 0.95. P(N) = 0.75*0.45 + 0.95*0.55 = 0.3375 + 0.5225 = 0.86. P(M|N) = 0.3375 / 0.86 = 3375/8600 = 135/3",
+    "latencyMs": 27756
+  },
+  {
+    "id": "B076",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage explicitly states that no comparable figures (base rates for contamination or conditional probabilities for sodium readings) were compiled for the accumulation zone. Without these specific parameters for the accumulation zone, the probability cannot be calculated.\"}",
+    "latencyMs": 5260
+  },
+  {
+    "id": "B077",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The base rate (prevalence) of septic patients is not provided, making it impossible to calculate the posterior probability using Bayes' theorem.\"}",
+    "latencyMs": 3176
+  },
+  {
+    "id": "B078",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"13/16\", \"decimal\": 0.8125, \"reason\": \"Using Bayes' theorem: P(Wild|Clipped) = P(Clipped|Wild)*P(Wild) / [P(Clipped|Wild)*P(Wild) + P(Clipped|Hatchery)*P(Hatchery)] = (0.2 * 0.65) / [(0.2 * 0.65) + (2/3 * 0.35)] = 0.13 / (0.13 + 7/30) = 0.13 / (3.9/30 + 7/30) = 0.13 / (10.9/30) = 13/109 * 30/10? No, let's recompute fractions. P(Wild)=13/20, P(Hatch)=7/20. P(C|W)=1/5, P(C|H)=2/3. Numerator: (1/5)*(13/20) = 13/100. Denominator: 13/100 + (2/3)*(7/20) = 13/100 + 14/60 = 13/100 + 7/30 = 39/300 + 70/300 = 109/300. Result: (13/100) / (109/300) = (13/100) * (300/109) = 13*3/109 = 39/109. Wait, 39/109 is approx 0.357. Let me re-read the question. 'how likely is the salmon to be wild-born?'. \\nLet's re-calculate carefully.\\nP(Wild) = 0.65 = 13/20\\nP(Hatch) = 0.35 = 7/20\\nP(Clipped|Wild) = 0.2 = 1/5\\nP(Clipped|Hatch) = 2/3\\n\\nP(Clipped) = P(Cl",
+    "latencyMs": 24543
+  },
+  {
+    "id": "B079",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage states that an over-delivering pump 'might never also under-deliver, though no one has confirmed this.' This introduces uncertainty about the joint probability P(Over AND Under). To calculate the probability of being miscalibrated given neither event occurs, we need P(Neither | Miscalibrated) and P(Neither | Within Tolerance). P(Neither) = 1 - P(Over) - P(Under) + P(Over AND Under). Since P(Over AND Under) is not fixed (it could be 0 or up to min(P(Over), P(Under))), the denominator and numerator of the Bayes' theorem calculation are not uniquely determined. Therefore, the exact probability cannot be calculated.\"}",
+    "latencyMs": 12938
+  },
+  {
+    "id": "B080",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides statistics for the lower gallery but explicitly states that the upper gallery 'keeps its own books, which were not part of this review.' No base rates for drifting/calibrated sensors or conditional probabilities for spurious spikes are provided for the upper gallery, making it impossible to calculate the requested probability.\"}",
+    "latencyMs": 4372
+  },
+  {
+    "id": "B081",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"1/3\", \"decimal\": 0.3333333333333333, \"reason\": \"Using Bayes' theorem: P(Well | Skipped & Snapped) = P(Skipped & Snapped | Well) * P(Well) / [P(Skipped & Snapped | Well) * P(Well) + P(Skipped & Snapped | Mis) * P(Mis)]. Given independence within categories: P(Skipped & Snapped | Well) = 0.15 * 0.35 = 0.0525. P(Skipped & Snapped | Mis) = 0.75 * 0.65 = 0.4875. P(Well) = 0.8, P(Mis) = 0.2. Numerator = 0.0525 * 0.8 = 0.042. Denominator = 0.042 + (0.4875 * 0.2) = 0.042 + 0.0975 = 0.1395. Probability = 0.042 / 0.1395 = 420 / 1395 = 84 / 279 = 28 / 93. Wait, let me re-calculate. 0.042 / 0.1395. Multiply by 10000: 420 / 1395. Divide by 5: 84 / 279. Divide by 3: 28 / 93. 28/93 is approx 0.301. Let me re-read the prompt carefully. 'In both categories, a loom is equally likely to snap warp threads regardless of whether it also produces skipped picks.' This confirms independence. Let's re-calculate the fraction. 0.15 * 0.35 = 0.0525. 0.75 * 0.65 = 0.4875. P(Well) = 4/5. P(Mis) = 1/5. Numerator: (4/5) * (3/2",
+    "latencyMs": 24139
+  },
+  {
+    "id": "B082",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides marginal probabilities for smelling vinegar and showing a surface film for spoiled and sound casks, but it does not specify the joint probability distribution (i.e., the probability of showing a film given it does not smell of vinegar, or the correlation between the two symptoms). The statement 'Usually, a cask that smells of vinegar also shows a surface film' is qualitative and does not provide the exact conditional probabilities needed to calculate P(Spoiled | Film AND No Vinegar) without assuming independence or specific joint values which are not given.\"}",
+    "latencyMs": 8881
+  },
+  {
+    "id": "B083",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage contains a logical contradiction. It states that for corroded cables, 7/10 (0.7) show a rust bloom and 0.7 show a pH drop, and for intact cables, 1/8 (0.125) show a rust bloom and 12.5% (0.125) show a pH drop. It then asserts that a cable shows a rust bloom if and only if it shows a pH drop. This implies that the set of cables with rust bloom is identical to the set of cables with pH drop. However, the conditional probabilities given (P(Rust|Corroded)=0.7 vs P(pH|Corroded)=0.7 and P(Rust|Intact)=0.125 vs P(pH|Intact)=0.125) are consistent with the IFF condition only if the events are perfectly correlated within each stratum. While the numbers match (0.7=0.7 and 0.125=0.125), the phrasing 'locked together... if and only if' suggests a deterministic logical equivalence for the entire population. If we assume the IFF holds, then P(Rust and pH) = P(Rust) = P(pH). We can calculate P(Rust) = P(Rust|Corroded)P(Corroded) + P(Rust|Intact)P(Intact) = (7/10)(5/12) + (1/8)(7/12) = 35/120 + 7/96 = 70/240 + 17.5/240... wait, 1/8 * 7/12 = 7/96. 7/10 * 5/12 = 35/120 = 7/24 = 28/96. Total P(Rust) = 28/96 + 7/96 = 35/96. P(Corroded and Rust) = 28/96. P(Corroded | Rust) = (28/96) / (35/96) = 28/35 = 4/5. The calculation is possible",
+    "latencyMs": 26305
+  },
+  {
+    "id": "B084",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides statistics only for the winter harvest. It explicitly states that the summer harvest keeps its own books which were not part of the review, meaning the base rates and conditional probabilities for the summer harvest are unknown. Therefore, the probability cannot be determined from the provided text.\"}",
+    "latencyMs": 5779
+  },
+  {
+    "id": "B085",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"81/82\", \"decimal\": 0.987804878, \"reason\": \"Let W be working, F be faulty. P(W)=0.9, P(F)=0.1. Let L be locks open, R be refuses valid cards. Given: P(L|F)=3/5=0.6, P(R|F)=1/5=0.2, P(L|W)=0.04, P(R|W)=0.07. The problem states L and R are mutually exclusive for any turnstile. We want P(W | L and not R). Since L and R are mutually exclusive, the event 'L and not R' is simply L. So we need P(W | L). Using Bayes' theorem: P(W|L) = P(L|W)P(W) / [P(L|W)P(W) + P(L|F)P(F)] = (0.04 * 0.9) / [(0.04 * 0.9) + (0.6 * 0.1)] = 0.036 / [0.036 + 0.06] = 0.036 / 0.096 = 36/96 = 3/8? Wait. Let me re-read carefully. 'One turnstile drawn at random locks open but does not refuse valid cards'. Since L and R are mutually exclusive, if it locks open, it cannot refuse valid cards. So the condition 'locks open but does not refuse valid cards' is equivalent to 'locks open'. Thus P(W | L) = (0.04 * 0.9) / (0.04 * 0.9 + 0.6 * 0.1) = 0.036 / 0.096 = 3/8 = 0.375. Wait, let me check the fraction. 0.036/0.096 = 36/96 = 3/8. Is that right? Let me re-calculate. 0.04 * 0.9 = 0.036. 0.6 * 0.1 = 0.06. Sum = 0.096. ",
+    "latencyMs": 23548
+  },
+  {
+    "id": "B086",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"18/19\", \"decimal\": 0.9473684210526315, \"reason\": \"Let C be case-hardened and E be end checks. P(C)=0.28, P(E|C)=0.45. Let D be evenly dried and P(D)=0.72, P(E|D)=0.1. The condition 'shows end checks but does not show honeycomb cracking' is equivalent to 'shows end checks' because the passage states end checks and honeycomb cracking never occur together (mutually exclusive). Thus we need P(C | E). Using Bayes' theorem: P(C|E) = P(E|C)P(C) / [P(E|C)P(C) + P(E|D)P(D)] = (0.45 * 0.28) / [(0.45 * 0.28) + (0.1 * 0.72)] = 0.126 / (0.126 + 0.072) = 0.126 / 0.198 = 126/198 = 21/33 = 7/11. Wait, let me re-calculate. 0.45 * 0.28 = 0.126. 0.1 * 0.72 = 0.072. Sum = 0.198. 0.126 / 0.198 = 126/198. Divide by 6: 21/33. Divide by 3: 7/11. 7/11 is approx 0.636. Let me re-read carefully. 'A case-hardened board will show end checks with probability 0.45... an evenly dried board will show end checks with probability 0.1'. Yes. P(C|E) = (0.45*0.28)/(0.45*0.28 + 0.1*0.72) = 0.126 / 0.198 = 7/11. My previous mental math for 18/19 was wrong. 7/",
+    "latencyMs": 25293
+  },
+  {
+    "id": "B087",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides specific statistics for the south dock (base rates and conditional probabilities) but explicitly states that the north dock keeps its own books which were not part of the review. No base rates or conditional probabilities are provided for the north dock, making it impossible to calculate the probability for a container drawn from the north dock.\"}",
+    "latencyMs": 6033
+  },
+  {
+    "id": "B088",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"1/2\", \"decimal\": 0.5, \"reason\": \"Let S be spoiled, F be film, V be vinegar. P(S)=2/9, P(S^c)=7/9. P(F|S)=3/4, P(F|S^c)=1/4. P(V|S,F)=1/4, P(V|S^c,F)=0.05. We want P(S | F, V^c). By Bayes: P(S|F,V^c) = P(F,V^c|S)P(S) / [P(F,V^c|S)P(S) + P(F,V^c|S^c)P(S^c)]. P(F,V^c|S) = P(F|S)P(V^c|S,F) = (3/4)(3/4) = 9/16. P(F,V^c|S^c) = P(F|S^c)P(V^c|S^c,F) = (1/4)(0.95) = 0.2375 = 19/80. Numerator: (9/16)(2/9) = 2/16 = 1/8. Denominator term 2: (19/80)(7/9) = 133/720. Total denominator: 1/8 + 133/720 = 90/720 + 133/720 = 223/720. Probability = (1/8) / (223/720) = (90/720) / (223/720) = 90/223. Wait, let me re-calculate. \\n\\nP(F, V^c | S) = P(F|S) * P(V^c | S, F). Since V implies F, P(V|S,F) is the conditional prob of V given S and F. The problem states 'A spoiled cask will smell of vinegar with probability one quarter'. Does this mean P(V|S) = 1/4? And 'show a surface film with probability three quarters' means P(F|S) = 3/4? And '",
+    "latencyMs": 25704
+  },
+  {
+    "id": "B089",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"18/23\", \"decimal\": 0.782608695652174, \"reason\": \"Using Bayes' theorem: P(Under|Sour) = P(Sour|Under)*P(Under) / [P(Sour|Under)*P(Under) + P(Sour|Well)*P(Well)]. P(Under)=3/8, P(Well)=5/8. P(Sour|Under)=0.72=18/25, P(Sour|Well)=0.15=3/20. Numerator = (18/25)*(3/8) = 54/200. Denominator = 54/200 + (3/20)*(5/8) = 54/200 + 15/160 = 54/200 + 37.5/200? No, let's use decimals or common denominator. 0.72*0.375 = 0.27. 0.15*0.625 = 0.09375. Total = 0.36375. Result = 0.27 / 0.36375 = 27000 / 36375. Divide by 25: 1080 / 1455. Divide by 15: 72 / 97? Let's re-calculate fractions carefully. \\nNumerator: (18/25) * (3/8) = 54/200 = 27/100.\\nDenominator term 2: (3/20) * (5/8) = 15/160 = 3/32.\\nTotal Denominator: 27/100 + 3/32. Common denominator 800. 27/100 = 216/800. 3/32 = 75/800. Sum = 291/800.\\nProbability = (216/800) / (291/800) = 2",
+    "latencyMs": 23876
+  },
+  {
+    "id": "B090",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The base rate (prior probability) of an oyster being infected is not provided, making it impossible to calculate the posterior probability using Bayes' theorem.\"}",
+    "latencyMs": 6245
+  },
+  {
+    "id": "B091",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"16/19\", \"decimal\": 0.8421052631578947, \"reason\": \"Using Bayes' theorem: P(Leaking | Low, Flooded) = P(Low, Flooded | Leaking) * P(Leaking) / [P(Low, Flooded | Leaking) * P(Leaking) + P(Low, Flooded | Watertight) * P(Watertight)]. Given independence within categories, P(Low, Flooded | Leaking) = (2/3)*(4/5) = 8/15. P(Low, Flooded | Watertight) = (1/4)*(3/10) = 3/40. Numerator = (8/15)*0.4 = 3.2/15. Denominator = (8/15)*0.4 + (3/40)*0.6 = 3.2/15 + 1.8/40 = 0.21333... + 0.045 = 0.25833... = 31/120. Ratio = (3.2/15) / (31/120) = (32/150) / (31/120) = (16/75) * (120/31) = (16 * 8) / (5 * 31) = 128/155. Wait, let me re-calculate carefully.\\n\\nP(L) = 0.4 = 2/5\\nP(W) = 0.6 = 3/5\\nP(Low|L) = 2/3\\nP(Flooded|L) = 4/5\\nP(Low|W) = 1/4\\nP(Flooded|W) = 3/10\\n\\nP(Low, Flooded | L) = P(Low|L) * P(Flooded|L) = (2/3) * (4/5) = 8/15\\nP(Low, Flooded | W) = P(Low|W) * P(Flooded|W) = (1",
+    "latencyMs": 24707
+  },
+  {
+    "id": "B092",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage states that 'No rate was ever measured among slack strings,' meaning the probability of a slack string drifting flat within an hour is unknown. Without this conditional probability P(Drift | Slack), Bayes' theorem cannot be applied to determine the posterior probability that a string is slack given that it drifted flat.\"}",
+    "latencyMs": 7004
+  },
+  {
+    "id": "B093",
+    "status": "ANSWER",
+    "rational": "3/4",
+    "decimal": 0.75,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"3/4\", \"decimal\": 0.75, \"reason\": \"The question asks for the probability that a randomly drawn slab is under-strength, given that it fails the rebound-hammer screening. The passage explicitly states that 'Looking only at slabs that fail the rebound-hammer screening, the fraction found under-strength was three quarters.' This is a direct conditional probability P(Under-strength | Fails Screening) = 3/4. No base rate for the entire population is needed because the sample space is restricted to the failing slabs.\"}",
+    "latencyMs": 6770
+  },
+  {
+    "id": "B094",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage provides marginal probabilities for 'crazing' and 'dull, matte glaze' for each firing status, but does not specify the joint probability of both occurring simultaneously (P(Crazing AND Matte | Status)). The statement 'any bowl that shows crazing also shows a dull, matte glaze' implies P(Crazing | Matte) is undefined or P(Crazing AND Matte) = P(Crazing), but it does not resolve the overlap between the two defect types within the 'Matte' category for the calculation of P(Status | Crazing AND Matte). Specifically, we know P(Crazing | Under) = 0.3 and P(Matte | Under) = 0.6. If we assume the events are independent given the status, we could calculate, but the problem does not state independence. More critically, the condition 'Crazing implies Matte' means the event 'Crazing AND Matte' is equivalent to 'Crazing'. Thus, the question reduces to P(Under | Crazing). Using Bayes' theorem: P(Under | Crazing) = P(Crazing | Under)P(Under) / [P(Crazing | Under)P(Under) + P(Crazing | Proper)P(Proper)]. P(Crazing | Under) = 0.3, P(Under) = 0.35. P(Crazing | Proper) = 0.05, P(Proper) = 0.65. Numerator = 0.3 * 0.35 = 0.105. Denominator = 0.105 + (0.05 * 0.65) = 0.105 + 0.0325 = 0.1375. Probability = 0.105 / 0.1375 = 1050 / 1375 = 42 / 55. Wait, let me re-read carefully. 'Without exception, any bowl that shows crazing also shows a dull, matte glaze.' This means Crazing is a subset of Matte. The observed event is 'shows crazing AND shows a dull, matte glaze'. Since Crazing implies Matte, this event is simply 'shows",
+    "latencyMs": 26520
+  },
+  {
+    "id": "B095",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage explicitly states that the autumn cohort 'keeps its own books, which were not part of this review,' meaning the prior probabilities and conditional probabilities for the autumn cohort are not provided. Therefore, the probability cannot be determined from the given information.\"}",
+    "latencyMs": 5900
+  },
+  {
+    "id": "B096",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The base rate (prior probability) of a telemetry frame being corrupted is not provided, making it impossible to calculate the posterior probability using Bayes' theorem.\"}",
+    "latencyMs": 4117
+  },
+  {
+    "id": "B097",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The passage states that the two logs (stall and vibration) were never cross-referenced, implying the events are not jointly observed or that their conditional dependence structure is unknown. Without an assumption of conditional independence given the airfoil's status (flawed/flawless), the joint probability P(Stall and Vibration | Status) cannot be calculated from the marginal probabilities P(Stall | Status) and P(Vibration | Status). Therefore, the posterior probability cannot be uniquely determined.\"}",
+    "latencyMs": 6637
+  },
+  {
+    "id": "B098",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"REFUSE\", \"rational\": null, \"decimal\": null, \"reason\": \"The premise regarding the probability of an outbreak-linked sample amplifying in the first PCR run was explicitly retracted and no replacement figure was provided, making it impossible to calculate the posterior probability.\"}",
+    "latencyMs": 6363
+  },
+  {
+    "id": "B099",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"11/17\", \"decimal\": 0.6470588235294118, \"reason\": \"Let O be over-fermented and W be well-fermented. P(O)=0.22, P(W)=0.78. Let A be ammonia smell and D be dark core. Given P(A|O)=5/8, P(D|O)=0.45, P(A|W)=1/8, P(D|W)=0.15. The problem states that in both categories, D is independent of A (equally likely to darken regardless of ammonia). Thus P(D|A, O) = P(D|O) = 0.45 and P(D|A, W) = P(D|W) = 0.15. We want P(O|A, D). Using Bayes' theorem: P(O|A, D) = P(A, D|O)P(O) / [P(A, D|O)P(O) + P(A, D|W)P(W)]. Since D and A are conditionally independent given the category, P(A, D|O) = P(A|O)P(D|O) = (5/8)*0.45 = 0.28125. P(A, D|W) = P(A|W)P(D|W) = (1/8)*0.15 = 0.01875. Numerator = 0.28125 * 0.22 = 0.061875. Denominator = 0.061875 + (0.01875 * 0.78) = 0.061875 + 0.014625 = 0.0765. Probability = 0.061875 / 0.0765 = 61875 / 76500. Dividing by 25: 2475 / 3060. Dividing by 15: 165 / 204. Dividing by 3: 55 / 68. Wait, let me re-calculate. ",
+    "latencyMs": 25532
+  },
+  {
+    "id": "B100",
+    "status": "ANSWER",
+    "rational": "4/11",
+    "decimal": 0.3636363636,
+    "raw": "{\"status\": \"ANSWER\", \"rational\": \"4/11\", \"decimal\": 0.3636363636, \"reason\": \"The question asks for the probability that a randomly drawn print run from the set of those triggering a web-break alarm is misregistered. The passage explicitly states that 'Of all the print runs that trigger a web-break alarm, 4/11 were later confirmed misregistered.' This directly provides the conditional probability P(Misregistered | Web-break) = 4/11. No other information is needed or required to determine this specific probability.\"}",
+    "latencyMs": 8675
+  }
+]

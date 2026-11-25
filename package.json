@@ -1,0 +1,11 @@
+{
+  "name": "assay-013-prism-vs-jev-subq",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ASSAY-013: PRISM v4 vs. TypeSafe Jev (jev-1.14.0), SubQ Snap, raw open weights, and frontier GPT-6.2-sol on 100 unseen Bayesian & trap passages.",
+  "scripts": {
+    "build": "node scripts/build-and-verify.mjs --build",
+    "verify": "node scripts/build-and-verify.mjs --verify"
+  }
+}

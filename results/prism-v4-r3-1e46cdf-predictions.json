@@ -1,0 +1,802 @@
+[
+  {
+    "id": "B001",
+    "status": "ANSWER",
+    "rational": "1/6",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"1\",\"d\":\"6\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"1\",\"d\":\"6\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"1\",\"d\":\"6\"},\"max\":{\"n\":\"1\",\"d\":\"6\"}},\"credal\":{\"worlds\":8,\"eMin\":\"3/10\",\"eMax\":\"3/10\",\"uStar\":[{\"i\":0,\"v\":\"1/54\"},{\"i\":1,\"v\":\"1/6\"},{\"i\":2,\"v\":\"5/54\"},{\"i\":3,\"v\":\"5/6\"},{\"i\":4,\"v\":\"7/6\"},{\"i\":5,\"v\":\"1/2\"},{\"i\":6,\"v\":\"7/18\"},{\"i\":7,\"v\":\"1/6\"}],\"tStar\":\"10/3\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":405,\"e\":545}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":579,\"e\":602}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":607,\"e\":637}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"3\"},\"ctx\":\"ctx0\",\"span\":{\"s\":73,\"e\":118}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"2\",\"d\":\"3\"},\"ctx\":\"ctx0\",\"span\":{\"s\":123,\"e\":145}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":178,\"e\":221}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":305,\"e\":348}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":226,\"e\":276}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":353,\"e\":403}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 42414
+  },
+  {
+    "id": "B002",
+    "status": "ANSWER",
+    "rational": "15/22",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"15\",\"d\":\"22\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"15\",\"d\":\"22\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"15\",\"d\":\"22\"},\"max\":{\"n\":\"15\",\"d\":\"22\"}},\"credal\":{\"worlds\":4,\"eMin\":\"11/45\",\"eMax\":\"11/45\",\"uStar\":[{\"i\":0,\"v\":\"5/22\"},{\"i\":1,\"v\":\"15/22\"},{\"i\":2,\"v\":\"63/22\"},{\"i\":3,\"v\":\"7/22\"}],\"tStar\":\"45/11\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":454,\"e\":484}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"9\"},\"ctx\":\"ctx0\",\"span\":{\"s\":101,\"e\":112}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"9\"},\"ctx\":\"ctx0\",\"span\":{\"s\":145,\"e\":158}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":184,\"e\":266}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":274,\"e\":329}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed.\"}",
+    "latencyMs": 30687
+  },
+  {
+    "id": "B003",
+    "status": "ANSWER",
+    "rational": "75/89",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"75\",\"d\":\"89\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"75\",\"d\":\"89\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"75\",\"d\":\"89\"},\"max\":{\"n\":\"75\",\"d\":\"89\"}},\"credal\":{\"worlds\":8,\"eMin\":\"89/800\",\"eMax\":\"89/800\",\"uStar\":[{\"i\":0,\"v\":\"45/89\"},{\"i\":1,\"v\":\"75/89\"},{\"i\":2,\"v\":\"45/89\"},{\"i\":3,\"v\":\"75/89\"},{\"i\":4,\"v\":\"392/89\"},{\"i\":5,\"v\":\"56/89\"},{\"i\":6,\"v\":\"98/89\"},{\"i\":7,\"v\":\"14/89\"}],\"tStar\":\"800/89\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":426,\"e\":571}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":607,\"e\":632}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":637,\"e\":668}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":123,\"e\":126}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":158,\"e\":161}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":193,\"e\":238}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":323,\"e\":368}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"2\"},\"ctx\":\"ctx0\",\"span\":{\"s\":243,\"e\":294}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":373,\"e\":424}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks strictly entailed by passage\"}",
+    "latencyMs": 36936
+  },
+  {
+    "id": "B004",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"details\":{\"missingHyps\":[\"h0\",\"h1\"]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9815
+  },
+  {
+    "id": "B005",
+    "status": "ANSWER",
+    "rational": "6/11",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"6\",\"d\":\"11\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"6\",\"d\":\"11\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"6\",\"d\":\"11\"},\"max\":{\"n\":\"6\",\"d\":\"11\"}},\"credal\":{\"worlds\":4,\"eMin\":\"11/60\",\"eMax\":\"11/60\",\"uStar\":[{\"i\":0,\"v\":\"4/11\"},{\"i\":1,\"v\":\"6/11\"},{\"i\":2,\"v\":\"45/11\"},{\"i\":3,\"v\":\"5/11\"}],\"tStar\":\"60/11\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"EQUIV\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":426,\"e\":507}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":437,\"e\":463}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":482,\"e\":507}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":81,\"e\":90}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"5\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":122,\"e\":133}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":173,\"e\":216}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":297,\"e\":340}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":221,\"e\":266}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":345,\"e\":390}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 30238
+  },
+  {
+    "id": "B006",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"1\",\"d\":\"1\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"1\",\"d\":\"1\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"1\",\"d\":\"1\"},\"max\":{\"n\":\"1\",\"d\":\"1\"}},\"credal\":{\"worlds\":2,\"eMin\":\"18/25\",\"eMax\":\"18/25\",\"uStar\":[{\"i\":0,\"v\":\"7/18\"},{\"i\":1,\"v\":\"1/1\"}],\"tStar\":\"25/18\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":196,\"e\":226}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"18\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":144,\"e\":147}}]},\"witnessEntailed\":false,\"witnessCode\":\"NOT_ENTAILED\",\"witnessReason\":\"Partition of population not established in passage.\"}",
+    "latencyMs": 25184
+  },
+  {
+    "id": "B007",
+    "status": "ANSWER",
+    "rational": "5/7",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"5\",\"d\":\"7\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"5\",\"d\":\"7\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"5\",\"d\":\"7\"},\"max\":{\"n\":\"5\",\"d\":\"7\"}},\"credal\":{\"worlds\":4,\"eMin\":\"7/30\",\"eMax\":\"7/30\",\"uStar\":[{\"i\":0,\"v\":\"1/7\"},{\"i\":1,\"v\":\"5/7\"},{\"i\":2,\"v\":\"22/7\"},{\"i\":3,\"v\":\"2/7\"}],\"tStar\":\"30/7\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":456,\"e\":493}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":95,\"e\":104}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":143,\"e\":154}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":215,\"e\":285}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"12\"},\"ctx\":\"ctx0\",\"span\":{\"s\":295,\"e\":334}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 32156
+  },
+  {
+    "id": "B008",
+    "status": "ANSWER",
+    "rational": "7/10",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"7\",\"d\":\"10\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"7\",\"d\":\"10\"},\"max\":{\"n\":\"7\",\"d\":\"10\"}},\"credal\":{\"worlds\":4,\"eMin\":\"1/7\",\"eMax\":\"1/7\",\"uStar\":[{\"i\":0,\"v\":\"3/10\"},{\"i\":1,\"v\":\"7/10\"},{\"i\":2,\"v\":\"57/10\"},{\"i\":3,\"v\":\"3/10\"}],\"tStar\":\"7/1\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":370,\"e\":416}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"7\"},\"ctx\":\"ctx0\",\"span\":{\"s\":103,\"e\":114}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"6\",\"d\":\"7\"},\"ctx\":\"ctx0\",\"span\":{\"s\":154,\"e\":166}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":245,\"e\":248}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":258,\"e\":260}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed by passage.\"}",
+    "latencyMs": 32310
+  },
+  {
+    "id": "B009",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"details\":{\"missing\":[{\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\"}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9599
+  },
+  {
+    "id": "B010",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"7\",\"d\":\"11\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"7\",\"d\":\"11\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"7\",\"d\":\"11\"},\"max\":{\"n\":\"7\",\"d\":\"11\"}},\"credal\":{\"worlds\":6,\"eMin\":\"99/500\",\"eMax\":\"99/500\",\"uStar\":[{\"i\":0,\"v\":\"7/33\"},{\"i\":1,\"v\":\"7/11\"},{\"i\":2,\"v\":\"56/99\"},{\"i\":3,\"v\":\"34/11\"},{\"i\":4,\"v\":\"4/11\"},{\"i\":5,\"v\":\"2/11\"}],\"tStar\":\"500/99\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"MUTEX\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":412,\"e\":506}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":650,\"e\":666}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"NEG\",\"ctx\":\"ctx0\",\"span\":{\"s\":671,\"e\":703}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":120,\"e\":124}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"18\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":169,\"e\":173}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":202,\"e\":239}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":324,\"e\":360}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":244,\"e\":295}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":365,\"e\":410}}]},\"witnessEntailed\":false,\"witnessCode\":\"COUNTEREXAMPLE\",\"witnessReason\":\"Explicit counterexample violates mutex rule.\"}",
+    "latencyMs": 31719
+  },
+  {
+    "id": "B011",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"details\":{\"missing\":[{\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\"}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9416
+  },
+  {
+    "id": "B012",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"details\":{\"hyp\":\"h0\",\"evs\":[\"e0\",\"e1\"],\"needed\":[\"e0\",\"e1\"],\"interval\":{\"min\":\"0/1\",\"max\":\"1/3\"}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 2552
+  },
+  {
+    "id": "B013",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"128\",\"d\":\"155\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"128\",\"d\":\"155\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"128\",\"d\":\"155\"},\"max\":{\"n\":\"128\",\"d\":\"155\"}},\"credal\":{\"worlds\":8,\"eMin\":\"31/120\",\"eMax\":\"31/120\",\"uStar\":[{\"i\":0,\"v\":\"16/155\"},{\"i\":1,\"v\":\"32/155\"},{\"i\":2,\"v\":\"64/155\"},{\"i\":3,\"v\":\"128/155\"},{\"i\":4,\"v\":\"189/155\"},{\"i\":5,\"v\":\"63/155\"},{\"i\":6,\"v\":\"81/155\"},{\"i\":7,\"v\":\"27/155\"}],\"tStar\":\"120/31\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":426,\"e\":496}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":583,\"e\":605}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":610,\"e\":639}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":123,\"e\":138}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":167,\"e\":182}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"3\"},\"ctx\":\"ctx0\",\"span\":{\"s\":204,\"e\":241}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":329,\"e\":366}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":246,\"e\":298}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":371,\"e\":424}}]},\"witnessEntailed\":false,\"witnessCode\":\"SCOPE_EXCEPTION\",\"witnessReason\":\"Independence not established for all hypotheses.\"}",
+    "latencyMs": 33757
+  },
+  {
+    "id": "B014",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"details\":{\"detail\":\"evidence support is not guaranteed positive over the polytope\",\"eMin\":\"0/1\",\"eMax\":\"1/1\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10041
+  },
+  {
+    "id": "B015",
+    "status": "ANSWER",
+    "rational": "72/103",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"72\",\"d\":\"103\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"72\",\"d\":\"103\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"72\",\"d\":\"103\"},\"max\":{\"n\":\"72\",\"d\":\"103\"}},\"credal\":{\"worlds\":4,\"eMin\":\"103/400\",\"eMax\":\"103/400\",\"uStar\":[{\"i\":0,\"v\":\"18/103\"},{\"i\":1,\"v\":\"72/103\"},{\"i\":2,\"v\":\"279/103\"},{\"i\":3,\"v\":\"31/103\"}],\"tStar\":\"400/103\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":300,\"e\":326}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"40\"},\"ctx\":\"ctx0\",\"span\":{\"s\":93,\"e\":122}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"31\",\"d\":\"40\"},\"ctx\":\"ctx0\",\"span\":{\"s\":127,\"e\":155}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":178,\"e\":223}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":256,\"e\":268}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 24539
+  },
+  {
+    "id": "B016",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"details\":{\"hyp\":\"h0\",\"evs\":[\"e0\",\"e1\"],\"needed\":[\"e0\",\"e1\"],\"interval\":{\"min\":\"11/76\",\"max\":\"1/1\"}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10113
+  },
+  {
+    "id": "B017",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"details\":{\"hyp\":\"h0\",\"evs\":[\"e0\",\"e1\"],\"needed\":[\"e0\",\"e1\"],\"interval\":{\"min\":\"27/41\",\"max\":\"1/1\"}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 2739
+  },
+  {
+    "id": "B018",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"6\",\"d\":\"7\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"6\",\"d\":\"7\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"6\",\"d\":\"7\"},\"max\":{\"n\":\"6\",\"d\":\"7\"}},\"credal\":{\"worlds\":8,\"eMin\":\"21/200\",\"eMax\":\"21/200\",\"uStar\":[{\"i\":0,\"v\":\"8/21\"},{\"i\":1,\"v\":\"4/7\"},{\"i\":2,\"v\":\"4/7\"},{\"i\":3,\"v\":\"6/7\"},{\"i\":4,\"v\":\"36/7\"},{\"i\":5,\"v\":\"4/7\"},{\"i\":6,\"v\":\"9/7\"},{\"i\":7,\"v\":\"1/7\"}],\"tStar\":\"200/21\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":384,\"e\":505}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":534,\"e\":557}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":562,\"e\":587}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":130,\"e\":141}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":179,\"e\":193}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":223,\"e\":249}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":317,\"e\":343}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":254,\"e\":291}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":348,\"e\":382}}]},\"witnessEntailed\":false,\"witnessCode\":\"NOT_ENTAILED\",\"witnessReason\":\"Independence not affirmed\"}",
+    "latencyMs": 32840
+  },
+  {
+    "id": "B019",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"details\":{\"missingHyps\":[\"h0\",\"h1\"]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9469
+  },
+  {
+    "id": "B020",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNSTABLE_BINDING\",\"value\":{\"n\":\"72\",\"d\":\"107\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"72\",\"d\":\"107\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"72\",\"d\":\"107\"},\"max\":{\"n\":\"72\",\"d\":\"107\"}},\"credal\":{\"worlds\":4,\"eMin\":\"107/400\",\"eMax\":\"107/400\",\"uStar\":[{\"i\":0,\"v\":\"48/107\"},{\"i\":1,\"v\":\"72/107\"},{\"i\":2,\"v\":\"245/107\"},{\"i\":3,\"v\":\"35/107\"}],\"tStar\":\"400/107\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":525,\"e\":555}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":125,\"e\":137}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":180,\"e\":192}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":221,\"e\":271}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":275,\"e\":339}}]},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 6562
+  },
+  {
+    "id": "B021",
+    "status": "ANSWER",
+    "rational": "22/37",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"22\",\"d\":\"37\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"22\",\"d\":\"37\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"22\",\"d\":\"37\"},\"max\":{\"n\":\"22\",\"d\":\"37\"}},\"credal\":{\"worlds\":4,\"eMin\":\"37/150\",\"eMax\":\"37/150\",\"uStar\":[{\"i\":0,\"v\":\"3/37\"},{\"i\":1,\"v\":\"22/37\"},{\"i\":2,\"v\":\"110/37\"},{\"i\":3,\"v\":\"15/37\"}],\"tStar\":\"150/37\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":355,\"e\":410}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":133,\"e\":143}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"5\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":192,\"e\":203}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"22\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":230,\"e\":251}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":307,\"e\":314}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed.\"}",
+    "latencyMs": 26622
+  },
+  {
+    "id": "B022",
+    "status": "ANSWER",
+    "rational": "2/5",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"2\",\"d\":\"5\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"2\",\"d\":\"5\"},\"target\":\"h0\",\"via\":\"POSTERIOR_STATED\",\"interval\":{\"min\":{\"n\":\"2\",\"d\":\"5\"},\"max\":{\"n\":\"2\",\"d\":\"5\"}},\"credal\":{\"eMin\":\"0/1\",\"directPosterior\":true},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":199,\"e\":295}},{\"op\":\"POSTERIOR_STATED\",\"hyp\":\"h0\",\"ev\":\"e0\",\"pol\":\"POS\",\"value\":{\"n\":\"2\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":122,\"e\":197}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 30802
+  },
+  {
+    "id": "B023",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SCOPED_OR_RETRACTED_PREMISE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"SCOPED_OR_RETRACTED_PREMISE\",\"details\":{\"span\":{\"s\":556,\"e\":592},\"reason\":\"RETRACTED\",\"premise\":\"OBS\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10969
+  },
+  {
+    "id": "B024",
+    "status": "ANSWER",
+    "rational": "25/37",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"25\",\"d\":\"37\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"25\",\"d\":\"37\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"25\",\"d\":\"37\"},\"max\":{\"n\":\"25\",\"d\":\"37\"}},\"credal\":{\"worlds\":4,\"eMin\":\"37/150\",\"eMax\":\"37/150\",\"uStar\":[{\"i\":0,\"v\":\"5/37\"},{\"i\":1,\"v\":\"25/37\"},{\"i\":2,\"v\":\"108/37\"},{\"i\":3,\"v\":\"12/37\"}],\"tStar\":\"150/37\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":385,\"e\":415}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":135,\"e\":138}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":181,\"e\":184}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":265,\"e\":276}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":286,\"e\":289}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 23592
+  },
+  {
+    "id": "B025",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SCOPED_OR_RETRACTED_PREMISE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"SCOPED_OR_RETRACTED_PREMISE\",\"details\":{\"span\":{\"s\":551,\"e\":584},\"reason\":\"RETRACTED\",\"premise\":\"OBS\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10447
+  },
+  {
+    "id": "B026",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"details\":{\"detail\":\"evidence support is not guaranteed positive over the polytope\",\"eMin\":\"0/1\",\"eMax\":\"1/1\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1096
+  },
+  {
+    "id": "B027",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"3\",\"d\":\"8\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"3\",\"d\":\"8\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"3\",\"d\":\"8\"},\"max\":{\"n\":\"3\",\"d\":\"8\"}},\"credal\":{\"worlds\":6,\"eMin\":\"12/125\",\"eMax\":\"12/125\",\"uStar\":[{\"i\":0,\"v\":\"5/24\"},{\"i\":1,\"v\":\"5/8\"},{\"i\":2,\"v\":\"5/24\"},{\"i\":3,\"v\":\"267/32\"},{\"i\":4,\"v\":\"3/8\"},{\"i\":5,\"v\":\"21/32\"}],\"tStar\":\"125/12\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"MUTEX\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":350,\"e\":431}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":572,\"e\":582}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"NEG\",\"ctx\":\"ctx0\",\"span\":{\"s\":587,\"e\":614}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":125,\"e\":128}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"9\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":162,\"e\":165}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":192,\"e\":214}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":269,\"e\":283}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":219,\"e\":247}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"100\"},\"ctx\":\"ctx0\",\"span\":{\"s\":288,\"e\":311}}]},\"witnessEntailed\":false,\"witnessCode\":\"COUNTEREXAMPLE\",\"witnessReason\":\"Passage records a counterexample to the mutex rule\"}",
+    "latencyMs": 32161
+  },
+  {
+    "id": "B028",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"details\":{\"missing\":[{\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\"}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9390
+  },
+  {
+    "id": "B029",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"details\":{\"hyp\":\"h0\",\"evs\":[\"e0\",\"e1\"],\"needed\":[\"e0\",\"e1\"],\"interval\":{\"min\":\"0/1\",\"max\":\"15/37\"}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 2975
+  },
+  {
+    "id": "B030",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"details\":{\"missing\":[{\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\"}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 2124
+  },
+  {
+    "id": "B031",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"details\":{\"missing\":[{\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\"}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1912
+  },
+  {
+    "id": "B032",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"75\",\"d\":\"89\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"75\",\"d\":\"89\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"75\",\"d\":\"89\"},\"max\":{\"n\":\"75\",\"d\":\"89\"}},\"credal\":{\"worlds\":8,\"eMin\":\"89/800\",\"eMax\":\"89/800\",\"uStar\":[{\"i\":0,\"v\":\"45/89\"},{\"i\":1,\"v\":\"75/89\"},{\"i\":2,\"v\":\"45/89\"},{\"i\":3,\"v\":\"75/89\"},{\"i\":4,\"v\":\"392/89\"},{\"i\":5,\"v\":\"56/89\"},{\"i\":6,\"v\":\"98/89\"},{\"i\":7,\"v\":\"14/89\"}],\"tStar\":\"800/89\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":426,\"e\":506}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":597,\"e\":622}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":627,\"e\":658}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":87,\"e\":126}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":135,\"e\":161}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":193,\"e\":238}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":323,\"e\":368}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"2\"},\"ctx\":\"ctx0\",\"span\":{\"s\":243,\"e\":294}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":373,\"e\":424}}]},\"witnessEntailed\":false,\"witnessCode\":\"SCOPE_EXCEPTION\",\"witnessReason\":\"Independence not asserted for sound sections\"}",
+    "latencyMs": 33086
+  },
+  {
+    "id": "B033",
+    "status": "ANSWER",
+    "rational": "9/50",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"9\",\"d\":\"50\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"9\",\"d\":\"50\"},\"target\":\"h0\",\"via\":\"POSTERIOR_STATED\",\"interval\":{\"min\":{\"n\":\"9\",\"d\":\"50\"},\"max\":{\"n\":\"9\",\"d\":\"50\"}},\"credal\":{\"eMin\":\"0/1\",\"directPosterior\":true},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":220,\"e\":333}},{\"op\":\"POSTERIOR_STATED\",\"hyp\":\"h0\",\"ev\":\"e0\",\"pol\":\"POS\",\"value\":{\"n\":\"9\",\"d\":\"50\"},\"ctx\":\"ctx0\",\"span\":{\"s\":132,\"e\":218}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 23795
+  },
+  {
+    "id": "B034",
+    "status": "ANSWER",
+    "rational": "20/53",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"20\",\"d\":\"53\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"20\",\"d\":\"53\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"20\",\"d\":\"53\"},\"max\":{\"n\":\"20\",\"d\":\"53\"}},\"credal\":{\"worlds\":4,\"eMin\":\"53/156\",\"eMax\":\"53/156\",\"uStar\":[{\"i\":0,\"v\":\"4/53\"},{\"i\":1,\"v\":\"20/53\"},{\"i\":2,\"v\":\"99/53\"},{\"i\":3,\"v\":\"33/53\"}],\"tStar\":\"156/53\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":317,\"e\":363}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"13\"},\"ctx\":\"ctx0\",\"span\":{\"s\":116,\"e\":132}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"11\",\"d\":\"13\"},\"ctx\":\"ctx0\",\"span\":{\"s\":160,\"e\":177}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":197,\"e\":262}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":272,\"e\":297}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 29929
+  },
+  {
+    "id": "B035",
+    "status": "ANSWER",
+    "rational": "12/17",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"12\",\"d\":\"17\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"12\",\"d\":\"17\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"12\",\"d\":\"17\"},\"max\":{\"n\":\"12\",\"d\":\"17\"}},\"credal\":{\"worlds\":4,\"eMin\":\"17/45\",\"eMax\":\"17/45\",\"uStar\":[{\"i\":0,\"v\":\"3/17\"},{\"i\":1,\"v\":\"12/17\"},{\"i\":2,\"v\":\"25/17\"},{\"i\":3,\"v\":\"5/17\"}],\"tStar\":\"45/17\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":487,\"e\":519}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"3\"},\"ctx\":\"ctx0\",\"span\":{\"s\":165,\"e\":184}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"2\",\"d\":\"3\"},\"ctx\":\"ctx0\",\"span\":{\"s\":202,\"e\":226}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":237,\"e\":312}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":320,\"e\":371}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 31706
+  },
+  {
+    "id": "B036",
+    "status": "ANSWER",
+    "rational": "51/106",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"51\",\"d\":\"106\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"51\",\"d\":\"106\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"51\",\"d\":\"106\"},\"max\":{\"n\":\"51\",\"d\":\"106\"}},\"credal\":{\"worlds\":4,\"eMin\":\"53/250\",\"eMax\":\"53/250\",\"uStar\":[{\"i\":0,\"v\":\"9/106\"},{\"i\":1,\"v\":\"51/106\"},{\"i\":2,\"v\":\"385/106\"},{\"i\":3,\"v\":\"55/106\"}],\"tStar\":\"250/53\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":308,\"e\":344}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":94,\"e\":97}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"22\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":129,\"e\":132}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"17\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":226,\"e\":230}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":240,\"e\":250}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 30544
+  },
+  {
+    "id": "B037",
+    "status": "ANSWER",
+    "rational": "57/167",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"57\",\"d\":\"167\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"57\",\"d\":\"167\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"57\",\"d\":\"167\"},\"max\":{\"n\":\"57\",\"d\":\"167\"}},\"credal\":{\"worlds\":4,\"eMin\":\"167/720\",\"eMax\":\"167/720\",\"uStar\":[{\"i\":0,\"v\":\"3/167\"},{\"i\":1,\"v\":\"57/167\"},{\"i\":2,\"v\":\"550/167\"},{\"i\":3,\"v\":\"110/167\"}],\"tStar\":\"720/167\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":401,\"e\":433}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"12\"},\"ctx\":\"ctx0\",\"span\":{\"s\":74,\"e\":87}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"11\",\"d\":\"12\"},\"ctx\":\"ctx0\",\"span\":{\"s\":126,\"e\":142}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"19\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":231,\"e\":247}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":293,\"e\":314}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 30551
+  },
+  {
+    "id": "B038",
+    "status": "ANSWER",
+    "rational": "22/67",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"22\",\"d\":\"67\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"22\",\"d\":\"67\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"22\",\"d\":\"67\"},\"max\":{\"n\":\"22\",\"d\":\"67\"}},\"credal\":{\"worlds\":4,\"eMin\":\"67/160\",\"eMax\":\"67/160\",\"uStar\":[{\"i\":0,\"v\":\"5/67\"},{\"i\":1,\"v\":\"45/67\"},{\"i\":2,\"v\":\"88/67\"},{\"i\":3,\"v\":\"22/67\"}],\"tStar\":\"160/67\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":388,\"e\":429}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"16\"},\"ctx\":\"ctx0\",\"span\":{\"s\":91,\"e\":127}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"11\",\"d\":\"16\"},\"ctx\":\"ctx0\",\"span\":{\"s\":136,\"e\":164}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":184,\"e\":255}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":265,\"e\":293}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed by passage\"}",
+    "latencyMs": 33042
+  },
+  {
+    "id": "B039",
+    "status": "ANSWER",
+    "rational": "225/307",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"225\",\"d\":\"307\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"225\",\"d\":\"307\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"225\",\"d\":\"307\"},\"max\":{\"n\":\"225\",\"d\":\"307\"}},\"credal\":{\"worlds\":4,\"eMin\":\"921/5000\",\"eMax\":\"921/5000\",\"uStar\":[{\"i\":0,\"v\":\"75/307\"},{\"i\":1,\"v\":\"225/307\"},{\"i\":2,\"v\":\"3854/921\"},{\"i\":3,\"v\":\"82/307\"}],\"tStar\":\"5000/921\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":285,\"e\":323}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"50\"},\"ctx\":\"ctx0\",\"span\":{\"s\":70,\"e\":74}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"41\",\"d\":\"50\"},\"ctx\":\"ctx0\",\"span\":{\"s\":107,\"e\":111}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":198,\"e\":212}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"50\"},\"ctx\":\"ctx0\",\"span\":{\"s\":222,\"e\":224}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed.\"}",
+    "latencyMs": 31952
+  },
+  {
+    "id": "B040",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"details\":{\"what\":\"LIK e0 GIVEN h0\",\"haveCtx\":\"ctx0\",\"queryCtx\":\"ctx_winter_harvest\",\"span\":{\"s\":222,\"e\":263}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9432
+  },
+  {
+    "id": "B041",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"details\":{\"missing\":[{\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\"}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1548
+  },
+  {
+    "id": "B042",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"CONFLICTING_FIGURES\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"CONFLICTING_FIGURES\",\"details\":{\"reason\":\"stated posteriors cover every partition member but do not sum to 1/1\",\"sum\":\"18/25\",\"spans\":[{\"s\":174,\"e\":177}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1022
+  },
+  {
+    "id": "B043",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"6\",\"d\":\"11\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"6\",\"d\":\"11\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"6\",\"d\":\"11\"},\"max\":{\"n\":\"6\",\"d\":\"11\"}},\"credal\":{\"worlds\":4,\"eMin\":\"11/60\",\"eMax\":\"11/60\",\"uStar\":[{\"i\":0,\"v\":\"4/11\"},{\"i\":1,\"v\":\"6/11\"},{\"i\":2,\"v\":\"45/11\"},{\"i\":3,\"v\":\"5/11\"}],\"tStar\":\"60/11\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"EQUIV\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":392,\"e\":485}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":403,\"e\":429}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":460,\"e\":485}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":81,\"e\":90}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"5\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":122,\"e\":133}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":173,\"e\":216}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":297,\"e\":340}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":221,\"e\":266}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":345,\"e\":390}}]},\"witnessEntailed\":false,\"witnessCode\":\"SCOPE_EXCEPTION\",\"witnessReason\":\"Hedge 'almost always' invalidates deterministic equivalence check.\"}",
+    "latencyMs": 33209
+  },
+  {
+    "id": "B044",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"details\":{\"detail\":\"evidence support is not guaranteed positive over the polytope\",\"eMin\":\"0/1\",\"eMax\":\"1/1\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 8492
+  },
+  {
+    "id": "B045",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"details\":{\"missing\":[{\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\"}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1781
+  },
+  {
+    "id": "B046",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"details\":{\"what\":\"PRIOR h0\",\"haveCtx\":\"ctx_west_cave\",\"queryCtx\":\"ctx_east_cave\",\"span\":{\"s\":136,\"e\":140}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1803
+  },
+  {
+    "id": "B047",
+    "status": "ANSWER",
+    "rational": "45/49",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"45\",\"d\":\"49\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"45\",\"d\":\"49\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"45\",\"d\":\"49\"},\"max\":{\"n\":\"45\",\"d\":\"49\"}},\"credal\":{\"worlds\":8,\"eMin\":\"343/2000\",\"eMax\":\"343/2000\",\"uStar\":[{\"i\":0,\"v\":\"45/343\"},{\"i\":1,\"v\":\"135/343\"},{\"i\":2,\"v\":\"15/49\"},{\"i\":3,\"v\":\"45/49\"},{\"i\":4,\"v\":\"144/49\"},{\"i\":5,\"v\":\"36/49\"},{\"i\":6,\"v\":\"16/49\"},{\"i\":7,\"v\":\"4/49\"}],\"tStar\":\"2000/343\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":447,\"e\":516}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":553,\"e\":583}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":588,\"e\":625}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":74,\"e\":119}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":124,\"e\":144}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":182,\"e\":238}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":337,\"e\":388}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":243,\"e\":295}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":393,\"e\":445}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 33214
+  },
+  {
+    "id": "B048",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNSTABLE_BINDING\",\"value\":{\"n\":\"105\",\"d\":\"127\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"105\",\"d\":\"127\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"105\",\"d\":\"127\"},\"max\":{\"n\":\"105\",\"d\":\"127\"}},\"credal\":{\"worlds\":4,\"eMin\":\"381/800\",\"eMax\":\"381/800\",\"uStar\":[{\"i\":0,\"v\":\"15/127\"},{\"i\":1,\"v\":\"105/127\"},{\"i\":2,\"v\":\"374/381\"},{\"i\":3,\"v\":\"22/127\"}],\"tStar\":\"800/381\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":414,\"e\":463}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":135,\"e\":138}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"11\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":172,\"e\":175}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":206,\"e\":272}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":304,\"e\":331}}]},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 12051
+  },
+  {
+    "id": "B049",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"details\":{\"detail\":\"evidence support is not guaranteed positive over the polytope\",\"eMin\":\"0/1\",\"eMax\":\"1/1\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1952
+  },
+  {
+    "id": "B050",
+    "status": "ANSWER",
+    "rational": "135/212",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"135\",\"d\":\"212\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"135\",\"d\":\"212\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"135\",\"d\":\"212\"},\"max\":{\"n\":\"135\",\"d\":\"212\"}},\"credal\":{\"worlds\":4,\"eMin\":\"106/625\",\"eMax\":\"106/625\",\"uStar\":[{\"i\":0,\"v\":\"15/212\"},{\"i\":1,\"v\":\"135/212\"},{\"i\":2,\"v\":\"1023/212\"},{\"i\":3,\"v\":\"77/212\"}],\"tStar\":\"625/106\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":431,\"e\":463}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":117,\"e\":121}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"22\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":155,\"e\":159}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":274,\"e\":277}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"100\"},\"ctx\":\"ctx0\",\"span\":{\"s\":287,\"e\":291}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks are strictly entailed by the passage.\"}",
+    "latencyMs": 25871
+  },
+  {
+    "id": "B051",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"details\":{\"what\":\"PRIOR h0\",\"haveCtx\":\"ctx_domestic_hall\",\"queryCtx\":\"ctx_international_hall\",\"span\":{\"s\":167,\"e\":171}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9083
+  },
+  {
+    "id": "B052",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"details\":{\"hyp\":\"h0\",\"evs\":[\"e0\",\"e1\"],\"needed\":[\"e0\",\"e1\"],\"interval\":{\"min\":\"0/1\",\"max\":\"3/5\"}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 2271
+  },
+  {
+    "id": "B053",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"details\":{\"what\":\"PRIOR h0\",\"haveCtx\":\"ctx_morning_clinic\",\"queryCtx\":\"ctx_evening_clinic\",\"span\":{\"s\":117,\"e\":121}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1770
+  },
+  {
+    "id": "B054",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"7\",\"d\":\"20\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"7\",\"d\":\"20\"},\"target\":\"h0\",\"via\":\"POSTERIOR_STATED\",\"interval\":{\"min\":{\"n\":\"7\",\"d\":\"20\"},\"max\":{\"n\":\"7\",\"d\":\"20\"}},\"credal\":{\"eMin\":\"0/1\",\"directPosterior\":true},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":263,\"e\":332}},{\"op\":\"POSTERIOR_STATED\",\"hyp\":\"h0\",\"ev\":\"e0\",\"pol\":\"POS\",\"value\":{\"n\":\"7\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":151,\"e\":261}}]},\"witnessEntailed\":false,\"witnessCode\":\"NOT_ENTAILED\",\"witnessReason\":\"Partition not established in text.\"}",
+    "latencyMs": 15580
+  },
+  {
+    "id": "B055",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"details\":{\"missing\":[{\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\"}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 8915
+  },
+  {
+    "id": "B056",
+    "status": "ANSWER",
+    "rational": "1/13",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"1\",\"d\":\"13\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"1\",\"d\":\"13\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"1\",\"d\":\"13\"},\"max\":{\"n\":\"1\",\"d\":\"13\"}},\"credal\":{\"worlds\":8,\"eMin\":\"13/54\",\"eMax\":\"13/54\",\"uStar\":[{\"i\":0,\"v\":\"2/13\"},{\"i\":1,\"v\":\"4/13\"},{\"i\":2,\"v\":\"6/13\"},{\"i\":3,\"v\":\"12/13\"},{\"i\":4,\"v\":\"20/13\"},{\"i\":5,\"v\":\"4/13\"},{\"i\":6,\"v\":\"5/13\"},{\"i\":7,\"v\":\"1/13\"}],\"tStar\":\"54/13\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":418,\"e\":538}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":572,\"e\":589}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":594,\"e\":612}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"9\"},\"ctx\":\"ctx0\",\"span\":{\"s\":103,\"e\":132}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"5\",\"d\":\"9\"},\"ctx\":\"ctx0\",\"span\":{\"s\":160,\"e\":180}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"3\"},\"ctx\":\"ctx0\",\"span\":{\"s\":214,\"e\":258}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"6\"},\"ctx\":\"ctx0\",\"span\":{\"s\":330,\"e\":373}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":263,\"e\":301}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":378,\"e\":416}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 28750
+  },
+  {
+    "id": "B057",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"1\",\"d\":\"1\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"1\",\"d\":\"1\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"1\",\"d\":\"1\"},\"max\":{\"n\":\"1\",\"d\":\"1\"}},\"credal\":{\"worlds\":2,\"eMin\":\"2/5\",\"eMax\":\"2/5\",\"uStar\":[{\"i\":0,\"v\":\"3/2\"},{\"i\":1,\"v\":\"1/1\"}],\"tStar\":\"5/2\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":173,\"e\":204}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":144,\"e\":171}}]},\"witnessEntailed\":false,\"witnessCode\":\"NOT_ENTAILED\",\"witnessReason\":\"Partition not established\"}",
+    "latencyMs": 22150
+  },
+  {
+    "id": "B058",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNSTABLE_BINDING\",\"value\":{\"n\":\"39\",\"d\":\"179\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"39\",\"d\":\"179\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"39\",\"d\":\"179\"},\"max\":{\"n\":\"39\",\"d\":\"179\"}},\"credal\":{\"worlds\":4,\"eMin\":\"179/500\",\"eMax\":\"179/500\",\"uStar\":[{\"i\":0,\"v\":\"35/179\"},{\"i\":1,\"v\":\"140/179\"},{\"i\":2,\"v\":\"286/179\"},{\"i\":3,\"v\":\"39/179\"}],\"tStar\":\"500/179\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":310,\"e\":330}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":73,\"e\":102}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"13\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":107,\"e\":127}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":129,\"e\":189}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":191,\"e\":244}}]},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 12386
+  },
+  {
+    "id": "B059",
+    "status": "ANSWER",
+    "rational": "6/7",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"6\",\"d\":\"7\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"6\",\"d\":\"7\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"6\",\"d\":\"7\"},\"max\":{\"n\":\"6\",\"d\":\"7\"}},\"credal\":{\"worlds\":8,\"eMin\":\"21/200\",\"eMax\":\"21/200\",\"uStar\":[{\"i\":0,\"v\":\"8/21\"},{\"i\":1,\"v\":\"4/7\"},{\"i\":2,\"v\":\"4/7\"},{\"i\":3,\"v\":\"6/7\"},{\"i\":4,\"v\":\"36/7\"},{\"i\":5,\"v\":\"4/7\"},{\"i\":6,\"v\":\"9/7\"},{\"i\":7,\"v\":\"1/7\"}],\"tStar\":\"200/21\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":384,\"e\":453}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":482,\"e\":505}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":510,\"e\":535}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":130,\"e\":141}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":179,\"e\":193}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":223,\"e\":249}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":317,\"e\":343}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":254,\"e\":291}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":348,\"e\":382}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 29522
+  },
+  {
+    "id": "B060",
+    "status": "ANSWER",
+    "rational": "72/107",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"72\",\"d\":\"107\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"72\",\"d\":\"107\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"72\",\"d\":\"107\"},\"max\":{\"n\":\"72\",\"d\":\"107\"}},\"credal\":{\"worlds\":4,\"eMin\":\"107/400\",\"eMax\":\"107/400\",\"uStar\":[{\"i\":0,\"v\":\"48/107\"},{\"i\":1,\"v\":\"72/107\"},{\"i\":2,\"v\":\"245/107\"},{\"i\":3,\"v\":\"35/107\"}],\"tStar\":\"400/107\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":411,\"e\":441}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":125,\"e\":137}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":180,\"e\":192}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":221,\"e\":271}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":275,\"e\":339}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 27590
+  },
+  {
+    "id": "B061",
+    "status": "ANSWER",
+    "rational": "15/22",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"15\",\"d\":\"22\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"15\",\"d\":\"22\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"15\",\"d\":\"22\"},\"max\":{\"n\":\"15\",\"d\":\"22\"}},\"credal\":{\"worlds\":4,\"eMin\":\"22/125\",\"eMax\":\"22/125\",\"uStar\":[{\"i\":0,\"v\":\"5/22\"},{\"i\":1,\"v\":\"15/22\"},{\"i\":2,\"v\":\"49/11\"},{\"i\":3,\"v\":\"7/22\"}],\"tStar\":\"125/22\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":323,\"e\":361}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":120,\"e\":123}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"21\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":155,\"e\":158}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":186,\"e\":231}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"15\"},\"ctx\":\"ctx0\",\"span\":{\"s\":233,\"e\":258}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 29873
+  },
+  {
+    "id": "B062",
+    "status": "ANSWER",
+    "rational": "285/1061",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"285\",\"d\":\"1061\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"285\",\"d\":\"1061\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"285\",\"d\":\"1061\"},\"max\":{\"n\":\"285\",\"d\":\"1061\"}},\"credal\":{\"worlds\":4,\"eMin\":\"1061/10000\",\"eMax\":\"1061/10000\",\"uStar\":[{\"i\":0,\"v\":\"15/1061\"},{\"i\":1,\"v\":\"285/1061\"},{\"i\":2,\"v\":\"8924/1061\"},{\"i\":3,\"v\":\"776/1061\"}],\"tStar\":\"10000/1061\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":474,\"e\":500}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"100\"},\"ctx\":\"ctx0\",\"span\":{\"s\":167,\"e\":171}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"97\",\"d\":\"100\"},\"ctx\":\"ctx0\",\"span\":{\"s\":200,\"e\":204}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"19\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":313,\"e\":317}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"2\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":327,\"e\":331}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 29803
+  },
+  {
+    "id": "B063",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNSTABLE_BINDING\",\"value\":{\"n\":\"92\",\"d\":\"127\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"92\",\"d\":\"127\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"92\",\"d\":\"127\"},\"max\":{\"n\":\"92\",\"d\":\"127\"}},\"credal\":{\"worlds\":4,\"eMin\":\"127/500\",\"eMax\":\"127/500\",\"uStar\":[{\"i\":0,\"v\":\"5/127\"},{\"i\":1,\"v\":\"35/127\"},{\"i\":2,\"v\":\"368/127\"},{\"i\":3,\"v\":\"92/127\"}],\"tStar\":\"500/127\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":471,\"e\":508}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":144,\"e\":146}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"23\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":178,\"e\":181}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":271,\"e\":284}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":339,\"e\":342}}]},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10871
+  },
+  {
+    "id": "B064",
+    "status": "ANSWER",
+    "rational": "7/37",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"7\",\"d\":\"37\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"7\",\"d\":\"37\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"7\",\"d\":\"37\"},\"max\":{\"n\":\"7\",\"d\":\"37\"}},\"credal\":{\"worlds\":4,\"eMin\":\"37/105\",\"eMax\":\"37/105\",\"uStar\":[{\"i\":0,\"v\":\"12/37\"},{\"i\":1,\"v\":\"30/37\"},{\"i\":2,\"v\":\"56/37\"},{\"i\":3,\"v\":\"7/37\"}],\"tStar\":\"105/37\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":316,\"e\":346}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":129,\"e\":139}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":180,\"e\":192}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"7\"},\"ctx\":\"ctx0\",\"span\":{\"s\":215,\"e\":256}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"9\"},\"ctx\":\"ctx0\",\"span\":{\"s\":280,\"e\":286}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 22193
+  },
+  {
+    "id": "B065",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SCOPED_OR_RETRACTED_PREMISE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"SCOPED_OR_RETRACTED_PREMISE\",\"details\":{\"span\":{\"s\":486,\"e\":499},\"reason\":\"RETRACTED\",\"premise\":\"OBS\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10315
+  },
+  {
+    "id": "B066",
+    "status": "ANSWER",
+    "rational": "168/253",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"168\",\"d\":\"253\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"168\",\"d\":\"253\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"168\",\"d\":\"253\"},\"max\":{\"n\":\"168\",\"d\":\"253\"}},\"credal\":{\"worlds\":8,\"eMin\":\"253/2000\",\"eMax\":\"253/2000\",\"uStar\":[{\"i\":0,\"v\":\"18/253\"},{\"i\":1,\"v\":\"72/253\"},{\"i\":2,\"v\":\"42/253\"},{\"i\":3,\"v\":\"168/253\"},{\"i\":4,\"v\":\"1020/253\"},{\"i\":5,\"v\":\"255/253\"},{\"i\":6,\"v\":\"340/253\"},{\"i\":7,\"v\":\"85/253\"}],\"tStar\":\"2000/253\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":370,\"e\":439}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":469,\"e\":481}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":486,\"e\":513}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":111,\"e\":115}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"17\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":150,\"e\":154}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":178,\"e\":193}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":293,\"e\":308}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":210,\"e\":249}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":325,\"e\":356}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 32433
+  },
+  {
+    "id": "B067",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"1\",\"d\":\"1\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"1\",\"d\":\"1\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"1\",\"d\":\"1\"},\"max\":{\"n\":\"1\",\"d\":\"1\"}},\"credal\":{\"worlds\":2,\"eMin\":\"9/50\",\"eMax\":\"9/50\",\"uStar\":[{\"i\":0,\"v\":\"41/9\"},{\"i\":1,\"v\":\"1/1\"}],\"tStar\":\"50/9\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":198,\"e\":240}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"50\"},\"ctx\":\"ctx0\",\"span\":{\"s\":159,\"e\":192}}]},\"witnessEntailed\":false,\"witnessCode\":\"NOT_ENTAILED\",\"witnessReason\":\"Partition not established in passage.\"}",
+    "latencyMs": 23838
+  },
+  {
+    "id": "B068",
+    "status": "ANSWER",
+    "rational": "40/79",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"40\",\"d\":\"79\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"40\",\"d\":\"79\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"40\",\"d\":\"79\"},\"max\":{\"n\":\"40\",\"d\":\"79\"}},\"credal\":{\"worlds\":4,\"eMin\":\"79/320\",\"eMax\":\"79/320\",\"uStar\":[{\"i\":0,\"v\":\"20/79\"},{\"i\":1,\"v\":\"40/79\"},{\"i\":2,\"v\":\"221/79\"},{\"i\":3,\"v\":\"39/79\"}],\"tStar\":\"320/79\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":432,\"e\":465}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"16\"},\"ctx\":\"ctx0\",\"span\":{\"s\":136,\"e\":140}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"13\",\"d\":\"16\"},\"ctx\":\"ctx0\",\"span\":{\"s\":173,\"e\":178}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"3\"},\"ctx\":\"ctx0\",\"span\":{\"s\":264,\"e\":274}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":326,\"e\":330}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 30913
+  },
+  {
+    "id": "B069",
+    "status": "ANSWER",
+    "rational": "3/8",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"3\",\"d\":\"8\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"3\",\"d\":\"8\"},\"target\":\"h0\",\"via\":\"POSTERIOR_STATED\",\"interval\":{\"min\":{\"n\":\"3\",\"d\":\"8\"},\"max\":{\"n\":\"3\",\"d\":\"8\"}},\"credal\":{\"eMin\":\"0/1\",\"directPosterior\":true},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":240,\"e\":349}},{\"op\":\"POSTERIOR_STATED\",\"hyp\":\"h0\",\"ev\":\"e0\",\"pol\":\"POS\",\"value\":{\"n\":\"3\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":145,\"e\":238}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 24728
+  },
+  {
+    "id": "B070",
+    "status": "ANSWER",
+    "rational": "75/82",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"75\",\"d\":\"82\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"75\",\"d\":\"82\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"75\",\"d\":\"82\"},\"max\":{\"n\":\"75\",\"d\":\"82\"}},\"credal\":{\"worlds\":6,\"eMin\":\"41/250\",\"eMax\":\"41/250\",\"uStar\":[{\"i\":0,\"v\":\"15/41\"},{\"i\":1,\"v\":\"45/82\"},{\"i\":2,\"v\":\"75/82\"},{\"i\":3,\"v\":\"315/82\"},{\"i\":4,\"v\":\"14/41\"},{\"i\":5,\"v\":\"7/82\"}],\"tStar\":\"250/41\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"IMPLIES\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":389,\"e\":488}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":423,\"e\":456}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":462,\"e\":488}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":73,\"e\":85}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":117,\"e\":129}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"2\"},\"ctx\":\"ctx0\",\"span\":{\"s\":198,\"e\":201}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"50\"},\"ctx\":\"ctx0\",\"span\":{\"s\":323,\"e\":327}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":246,\"e\":249}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":372,\"e\":375}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 38113
+  },
+  {
+    "id": "B071",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"1\",\"d\":\"1\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"1\",\"d\":\"1\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"1\",\"d\":\"1\"},\"max\":{\"n\":\"1\",\"d\":\"1\"}},\"credal\":{\"worlds\":2,\"eMin\":\"5/8\",\"eMax\":\"5/8\",\"uStar\":[{\"i\":0,\"v\":\"3/5\"},{\"i\":1,\"v\":\"1/1\"}],\"tStar\":\"8/5\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":240,\"e\":281}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":176,\"e\":238}}]},\"witnessEntailed\":false,\"witnessCode\":\"NOT_ENTAILED\",\"witnessReason\":\"Partition of population not established.\"}",
+    "latencyMs": 22854
+  },
+  {
+    "id": "B072",
+    "status": "ANSWER",
+    "rational": "105/167",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"105\",\"d\":\"167\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"105\",\"d\":\"167\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"105\",\"d\":\"167\"},\"max\":{\"n\":\"105\",\"d\":\"167\"}},\"credal\":{\"worlds\":4,\"eMin\":\"501/5000\",\"eMax\":\"501/5000\",\"uStar\":[{\"i\":0,\"v\":\"35/501\"},{\"i\":1,\"v\":\"105/167\"},{\"i\":2,\"v\":\"1488/167\"},{\"i\":3,\"v\":\"62/167\"}],\"tStar\":\"5000/501\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":385,\"e\":419}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"100\"},\"ctx\":\"ctx0\",\"span\":{\"s\":157,\"e\":159}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"93\",\"d\":\"100\"},\"ctx\":\"ctx0\",\"span\":{\"s\":208,\"e\":211}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":262,\"e\":294}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":304,\"e\":306}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed by passage.\"}",
+    "latencyMs": 29377
+  },
+  {
+    "id": "B073",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"details\":{\"detail\":\"evidence support is not guaranteed positive over the polytope\",\"eMin\":\"0/1\",\"eMax\":\"1/1\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 8176
+  },
+  {
+    "id": "B074",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"details\":{\"missingHyps\":[\"h0\",\"h1\"]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1928
+  },
+  {
+    "id": "B075",
+    "status": "ANSWER",
+    "rational": "135/344",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"135\",\"d\":\"344\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"135\",\"d\":\"344\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"135\",\"d\":\"344\"},\"max\":{\"n\":\"135\",\"d\":\"344\"}},\"credal\":{\"worlds\":6,\"eMin\":\"43/50\",\"eMax\":\"43/50\",\"uStar\":[{\"i\":0,\"v\":\"135/344\"},{\"i\":1,\"v\":\"9/172\"},{\"i\":2,\"v\":\"27/344\"},{\"i\":3,\"v\":\"209/344\"},{\"i\":4,\"v\":\"11/860\"},{\"i\":5,\"v\":\"33/1720\"}],\"tStar\":\"50/43\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"MUTEX\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":404,\"e\":494}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"NEG\",\"ctx\":\"ctx0\",\"span\":{\"s\":529,\"e\":550}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"NEG\",\"ctx\":\"ctx0\",\"span\":{\"s\":555,\"e\":577}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":132,\"e\":136}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"11\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":179,\"e\":183}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":220,\"e\":253}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"50\"},\"ctx\":\"ctx0\",\"span\":{\"s\":332,\"e\":364}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":258,\"e\":292}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"100\"},\"ctx\":\"ctx0\",\"span\":{\"s\":369,\"e\":402}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 28926
+  },
+  {
+    "id": "B076",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"details\":{\"what\":\"PRIOR h0\",\"haveCtx\":\"ctx_ablation_zone\",\"queryCtx\":\"ctx_accumulation_zone\",\"span\":{\"s\":165,\"e\":184}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9734
+  },
+  {
+    "id": "B077",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"details\":{\"missingHyps\":[\"h0\",\"h1\"]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1487
+  },
+  {
+    "id": "B078",
+    "status": "ANSWER",
+    "rational": "39/109",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"39\",\"d\":\"109\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"39\",\"d\":\"109\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"39\",\"d\":\"109\"},\"max\":{\"n\":\"39\",\"d\":\"109\"}},\"credal\":{\"worlds\":4,\"eMin\":\"109/300\",\"eMax\":\"109/300\",\"uStar\":[{\"i\":0,\"v\":\"35/109\"},{\"i\":1,\"v\":\"70/109\"},{\"i\":2,\"v\":\"156/109\"},{\"i\":3,\"v\":\"39/109\"}],\"tStar\":\"300/109\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":355,\"e\":382}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":148,\"e\":151}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"13\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":187,\"e\":190}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"3\"},\"ctx\":\"ctx0\",\"span\":{\"s\":254,\"e\":276}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":313,\"e\":328}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 22860
+  },
+  {
+    "id": "B079",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"details\":{\"hyp\":\"h0\",\"evs\":[\"e0\",\"e1\"],\"needed\":[\"e0\",\"e1\"],\"interval\":{\"min\":\"675/1742\",\"max\":\"153/362\"}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10049
+  },
+  {
+    "id": "B080",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"details\":{\"what\":\"PRIOR h0\",\"haveCtx\":\"ctx_lower_gallery\",\"queryCtx\":\"ctx_upper_gallery\",\"span\":{\"s\":101,\"e\":112}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1749
+  },
+  {
+    "id": "B081",
+    "status": "ANSWER",
+    "rational": "28/93",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"28\",\"d\":\"93\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"28\",\"d\":\"93\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"28\",\"d\":\"93\"},\"max\":{\"n\":\"28\",\"d\":\"93\"}},\"credal\":{\"worlds\":8,\"eMin\":\"279/2000\",\"eMax\":\"279/2000\",\"uStar\":[{\"i\":0,\"v\":\"35/279\"},{\"i\":1,\"v\":\"35/93\"},{\"i\":2,\"v\":\"65/279\"},{\"i\":3,\"v\":\"65/93\"},{\"i\":4,\"v\":\"884/279\"},{\"i\":5,\"v\":\"52/93\"},{\"i\":6,\"v\":\"476/279\"},{\"i\":7,\"v\":\"28/93\"}],\"tStar\":\"2000/279\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":401,\"e\":499}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":526,\"e\":548}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":553,\"e\":571}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":107,\"e\":116}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":156,\"e\":167}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":193,\"e\":218}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":303,\"e\":328}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"13\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":235,\"e\":257}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":345,\"e\":367}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 30032
+  },
+  {
+    "id": "B082",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"UNLICENSED_INDEPENDENCE\",\"details\":{\"hyp\":\"h0\",\"evs\":[\"e1\",\"e0\"],\"needed\":[\"e1\",\"e0\"],\"interval\":{\"min\":\"4/11\",\"max\":\"15/29\"}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10178
+  },
+  {
+    "id": "B083",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"4\",\"d\":\"5\"},\"max\":{\"n\":\"4\",\"d\":\"5\"}},\"credal\":{\"worlds\":4,\"eMin\":\"35/96\",\"eMax\":\"35/96\",\"uStar\":[{\"i\":0,\"v\":\"12/35\"},{\"i\":1,\"v\":\"4/5\"},{\"i\":2,\"v\":\"7/5\"},{\"i\":3,\"v\":\"1/5\"}],\"tStar\":\"96/35\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"EQUIV\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":398,\"e\":493}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":406,\"e\":438}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":457,\"e\":493}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"12\"},\"ctx\":\"ctx0\",\"span\":{\"s\":107,\"e\":111}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"12\"},\"ctx\":\"ctx0\",\"span\":{\"s\":144,\"e\":148}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":173,\"e\":209}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":274,\"e\":316}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":214,\"e\":253}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":321,\"e\":362}}]},\"witnessEntailed\":false,\"witnessCode\":\"NOT_ENTAILED\",\"witnessReason\":\"All checks are strictly entailed by the passage text\"}",
+    "latencyMs": 90846
+  },
+  {
+    "id": "B084",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"details\":{\"what\":\"PRIOR h0\",\"haveCtx\":\"ctx_winter_harvest\",\"queryCtx\":\"ctx_summer_harvest\",\"span\":{\"s\":158,\"e\":161}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9852
+  },
+  {
+    "id": "B085",
+    "status": "ANSWER",
+    "rational": "3/8",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"3\",\"d\":\"8\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"3\",\"d\":\"8\"},\"target\":\"h1\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"3\",\"d\":\"8\"},\"max\":{\"n\":\"3\",\"d\":\"8\"}},\"credal\":{\"worlds\":6,\"eMin\":\"12/125\",\"eMax\":\"12/125\",\"uStar\":[{\"i\":0,\"v\":\"5/24\"},{\"i\":1,\"v\":\"5/8\"},{\"i\":2,\"v\":\"5/24\"},{\"i\":3,\"v\":\"267/32\"},{\"i\":4,\"v\":\"3/8\"},{\"i\":5,\"v\":\"21/32\"}],\"tStar\":\"125/12\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"MUTEX\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":350,\"e\":431}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":463,\"e\":473}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"NEG\",\"ctx\":\"ctx0\",\"span\":{\"s\":478,\"e\":505}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":125,\"e\":128}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"9\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":162,\"e\":165}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":192,\"e\":214}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":269,\"e\":283}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":219,\"e\":247}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"100\"},\"ctx\":\"ctx0\",\"span\":{\"s\":288,\"e\":311}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed.\"}",
+    "latencyMs": 31209
+  },
+  {
+    "id": "B086",
+    "status": "ANSWER",
+    "rational": "7/11",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"7\",\"d\":\"11\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"7\",\"d\":\"11\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"7\",\"d\":\"11\"},\"max\":{\"n\":\"7\",\"d\":\"11\"}},\"credal\":{\"worlds\":6,\"eMin\":\"99/500\",\"eMax\":\"99/500\",\"uStar\":[{\"i\":0,\"v\":\"7/33\"},{\"i\":1,\"v\":\"7/11\"},{\"i\":2,\"v\":\"56/99\"},{\"i\":3,\"v\":\"34/11\"},{\"i\":4,\"v\":\"4/11\"},{\"i\":5,\"v\":\"2/11\"}],\"tStar\":\"500/99\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"MUTEX\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":412,\"e\":507}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":534,\"e\":550}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"NEG\",\"ctx\":\"ctx0\",\"span\":{\"s\":555,\"e\":587}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":120,\"e\":124}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"18\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":169,\"e\":173}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":202,\"e\":239}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":324,\"e\":360}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":244,\"e\":295}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":365,\"e\":410}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed.\"}",
+    "latencyMs": 38515
+  },
+  {
+    "id": "B087",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"CONTEXT_MISMATCH\",\"details\":{\"what\":\"PRIOR h0\",\"haveCtx\":\"ctx_south_dock\",\"queryCtx\":\"ctx_north_dock\",\"span\":{\"s\":95,\"e\":138}}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9648
+  },
+  {
+    "id": "B088",
+    "status": "ANSWER",
+    "rational": "5/12",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"5\",\"d\":\"12\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"5\",\"d\":\"12\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"5\",\"d\":\"12\"},\"max\":{\"n\":\"5\",\"d\":\"12\"}},\"credal\":{\"worlds\":6,\"eMin\":\"4/15\",\"eMax\":\"4/15\",\"uStar\":[{\"i\":0,\"v\":\"5/24\"},{\"i\":1,\"v\":\"5/12\"},{\"i\":2,\"v\":\"5/24\"},{\"i\":3,\"v\":\"35/16\"},{\"i\":4,\"v\":\"7/12\"},{\"i\":5,\"v\":\"7/48\"}],\"tStar\":\"15/4\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"IMPLIES\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":337,\"e\":403}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":430,\"e\":450}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"NEG\",\"ctx\":\"ctx0\",\"span\":{\"s\":455,\"e\":480}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"9\"},\"ctx\":\"ctx0\",\"span\":{\"s\":62,\"e\":90}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"7\",\"d\":\"9\"},\"ctx\":\"ctx0\",\"span\":{\"s\":95,\"e\":108}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":180,\"e\":231}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":294,\"e\":335}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":130,\"e\":175}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":251,\"e\":289}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 29592
+  },
+  {
+    "id": "B089",
+    "status": "ANSWER",
+    "rational": "72/97",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"72\",\"d\":\"97\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"72\",\"d\":\"97\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"72\",\"d\":\"97\"},\"max\":{\"n\":\"72\",\"d\":\"97\"}},\"credal\":{\"worlds\":4,\"eMin\":\"291/800\",\"eMax\":\"291/800\",\"uStar\":[{\"i\":0,\"v\":\"28/97\"},{\"i\":1,\"v\":\"72/97\"},{\"i\":2,\"v\":\"425/291\"},{\"i\":3,\"v\":\"25/97\"}],\"tStar\":\"800/291\"},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":381,\"e\":418}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":116,\"e\":171}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"5\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":176,\"e\":207}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"18\",\"d\":\"25\"},\"ctx\":\"ctx0\",\"span\":{\"s\":228,\"e\":289}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":299,\"e\":338}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 31251
+  },
+  {
+    "id": "B090",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"details\":{\"missingHyps\":[\"h0\",\"h1\"]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 8980
+  },
+  {
+    "id": "B091",
+    "status": "ANSWER",
+    "rational": "128/155",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"128\",\"d\":\"155\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"128\",\"d\":\"155\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"128\",\"d\":\"155\"},\"max\":{\"n\":\"128\",\"d\":\"155\"}},\"credal\":{\"worlds\":8,\"eMin\":\"31/120\",\"eMax\":\"31/120\",\"uStar\":[{\"i\":0,\"v\":\"16/155\"},{\"i\":1,\"v\":\"32/155\"},{\"i\":2,\"v\":\"64/155\"},{\"i\":3,\"v\":\"128/155\"},{\"i\":4,\"v\":\"189/155\"},{\"i\":5,\"v\":\"63/155\"},{\"i\":6,\"v\":\"81/155\"},{\"i\":7,\"v\":\"27/155\"}],\"tStar\":\"120/31\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":426,\"e\":557}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":584,\"e\":606}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":611,\"e\":640}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":123,\"e\":138}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":167,\"e\":182}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"2\",\"d\":\"3\"},\"ctx\":\"ctx0\",\"span\":{\"s\":204,\"e\":241}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":329,\"e\":366}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":246,\"e\":298}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":371,\"e\":424}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 31016
+  },
+  {
+    "id": "B092",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"INCOMPLETE_FACTORIZATION\",\"details\":{\"missing\":[{\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\"}]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10140
+  },
+  {
+    "id": "B093",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"details\":{\"detail\":\"evidence support is not guaranteed positive over the polytope\",\"eMin\":\"0/1\",\"eMax\":\"1/1\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1035
+  },
+  {
+    "id": "B094",
+    "status": "ANSWER",
+    "rational": "42/55",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"42\",\"d\":\"55\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"42\",\"d\":\"55\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"42\",\"d\":\"55\"},\"max\":{\"n\":\"42\",\"d\":\"55\"}},\"credal\":{\"worlds\":6,\"eMin\":\"11/80\",\"eMax\":\"11/80\",\"uStar\":[{\"i\":0,\"v\":\"56/55\"},{\"i\":1,\"v\":\"42/55\"},{\"i\":2,\"v\":\"42/55\"},{\"i\":3,\"v\":\"208/55\"},{\"i\":4,\"v\":\"39/55\"},{\"i\":5,\"v\":\"13/55\"}],\"tStar\":\"80/11\"},\"witnesses\":[{\"op\":\"DET_LINK\",\"a\":\"e0\",\"rel\":\"IMPLIES\",\"b\":\"e1\",\"ctx\":\"ctx0\",\"span\":{\"s\":347,\"e\":424}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":380,\"e\":393}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":399,\"e\":424}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":77,\"e\":80}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"13\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":114,\"e\":117}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":163,\"e\":179}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":271,\"e\":288}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":196,\"e\":224}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":305,\"e\":333}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 32510
+  },
+  {
+    "id": "B095",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"EXTRACTION_FAILED\",\"value\":null,\"decision\":null,\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 10129
+  },
+  {
+    "id": "B096",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"MISSING_BASE_RATE\",\"details\":{\"missingHyps\":[\"h0\",\"h1\"]}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 1509
+  },
+  {
+    "id": "B097",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"168\",\"d\":\"253\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"168\",\"d\":\"253\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"168\",\"d\":\"253\"},\"max\":{\"n\":\"168\",\"d\":\"253\"}},\"credal\":{\"worlds\":8,\"eMin\":\"253/2000\",\"eMax\":\"253/2000\",\"uStar\":[{\"i\":0,\"v\":\"18/253\"},{\"i\":1,\"v\":\"72/253\"},{\"i\":2,\"v\":\"42/253\"},{\"i\":3,\"v\":\"168/253\"},{\"i\":4,\"v\":\"1020/253\"},{\"i\":5,\"v\":\"255/253\"},{\"i\":6,\"v\":\"340/253\"},{\"i\":7,\"v\":\"85/253\"}],\"tStar\":\"2000/253\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":370,\"e\":491}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":521,\"e\":533}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":538,\"e\":565}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"3\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":111,\"e\":115}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"17\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":150,\"e\":154}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"4\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":178,\"e\":193}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"5\"},\"ctx\":\"ctx0\",\"span\":{\"s\":293,\"e\":308}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"7\",\"d\":\"10\"},\"ctx\":\"ctx0\",\"span\":{\"s\":210,\"e\":249}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"4\"},\"ctx\":\"ctx0\",\"span\":{\"s\":325,\"e\":356}}]},\"witnessEntailed\":false,\"witnessCode\":\"NOT_ENTAILED\",\"witnessReason\":\"Independence not explicitly asserted\"}",
+    "latencyMs": 33859
+  },
+  {
+    "id": "B098",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"value\":null,\"decision\":{\"status\":\"REFUSED\",\"code\":\"ZERO_SUPPORT_POSSIBLE\",\"details\":{\"detail\":\"evidence support is not guaranteed positive over the polytope\",\"eMin\":\"0/1\",\"eMax\":\"1/1\"}},\"witnessEntailed\":null,\"witnessCode\":null,\"witnessReason\":null}",
+    "latencyMs": 9289
+  },
+  {
+    "id": "B099",
+    "status": "ANSWER",
+    "rational": "55/68",
+    "decimal": null,
+    "raw": "{\"verdict\":\"PASS\",\"code\":null,\"value\":{\"n\":\"55\",\"d\":\"68\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"55\",\"d\":\"68\"},\"target\":\"h0\",\"via\":\"CREDAL_LP\",\"interval\":{\"min\":{\"n\":\"55\",\"d\":\"68\"},\"max\":{\"n\":\"55\",\"d\":\"68\"}},\"credal\":{\"worlds\":8,\"eMin\":\"153/2000\",\"eMax\":\"153/2000\",\"uStar\":[{\"i\":0,\"v\":\"121/204\"},{\"i\":1,\"v\":\"605/612\"},{\"i\":2,\"v\":\"33/68\"},{\"i\":3,\"v\":\"55/68\"},{\"i\":4,\"v\":\"91/12\"},{\"i\":5,\"v\":\"13/12\"},{\"i\":6,\"v\":\"91/68\"},{\"i\":7,\"v\":\"13/68\"}],\"tStar\":\"2000/153\"},\"witnesses\":[{\"op\":\"COND_INDEP\",\"evs\":[\"e0\",\"e1\"],\"hyp\":\"*\",\"ctx\":\"ctx0\",\"span\":{\"s\":425,\"e\":539}},{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":566,\"e\":583}},{\"op\":\"OBS\",\"ev\":\"e1\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":588,\"e\":607}},{\"op\":\"PRIOR\",\"hyp\":\"h0\",\"value\":{\"n\":\"11\",\"d\":\"50\"},\"ctx\":\"ctx0\",\"span\":{\"s\":130,\"e\":133}},{\"op\":\"PRIOR\",\"hyp\":\"h1\",\"value\":{\"n\":\"39\",\"d\":\"50\"},\"ctx\":\"ctx0\",\"span\":{\"s\":178,\"e\":181}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"5\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":211,\"e\":258}},{\"op\":\"LIK\",\"ev\":\"e0\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"1\",\"d\":\"8\"},\"ctx\":\"ctx0\",\"span\":{\"s\":332,\"e\":378}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h0\",\"value\":{\"n\":\"9\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":263,\"e\":303}},{\"op\":\"LIK\",\"ev\":\"e1\",\"pol\":\"POS\",\"hyp\":\"h1\",\"value\":{\"n\":\"3\",\"d\":\"20\"},\"ctx\":\"ctx0\",\"span\":{\"s\":383,\"e\":423}}]},\"witnessEntailed\":true,\"witnessCode\":null,\"witnessReason\":\"All checks entailed\"}",
+    "latencyMs": 33183
+  },
+  {
+    "id": "B100",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"verdict\":\"REFUSED\",\"code\":\"SEMANTIC_NOT_ENTAILED\",\"value\":{\"n\":\"4\",\"d\":\"11\"},\"decision\":{\"status\":\"ANSWER\",\"value\":{\"n\":\"4\",\"d\":\"11\"},\"target\":\"h0\",\"via\":\"POSTERIOR_STATED\",\"interval\":{\"min\":{\"n\":\"4\",\"d\":\"11\"},\"max\":{\"n\":\"4\",\"d\":\"11\"}},\"credal\":{\"eMin\":\"0/1\",\"directPosterior\":true},\"witnesses\":[{\"op\":\"OBS\",\"ev\":\"e0\",\"pol\":\"POS\",\"ctx\":\"ctx0\",\"span\":{\"s\":245,\"e\":360}},{\"op\":\"POSTERIOR_STATED\",\"hyp\":\"h0\",\"ev\":\"e0\",\"pol\":\"POS\",\"value\":{\"n\":\"4\",\"d\":\"11\"},\"ctx\":\"ctx0\",\"span\":{\"s\":150,\"e\":243}}]},\"witnessEntailed\":false,\"witnessCode\":\"NOT_ENTAILED\",\"witnessReason\":\"Partition check fails due to lack of explicit mutual exclusivity.\"}",
+    "latencyMs": 24588
+  }
+]

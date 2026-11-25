@@ -1,0 +1,802 @@
+[
+  {
+    "id": "B001",
+    "status": "ANSWER",
+    "rational": "1/6",
+    "decimal": 0.16666666666666666,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"1/6\",\"decimal\":0.16666666666666667,\"reason\":\"The probability of both findings is 1/20 for sterile packs and 1/4 for compromised packs, including each category’s base rate. The sterile share is (1/20)/(1/20 + 1/4) = 1/6.\"}",
+    "latencyMs": 6000
+  },
+  {
+    "id": "B002",
+    "status": "ANSWER",
+    "rational": "15/22",
+    "decimal": 0.6818181818181818,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"15/22\",\"decimal\":0.6818181818181818,\"reason\":\"In the lower gallery, the joint probability of drift and a spurious spike is 15/90, and the total probability of a spurious spike is 22/90.\"}",
+    "latencyMs": 6201
+  },
+  {
+    "id": "B003",
+    "status": "ANSWER",
+    "rational": "75/89",
+    "decimal": 0.8426966292134831,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"75/89\",\"decimal\":0.8426966292134831,\"reason\":\"The two findings are independent within each fatigue category. Bayes’ rule gives 0.09375 / (0.09375 + 0.0175) = 75/89.\"}",
+    "latencyMs": 7567
+  },
+  {
+    "id": "B004",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability depends on the base rate of established grafts, which the rival audit disputes.\"}",
+    "latencyMs": 4952
+  },
+  {
+    "id": "B005",
+    "status": "ANSWER",
+    "rational": "6/11",
+    "decimal": 0.5454545454545454,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"6/11\",\"decimal\":0.5454545454545454,\"reason\":\"The two traits always occur together. Bayes' rule gives (1/6 × 3/5) divided by (1/6 × 3/5 + 5/6 × 1/10), which equals 6/11.\"}",
+    "latencyMs": 5256
+  },
+  {
+    "id": "B006",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The 72% is the probability of exceeding the threshold given oxidation. The oxidation base rate and the threshold exceedance rate among non-oxidised lots are missing.\"}",
+    "latencyMs": 5012
+  },
+  {
+    "id": "B007",
+    "status": "ANSWER",
+    "rational": "5/7",
+    "decimal": 0.7142857142857143,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"5/7\",\"decimal\":0.7142857142857143,\"reason\":\"At the south dock, mislabelled containers account for 1/6 of all containers that are both drawn and fail, while correctly labelled failures account for 1/15 of all containers. The mislabelled share of failures is 5/7.\"}",
+    "latencyMs": 7151
+  },
+  {
+    "id": "B008",
+    "status": "ANSWER",
+    "rational": "7/10",
+    "decimal": 0.7,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"7/10\",\"decimal\":0.7,\"reason\":\"By Bayes’ rule, the stressed share among vases showing a rainbow is (0.70 × 1/7) / (0.70 × 1/7 + 0.05 × 6/7) = 0.7.\"}",
+    "latencyMs": 5250
+  },
+  {
+    "id": "B009",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability that a sound casing returns a bubble is disputed, so the probability that the casing is sound given a bubble is not uniquely determined.\"}",
+    "latencyMs": 4235
+  },
+  {
+    "id": "B010",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The log records a board with both defects, contradicting the claim that the defects never occur together.\"}",
+    "latencyMs": 4519
+  },
+  {
+    "id": "B011",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability of bone loss given a failing implant is missing, so the posterior probability is undetermined.\"}",
+    "latencyMs": 4849
+  },
+  {
+    "id": "B012",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The passage gives the probability of each sign separately but does not specify the probability that both signs occur together in either category.\"}",
+    "latencyMs": 5915
+  },
+  {
+    "id": "B013",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability that a watertight buoy shows both behaviors is unspecified. The two marginal probabilities alone do not determine it.\"}",
+    "latencyMs": 4429
+  },
+  {
+    "id": "B014",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The passage gives the alarm rate among misregistered runs. The misregistration base rate and the alarm rate among aligned runs are missing.\"}",
+    "latencyMs": 4262
+  },
+  {
+    "id": "B015",
+    "status": "ANSWER",
+    "rational": "72/103",
+    "decimal": 0.6990291262135921,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"72/103\",\"decimal\":0.6990291262135922,\"reason\":\"Slack strings account for 72/400 of all strings, counting only those that drift flat. Overall, 103/400 drift flat.\"}",
+    "latencyMs": 10896
+  },
+  {
+    "id": "B016",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The passage gives each sign’s probability by fermentation status, but it does not establish how often both signs occur together within either group.\"}",
+    "latencyMs": 4839
+  },
+  {
+    "id": "B017",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability of both observations within each coating category is unknown. The individual rates and the fact that the observations are dependent do not determine those joint probabilities.\"}",
+    "latencyMs": 5936
+  },
+  {
+    "id": "B018",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The logs give the rates of each sign separately, but the probability requires the rate at which both signs occur together in each curing group.\"}",
+    "latencyMs": 5037
+  },
+  {
+    "id": "B019",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The leak rates are given, but the proportion of worn valves in the sampling population is unknown.\"}",
+    "latencyMs": 4077
+  },
+  {
+    "id": "B020",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The base rate of mis-pinned cylinders was retracted, and the two binding probabilities alone do not determine the posterior.\"}",
+    "latencyMs": 5623
+  },
+  {
+    "id": "B021",
+    "status": "ANSWER",
+    "rational": "22/37",
+    "decimal": 0.5945945945945946,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"22/37\",\"decimal\":0.5945945945945946,\"reason\":\"The joint probability of being worn and leaking is 22/150, and the total probability of leaking is 37/150.\"}",
+    "latencyMs": 6351
+  },
+  {
+    "id": "B022",
+    "status": "ANSWER",
+    "rational": "2/5",
+    "decimal": 0.4,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"2/5\",\"decimal\":0.4,\"reason\":\"Two fifths of the vinegar-smelling reels are decaying, and the reel is drawn from that group.\"}",
+    "latencyMs": 50608
+  },
+  {
+    "id": "B023",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The logged cable with a pH drop and no rust bloom contradicts the stated equivalence, leaving the joint rates undetermined.\"}",
+    "latencyMs": 4502
+  },
+  {
+    "id": "B024",
+    "status": "ANSWER",
+    "rational": "25/37",
+    "decimal": 0.6756756756756757,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"25/37\",\"decimal\":0.6756756756756757,\"reason\":\"Bayes’ rule divides the joint probability of outbreak linkage and amplification, 1/6, by the total amplification probability, 1/6 + 2/25.\"}",
+    "latencyMs": 5235
+  },
+  {
+    "id": "B025",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The logged frame contradicts the claimed exceptionless rule, leaving the joint symptom probabilities undetermined.\"}",
+    "latencyMs": 3971
+  },
+  {
+    "id": "B026",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The passage gives the probability of failing given under-strength. The under-strength base rate and the overall screening failure rate are unspecified.\"}",
+    "latencyMs": 4955
+  },
+  {
+    "id": "B027",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The log records a turnstile with both behaviors, contradicting the stated mutual exclusivity in the same population.\"}",
+    "latencyMs": 5465
+  },
+  {
+    "id": "B028",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The heat-marker trip rate for heat-exposed shipments is unverified, so the exact probability is undetermined.\"}",
+    "latencyMs": 4046
+  },
+  {
+    "id": "B029",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The marginal probabilities for compromised packs do not determine how often both signs occur together, so the probability that the observed pack is sterile is not uniquely determined.\"}",
+    "latencyMs": 4272
+  },
+  {
+    "id": "B030",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The healthy-circuit trip rate was withdrawn without replacement, so the probability that a tripping circuit is faulty cannot be uniquely determined.\"}",
+    "latencyMs": 6122
+  },
+  {
+    "id": "B031",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability that a well-extracted shot tastes sharply sour is unknown, so the conditional probability cannot be uniquely determined.\"}",
+    "latencyMs": 4450
+  },
+  {
+    "id": "B032",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability that a sound section shows both signs is unspecified. Its two marginal probabilities do not determine their joint probability.\"}",
+    "latencyMs": 4498
+  },
+  {
+    "id": "B033",
+    "status": "ANSWER",
+    "rational": "9/50",
+    "decimal": 0.18,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"9/50\",\"decimal\":0.18,\"reason\":\"The tracker is drawn from the spike-reporting group, whose misalignment rate is given as 0.18.\"}",
+    "latencyMs": 6557
+  },
+  {
+    "id": "B034",
+    "status": "ANSWER",
+    "rational": "20/53",
+    "decimal": 0.3773584905660377,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"20/53\",\"decimal\":0.3773584905660377,\"reason\":\"By Bayes’ rule, failing implants account for 20 of every 53 expected cases of bone loss.\"}",
+    "latencyMs": 5721
+  },
+  {
+    "id": "B035",
+    "status": "ANSWER",
+    "rational": "12/17",
+    "decimal": 0.7058823529411765,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"12/17\",\"decimal\":0.7058823529411765,\"reason\":\"In the ablation zone, contaminated cores account for 4/15 of all cores with both traits, while the overall probability of elevated sodium is 17/45. Their ratio is 12/17.\"}",
+    "latencyMs": 5085
+  },
+  {
+    "id": "B036",
+    "status": "ANSWER",
+    "rational": "51/106",
+    "decimal": 0.4811320754716981,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"51/106\",\"decimal\":0.4811320754716981,\"reason\":\"By Bayes’ rule, divide 0.12 × 0.85 by the total positive probability, 0.12 × 0.85 + 0.88 × (1/8).\"}",
+    "latencyMs": 5193
+  },
+  {
+    "id": "B037",
+    "status": "ANSWER",
+    "rational": "57/167",
+    "decimal": 0.3413173652694611,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"57/167\",\"decimal\":0.3413173652694611,\"reason\":\"Bayes’ rule gives (19/20)/((19/20)+(11/6)) after canceling the common factor of 1/12.\"}",
+    "latencyMs": 5438
+  },
+  {
+    "id": "B038",
+    "status": "ANSWER",
+    "rational": "22/67",
+    "decimal": 0.3283582089552239,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"22/67\",\"decimal\":0.3283582089552239,\"reason\":\"Bayes’ rule divides the probability of a sound casing returning a bubble by the total probability of a bubble.\"}",
+    "latencyMs": 4636
+  },
+  {
+    "id": "B039",
+    "status": "ANSWER",
+    "rational": "225/307",
+    "decimal": 0.7328990228013029,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"225/307\",\"decimal\":0.7328990228013029,\"reason\":\"Bayes’ rule divides the infected-and-gaping probability (0.135) by the total gaping probability (0.1842).\"}",
+    "latencyMs": 5988
+  },
+  {
+    "id": "B040",
+    "status": "ANSWER",
+    "rational": "65/177",
+    "decimal": 0.3672316384180791,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"65/177\",\"decimal\":0.3672316384180791,\"reason\":\"Among winter lots, 16.25% are firm and bounce poorly, and 44.25% bounce poorly overall.\"}",
+    "latencyMs": 5003
+  },
+  {
+    "id": "B041",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability that an undamaged cell reads below the cutoff is unknown, so the conditional probability cannot be uniquely determined.\"}",
+    "latencyMs": 5062
+  },
+  {
+    "id": "B042",
+    "status": "ANSWER",
+    "rational": "18/25",
+    "decimal": 0.72,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"18/25\",\"decimal\":0.72,\"reason\":\"The lot is drawn from the threshold-exceeding group, in which 72% of lots are oxidised.\"}",
+    "latencyMs": 4320
+  },
+  {
+    "id": "B043",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The passage gives the individual trait probabilities but leaves their exact overlap unspecified in both groups. “Almost always” does not determine that overlap.\"}",
+    "latencyMs": 4573
+  },
+  {
+    "id": "B044",
+    "status": "ANSWER",
+    "rational": "5/8",
+    "decimal": 0.625,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"5/8\",\"decimal\":0.625,\"reason\":\"Five in eight calls that mention laboured breathing were found life-threatening, and the call is drawn from that group.\"}",
+    "latencyMs": 4720
+  },
+  {
+    "id": "B045",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The spike rate among clean scans is unverified, so the passage does not establish a unique exact probability.\"}",
+    "latencyMs": 4938
+  },
+  {
+    "id": "B046",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The east cave’s infestation rate and conditional dust probabilities are unknown. The west cave’s rates do not establish them.\"}",
+    "latencyMs": 4549
+  },
+  {
+    "id": "B047",
+    "status": "ANSWER",
+    "rational": "45/49",
+    "decimal": 0.9183673469387755,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"45/49\",\"decimal\":0.9183673469387755,\"reason\":\"Conditional independence gives joint probabilities of 63/400 for poor coating with both observations and 7/500 for good coating with both observations. Dividing the first by their sum gives 45/49.\"}",
+    "latencyMs": 4760
+  },
+  {
+    "id": "B048",
+    "status": "ANSWER",
+    "rational": "105/127",
+    "decimal": 0.8267716535433071,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"105/127\",\"decimal\":0.8267716535433071,\"reason\":\"By Bayes’ rule, the probability is (0.45 × 7/8) divided by (0.45 × 7/8 + 0.55 × 3/20).\"}",
+    "latencyMs": 5261
+  },
+  {
+    "id": "B049",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The passage gives the probability of a flash effect among fracture-filled stones. It gives neither the prevalence of fracture filling nor the flash-effect rate among untreated stones.\"}",
+    "latencyMs": 4487
+  },
+  {
+    "id": "B050",
+    "status": "ANSWER",
+    "rational": "135/212",
+    "decimal": 0.6367924528301887,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"135/212\",\"decimal\":0.6367924528301887,\"reason\":\"Bayes’ rule using the morning clinic rates gives 0.108 divided by 0.1696.\"}",
+    "latencyMs": 4854
+  },
+  {
+    "id": "B051",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The prevalence and X-ray detection rates apply only to the domestic hall. The corresponding international hall rates are unspecified.\"}",
+    "latencyMs": 4081
+  },
+  {
+    "id": "B052",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The rates describe each symptom separately. Without the joint rate for both symptoms in each adjustment group, the posterior probability is not uniquely determined.\"}",
+    "latencyMs": 4547
+  },
+  {
+    "id": "B053",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The evening clinic’s infection rate and conditional positive-test rates are unknown. The supplied rates apply only to morning visitors.\"}",
+    "latencyMs": 9336
+  },
+  {
+    "id": "B054",
+    "status": "ANSWER",
+    "rational": "7/20",
+    "decimal": 0.35,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"7/20\",\"decimal\":0.35,\"reason\":\"The draw is from the flash-effect group, in which 35% of stones were confirmed fracture-filled.\"}",
+    "latencyMs": 4595
+  },
+  {
+    "id": "B055",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability of a clipped adipose fin among wild-born salmon is unspecified, so the requested conditional probability is undetermined.\"}",
+    "latencyMs": 4838
+  },
+  {
+    "id": "B056",
+    "status": "ANSWER",
+    "rational": "1/13",
+    "decimal": 0.07692307692307691,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"1/13\",\"decimal\":0.07692307692307692,\"reason\":\"The joint probabilities of both signs are 1/54 for a healthy jar and 12/54 for a contaminated jar. Conditioning on both signs gives 1/13.\"}",
+    "latencyMs": 5227
+  },
+  {
+    "id": "B057",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"Two fifths is the probability of a vinegar smell given decay. The reverse probability requires the decay base rate and the overall rate of vinegar smell, or equivalent counts.\"}",
+    "latencyMs": 4904
+  },
+  {
+    "id": "B058",
+    "status": "ANSWER",
+    "rational": "39/179",
+    "decimal": 0.21787709497206703,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"39/179\",\"decimal\":0.21787709497206704,\"reason\":\"The joint probability of being established and dropping buds early is 0.078. The total probability of dropping buds early is 0.358.\"}",
+    "latencyMs": 5535
+  },
+  {
+    "id": "B059",
+    "status": "ANSWER",
+    "rational": "6/7",
+    "decimal": 0.8571428571428571,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"6/7\",\"decimal\":0.8571428571428571,\"reason\":\"Conditional independence gives joint probabilities of 0.09 for poorly cured violins with both signs and 0.015 for fully cured violins with both signs. The posterior is 0.09 divided by 0.105.\"}",
+    "latencyMs": 5150
+  },
+  {
+    "id": "B060",
+    "status": "ANSWER",
+    "rational": "72/107",
+    "decimal": 0.6728971962616822,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"72/107\",\"decimal\":0.6728971962616822,\"reason\":\"Mis-pinned cylinders account for 0.18 of all cylinders that are tested and bind, and the overall probability of binding is 0.2675.\"}",
+    "latencyMs": 5031
+  },
+  {
+    "id": "B061",
+    "status": "ANSWER",
+    "rational": "15/22",
+    "decimal": 0.6818181818181818,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"15/22\",\"decimal\":0.6818181818181818,\"reason\":\"Contaminated scans with a spike account for 12% of all scans, and clean scans with a spike account for 5.6%, so the conditional probability is 12/17.6.\"}",
+    "latencyMs": 9628
+  },
+  {
+    "id": "B062",
+    "status": "ANSWER",
+    "rational": "285/1061",
+    "decimal": 0.2686145146088596,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"285/1061\",\"decimal\":0.2686145146088596,\"reason\":\"Bayes’ rule uses the domestic hall’s contraband rate and its two dense-block rates.\"}",
+    "latencyMs": 5427
+  },
+  {
+    "id": "B063",
+    "status": "ANSWER",
+    "rational": "92/127",
+    "decimal": 0.7244094488188977,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"92/127\",\"decimal\":0.7244094488188977,\"reason\":\"In the spring cohort, healthy fingerlings contribute 0.184 to the total erratic-swimming probability of 0.254.\"}",
+    "latencyMs": 4545
+  },
+  {
+    "id": "B064",
+    "status": "ANSWER",
+    "rational": "7/37",
+    "decimal": 0.1891891891891892,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"7/37\",\"decimal\":0.1891891891891892,\"reason\":\"By Bayes’ rule, the undamaged below-cutoff probability is 1/15 and the total below-cutoff probability is 37/105. Their ratio is 7/37.\"}",
+    "latencyMs": 7541
+  },
+  {
+    "id": "B065",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The recorded bowl with crazing and no dull, matte glaze contradicts the stated exceptionless rule.\"}",
+    "latencyMs": 5026
+  },
+  {
+    "id": "B066",
+    "status": "ANSWER",
+    "rational": "168/253",
+    "decimal": 0.6640316205533597,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"168/253\",\"decimal\":0.6640316205533597,\"reason\":\"Conditional independence gives joint probabilities of 0.084 for a flawed airfoil showing both behaviors and 0.0425 for a flawless one. The posterior is 0.084 divided by 0.1265.\"}",
+    "latencyMs": 4953
+  },
+  {
+    "id": "B067",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The 0.18 is the probability of a spike given misalignment. The passage lacks the misalignment base rate and the overall spike rate needed to reverse that conditional probability.\"}",
+    "latencyMs": 4556
+  },
+  {
+    "id": "B068",
+    "status": "ANSWER",
+    "rational": "40/79",
+    "decimal": 0.5063291139240507,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"40/79\",\"decimal\":0.5063291139240507,\"reason\":\"In the west cave, the joint probability of infestation and dust is 40/320, and the total probability of dust is 79/320.\"}",
+    "latencyMs": 4633
+  },
+  {
+    "id": "B069",
+    "status": "ANSWER",
+    "rational": "3/8",
+    "decimal": 0.375,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"3/8\",\"decimal\":0.375,\"reason\":\"The pack is drawn from the swollen-casing group, where 3/8 of packs are degraded.\"}",
+    "latencyMs": 4234
+  },
+  {
+    "id": "B070",
+    "status": "ANSWER",
+    "rational": "75/82",
+    "decimal": 0.9146341463414634,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"75/82\",\"decimal\":0.9146341463414634,\"reason\":\"Sunken, perforated cappings always imply a patchy brood pattern, so the joint observation has the same probability as observing those cappings alone. Bayes’ rule gives 0.15/(0.15 + 0.014).\"}",
+    "latencyMs": 5542
+  },
+  {
+    "id": "B071",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"Five in eight is the probability of mentioning laboured breathing given a life-threatening call. The reverse probability also requires the life-threatening base rate and the overall rate of laboured-breathing mentions.\"}",
+    "latencyMs": 5082
+  },
+  {
+    "id": "B072",
+    "status": "ANSWER",
+    "rational": "105/167",
+    "decimal": 0.62874251497006,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"105/167\",\"decimal\":0.6287425149700599,\"reason\":\"By Bayes’ rule, divide the joint probability of corruption and checksum failure, 0.063, by the total probability of checksum failure, 0.1002.\"}",
+    "latencyMs": 5542
+  },
+  {
+    "id": "B073",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The passage gives the probability of swelling given degradation. The reverse probability also requires the overall degradation and swelling rates, or equivalent information.\"}",
+    "latencyMs": 4752
+  },
+  {
+    "id": "B074",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The quoted base rate of stressed vases is unverified.\"}",
+    "latencyMs": 4507
+  },
+  {
+    "id": "B075",
+    "status": "ANSWER",
+    "rational": "135/344",
+    "decimal": 0.3924418604651163,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"135/344\",\"decimal\":0.3924418604651163,\"reason\":\"Because over-delivery and under-delivery are mutually exclusive, neither occurs with probability 0.75 for miscalibrated pumps and 0.95 for within-tolerance pumps. Bayes’ rule gives 135/344.\"}",
+    "latencyMs": 5573
+  },
+  {
+    "id": "B076",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The contamination rate and sodium-reading probabilities are given only for the ablation zone, while the core came from the accumulation zone.\"}",
+    "latencyMs": 10645
+  },
+  {
+    "id": "B077",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability that a patient with a positive result is septic depends on the prevalence of sepsis among arriving patients, which is unspecified.\"}",
+    "latencyMs": 4323
+  },
+  {
+    "id": "B078",
+    "status": "ANSWER",
+    "rational": "39/109",
+    "decimal": 0.3577981651376147,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"39/109\",\"decimal\":0.3577981651376147,\"reason\":\"By Bayes’ rule, divide the wild-born clipped share (0.65 × 0.2) by the total clipped share (0.65 × 0.2 + 0.35 × 2/3).\"}",
+    "latencyMs": 5547
+  },
+  {
+    "id": "B079",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The overlap between over-delivery and under-delivery is unknown in each calibration group, so the probability of neither outcome is not uniquely determined.\"}",
+    "latencyMs": 4919
+  },
+  {
+    "id": "B080",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The rates apply only to the lower gallery. The upper gallery’s drift prevalence and spike rates are unknown.\"}",
+    "latencyMs": 4458
+  },
+  {
+    "id": "B081",
+    "status": "ANSWER",
+    "rational": "28/93",
+    "decimal": 0.3010752688172043,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"28/93\",\"decimal\":0.3010752688172043,\"reason\":\"Within each adjustment category, the two defects are independent. Bayes’ rule gives 0.042/(0.042 + 0.0975) = 28/93.\"}",
+    "latencyMs": 5275
+  },
+  {
+    "id": "B082",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The stated probabilities give the frequencies of film and vinegar smell separately. The word \\\"usually\\\" does not quantify how often they occur together among spoiled or sound casks, so the requested probability is undetermined.\"}",
+    "latencyMs": 5137
+  },
+  {
+    "id": "B083",
+    "status": "ANSWER",
+    "rational": "4/5",
+    "decimal": 0.8,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"4/5\",\"decimal\":0.8,\"reason\":\"The two signs always occur together. The probability of both signs is 28/96 for a random cable that is also corroded and 7/96 for one that is also intact, so the conditional probability is 28/35.\"}",
+    "latencyMs": 6273
+  },
+  {
+    "id": "B084",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The available rates describe the winter harvest. The summer harvest’s proportions of firm and rot-prone lots and its poor-bounce rates are unknown.\"}",
+    "latencyMs": 4102
+  },
+  {
+    "id": "B085",
+    "status": "ANSWER",
+    "rational": "3/8",
+    "decimal": 0.375,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"3/8\",\"decimal\":0.375,\"reason\":\"Locking open implies no card refusal. The working share among turnstiles that lock open is 0.036/(0.036 + 0.060).\"}",
+    "latencyMs": 4661
+  },
+  {
+    "id": "B086",
+    "status": "ANSWER",
+    "rational": "7/11",
+    "decimal": 0.6363636363636364,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"7/11\",\"decimal\":0.6363636363636364,\"reason\":\"End checks exclude honeycomb cracking, so Bayes’ rule gives 0.126/(0.126 + 0.072) = 7/11.\"}",
+    "latencyMs": 5886
+  },
+  {
+    "id": "B087",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The mislabelling rate and cross-check failure rates apply only to the south dock. The question concerns a north-dock container.\"}",
+    "latencyMs": 4307
+  },
+  {
+    "id": "B088",
+    "status": "ANSWER",
+    "rational": "5/12",
+    "decimal": 0.4166666666666667,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"5/12\",\"decimal\":0.4166666666666667,\"reason\":\"Vinegar smell implies film, so the probability of film without vinegar is 1/2 for spoiled casks and 1/5 for sound casks. Weighting by the base rates gives 5/12.\"}",
+    "latencyMs": 5171
+  },
+  {
+    "id": "B089",
+    "status": "ANSWER",
+    "rational": "72/97",
+    "decimal": 0.7422680412371134,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"72/97\",\"decimal\":0.7422680412371134,\"reason\":\"Among sharply sour shots, the under-extracted share is (3/8 × 0.72) divided by (3/8 × 0.72 + 5/8 × 0.15).\"}",
+    "latencyMs": 4838
+  },
+  {
+    "id": "B090",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability of infection given gaping depends on the infection rate among the sampled oysters, which is unspecified.\"}",
+    "latencyMs": 4036
+  },
+  {
+    "id": "B091",
+    "status": "ANSWER",
+    "rational": "128/155",
+    "decimal": 0.8258064516129032,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"128/155\",\"decimal\":0.8258064516129032,\"reason\":\"The stated within-category rates give joint probabilities of 128/600 for leaking buoys and 27/600 for watertight buoys. Conditioning on both observations gives 128/155.\"}",
+    "latencyMs": 5228
+  },
+  {
+    "id": "B092",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability that a slack string drifts flat within an hour is unspecified, so the requested conditional probability is undetermined.\"}",
+    "latencyMs": 4240
+  },
+  {
+    "id": "B093",
+    "status": "ANSWER",
+    "rational": "3/4",
+    "decimal": 0.75,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"3/4\",\"decimal\":0.75,\"reason\":\"The slab is drawn from the failed-screening group, where three quarters are under-strength.\"}",
+    "latencyMs": 4978
+  },
+  {
+    "id": "B094",
+    "status": "ANSWER",
+    "rational": "42/55",
+    "decimal": 0.7636363636363636,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"42/55\",\"decimal\":0.7636363636363636,\"reason\":\"Every crazed bowl has a matte glaze, so the probability is (0.35 × 0.30) / (0.35 × 0.30 + 0.65 × 0.05).\"}",
+    "latencyMs": 5737
+  },
+  {
+    "id": "B095",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The disease prevalence and erratic-swimming rates are given only for the spring cohort. The question concerns the autumn cohort.\"}",
+    "latencyMs": 5038
+  },
+  {
+    "id": "B096",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The probability that a frame is corrupted given that it failed the checksum depends on the unknown corruption base rate.\"}",
+    "latencyMs": 4437
+  },
+  {
+    "id": "B097",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The passage gives separate rates for early stalling and root vibration, but leaves their joint rate unknown for both flawed and flawless airfoils.\"}",
+    "latencyMs": 4608
+  },
+  {
+    "id": "B098",
+    "status": "REFUSE",
+    "rational": null,
+    "decimal": null,
+    "raw": "{\"status\":\"REFUSE\",\"rational\":null,\"decimal\":null,\"reason\":\"The first-run amplification rate for outbreak-linked samples was retracted, leaving the conditional probability undetermined.\"}",
+    "latencyMs": 4732
+  },
+  {
+    "id": "B099",
+    "status": "ANSWER",
+    "rational": "55/68",
+    "decimal": 0.8088235294117647,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"55/68\",\"decimal\":0.8088235294117647,\"reason\":\"The passage gives the base rates and establishes independence of the two signs within each fermentation category, so Bayes’ rule determines the probability.\"}",
+    "latencyMs": 6768
+  },
+  {
+    "id": "B100",
+    "status": "ANSWER",
+    "rational": "4/11",
+    "decimal": 0.36363636363636365,
+    "raw": "{\"status\":\"ANSWER\",\"rational\":\"4/11\",\"decimal\":0.36363636363636365,\"reason\":\"The run is drawn from the alarm-triggering runs, of which 4/11 were confirmed misregistered.\"}",
+    "latencyMs": 5157
+  }
+]

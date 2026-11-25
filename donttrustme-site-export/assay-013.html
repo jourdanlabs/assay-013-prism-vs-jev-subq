@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ASSAY-013 · PRISM v4 vs. TypeSafe Jev &amp; SubQ Snap — donttrustme.ai</title>
+  <meta name="description" content="Forseti Research evaluates local PRISM v4 against live TypeSafe Jev (jev-1.14.0), SubQ Snap, raw open weights, and frontier GPT-6.2-sol on 100 unseen Bayesian and trap passages.">
+  <meta name="theme-color" content="#fcfaf5">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+  <style>
+    .table-scroll .assay-scores { min-width: 0; }
+    .assay-scores th { white-space: normal; }
+    .assay-scores tbody th { font: 16px/1.45 var(--serif); color: var(--ink); text-transform: none; letter-spacing: normal; }
+    .assay-hashes { margin-top: 25px; }
+    .assay-hashes code { overflow-wrap: anywhere; }
+    .section > .metric-note { margin-bottom: 22px; }
+    @media (max-width: 650px) {
+      table.wide.assay-scores th, table.wide.assay-scores td { padding-inline: 5px; }
+      .assay-scores tbody th { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to evidence</a><header class="masthead"><div class="wrap masthead-inner"><a class="nameplate" href="index.html">donttrustme.ai<span aria-hidden="true">✧</span></a><button class="mobile-toggle js-only" aria-label="Open contents" aria-expanded="false" aria-controls="main-nav">CONTENTS +</button><nav class="nav" id="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><div class="nav-group"><button class="nav-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="products-menu">Products <span class="nav-caret" aria-hidden="true">▾</span></button><div class="nav-menu" id="products-menu"><span class="nav-menu-label">VANTAGE SUITE</span><a href="boards-gate.html"><strong>Vantage Gate</strong><small>code security</small></a><a href="boards-code.html"><strong>Vantage Code</strong><small>code correctness</small></a><a class="nav-menu-all" href="products.html">About the suite ↗</a><span class="nav-menu-label">LEVEL</span><a class="nav-menu-level" href="https://jllevel.com"><strong>jllevel.com</strong><small>a free learning commons &mdash; free for every learner</small></a><span class="nav-menu-label">COMING SOON</span><span class="nav-menu-soon">More projects. Same rules.</span></div></div><a href="claims.html">Claims</a><a href="asymmetry.html">Resources</a><a href="misses.html">Misses</a><a href="rerun.html">Re-run</a><a href="about.html">About</a></nav></div></header>
+<main id="main" class="wrap">
+  <div class="edition-line mono"><span>A FORSETI RESEARCH FIELD JOURNAL</span><span>ASSAY ENGAGEMENT 013</span></div>
+  <header class="page-intro">
+    <div><p class="eyebrow blue">ASSAY-013 / PRISM v4 · BLIND-100 v2</p><h1>Local PRISM v4 vs. <em>TypeSafe Jev &amp; SubQ</em></h1></div>
+    <p class="intro-copy">100 unseen Bayesian &amp; underdetermined trap passages (50 answerable, 50 traps). Local PRISM v4 wraps free Gemma 4 26B + Qwen3.8-27B open weights inside an exact symbolic cage — scored across five tolerance bands alongside live TypeSafe Jev (jev-1.14.0), live SubQ Snap, raw base models, and frontier GPT-6.2-sol.</p>
+  </header>
+  <div class="statement-box">
+    <p><strong>PRISM v4 (local $0 open weights)</strong> answered <strong>40/50 (80.0%)</strong> with <strong>0.0000 MAE</strong>, refused <strong>50/50 (100%)</strong> traps, and emitted <strong>0/100 wrong numerical releases</strong> (40/40 = 100% selective accuracy) — lifting its own raw base models 5&times; (from 8/50 to 40/50).</p>
+    <p>On the exact same 100 unseen passages via their live SystemOne APIs, <strong>TypeSafe Jev (jev-1.14.0)</strong> scored <strong>0/50 exact</strong>, <strong>2/50 (4%) within &plusmn;1%</strong>, <strong>18/50 (36%) within &plusmn;5%</strong> (<strong>0.0882 MAE</strong>), leaked <strong>5/50 traps</strong>, and emitted <strong>55/100 wrong releases</strong>. <strong>SubQ Snap</strong> scored <strong>0/50 exact</strong>, <strong>1/50 (2%) within &plusmn;1%</strong>, <strong>1/50 (2%) within &plusmn;5%</strong> (<strong>0.3787 MAE</strong>), leaked <strong>2/50 traps</strong>, and emitted <strong>51/100 wrong releases</strong>.</p>
+    <p><strong>Honest ceiling check:</strong> Frontier <strong>GPT-6.2-sol</strong> hit <strong>50/50</strong> with 0/100 wrong releases, outscoring local PRISM v4 by 10 passages. Every one of PRISM v4&rsquo;s 10 misses was a conservative fail-closed refusal (zero wrong numbers), and 6 of 10 had already computed the exact gold rational before safety-gate veto.</p>
+  </div>
+  <section class="section" id="overall" aria-labelledby="overall-heading">
+    <header class="section-intro"><h2 id="overall-heading">Head-to-head across five tolerance bands</h2><p>Showing exact (&le;0.0001), &plusmn;1%, &plusmn;5%, &plusmn;10%, and MAE eliminates tight-tolerance artifacts.</p></header>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Overall multi-band results">
+      <table class="wide assay-scores">
+        <thead><tr><th scope="col">Arm</th><th scope="col">Exact (&le;0.0001)</th><th scope="col">Within &plusmn;1%</th><th scope="col">Within &plusmn;5%</th><th scope="col">Within &plusmn;10%</th><th scope="col">MAE</th><th scope="col">Traps Refused</th><th scope="col">Wrong Releases</th><th scope="col">Selective Acc</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">PRISM v4 (local Gemma 4 26B + Qwen3.8-27B)</th><td>40/50 (80%)</td><td>40/50 (80%)</td><td>40/50 (80%)</td><td>40/50 (80%)</td><td>0.0000</td><td>50/50</td><td>0/100</td><td>40/40 (100%)</td></tr>
+          <tr><th scope="row">Frontier GPT-6.2-sol (reference ceiling)</th><td>50/50 (100%)</td><td>50/50 (100%)</td><td>50/50 (100%)</td><td>50/50 (100%)</td><td>0.0000</td><td>50/50</td><td>0/100</td><td>50/50 (100%)</td></tr>
+          <tr><th scope="row">TypeSafe Jev (jev-1.14.0 · SystemOne API)</th><td>0/50 (0%)</td><td>2/50 (4%)</td><td>18/50 (36%)</td><td>29/50 (58%)</td><td>0.0882</td><td>45/50</td><td>55/100</td><td>0/55 (0%)</td></tr>
+          <tr><th scope="row">SubQ Snap (subq-snap-preview · SystemOne API)</th><td>0/50 (0%)</td><td>1/50 (2%)</td><td>1/50 (2%)</td><td>8/50 (16%)</td><td>0.3787</td><td>48/50</td><td>51/100</td><td>0/51 (0%)</td></tr>
+          <tr><th scope="row">Raw Gemma 4 26B (no PRISM cage)</th><td>8/50 (16%)</td><td>8/50 (16%)</td><td>9/50 (18%)</td><td>9/50 (18%)</td><td>0.0657</td><td>49/50</td><td>6/100</td><td>8/14 (57.1%)</td></tr>
+          <tr><th scope="row">Raw Qwen3.8-27B (no PRISM cage)</th><td>8/50 (16%)</td><td>8/50 (16%)</td><td>8/50 (16%)</td><td>8/50 (16%)</td><td>0.0280</td><td>50/50</td><td>1/100</td><td>8/9 (88.9%)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="section" id="families" aria-labelledby="families-heading">
+    <header class="section-intro"><h2 id="families-heading">Results by passage family</h2><p>Each cell shows: Exact (&le;0.0001) &middot; Within &plusmn;5% &middot; Traps Refused.</p></header>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Results by family">
+      <table class="wide assay-scores">
+        <thead><tr><th scope="col">Family</th><th scope="col">PRISM v4 (local)</th><th scope="col">GPT-6.2-sol</th><th scope="col">TypeSafe Jev</th><th scope="col">SubQ Snap</th><th scope="col">Raw Gemma 26B</th><th scope="col">Raw Qwen 27B</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">STANDARD_BAYES</th><td>9/9 · 9/9 · 9/9</td><td>9/9 · 9/9 · 9/9</td><td>0/9 · 4/9 · 9/9</td><td>0/9 · 0/9 · 9/9</td><td>0/9 · 0/9 · 9/9</td><td>0/9 · 0/9 · 9/9</td></tr>
+          <tr><th scope="row">CONDITIONAL_INDEPENDENCE</th><td>9/9 · 9/9 · 9/9</td><td>9/9 · 9/9 · 9/9</td><td>0/9 · 0/9 · 9/9</td><td>0/9 · 1/9 · 9/9</td><td>0/9 · 0/9 · 9/9</td><td>0/9 · 0/9 · 9/9</td></tr>
+          <tr><th scope="row">DETERMINISTIC_LINKAGE</th><td>7/8 · 7/8 · 8/8</td><td>8/8 · 8/8 · 8/8</td><td>0/8 · 3/8 · 6/8</td><td>0/8 · 0/8 · 7/8</td><td>0/8 · 0/8 · 7/8</td><td>0/8 · 0/8 · 8/8</td></tr>
+          <tr><th scope="row">DIRECT_POSTERIOR</th><td>3/8 · 3/8 · 8/8</td><td>8/8 · 8/8 · 8/8</td><td>0/8 · 3/8 · 7/8</td><td>0/8 · 0/8 · 8/8</td><td>8/8 · 8/8 · 8/8</td><td>8/8 · 8/8 · 8/8</td></tr>
+          <tr><th scope="row">POPULATION_STRATA</th><td>6/8 · 6/8 · 8/8</td><td>8/8 · 8/8 · 8/8</td><td>0/8 · 4/8 · 8/8</td><td>0/8 · 0/8 · 8/8</td><td>0/8 · 1/8 · 8/8</td><td>0/8 · 0/8 · 8/8</td></tr>
+          <tr><th scope="row">PREMISE_VALIDITY</th><td>6/8 · 6/8 · 8/8</td><td>8/8 · 8/8 · 8/8</td><td>0/8 · 4/8 · 6/8</td><td>0/8 · 0/8 · 7/8</td><td>0/8 · 0/8 · 8/8</td><td>0/8 · 0/8 · 8/8</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="section" id="refusals" aria-labelledby="refusals-heading">
+    <header class="section-intro"><h2 id="refusals-heading">PRISM v4&rsquo;s 10 conservative refusals</h2><p>Why local PRISM v4 scored 40/50 instead of 50/50: zero wrong answers, 6/10 solved exact gold before safety-gate veto.</p></header>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="PRISM v4 refusals">
+      <table class="wide assay-scores">
+        <thead><tr><th scope="col">Passage</th><th scope="col">Family</th><th scope="col">Gold</th><th scope="col">Gate Code</th><th scope="col">Pre-Veto Rational</th><th scope="col">Matched Gold?</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">B040</th><td>POPULATION_STRATA</td><td>65/177</td><td><code>CONTEXT_MISMATCH</code></td><td>—</td><td>No (extractor refused)</td></tr>
+          <tr><th scope="row">B042</th><td>DIRECT_POSTERIOR</td><td>18/25</td><td><code>CONFLICTING_FIGURES</code></td><td>—</td><td>No (extractor refused)</td></tr>
+          <tr><th scope="row">B044</th><td>DIRECT_POSTERIOR</td><td>5/8</td><td><code>ZERO_SUPPORT_POSSIBLE</code></td><td>—</td><td>No (extractor refused)</td></tr>
+          <tr><th scope="row">B048</th><td>PREMISE_VALIDITY</td><td>105/127</td><td><code>UNSTABLE_BINDING</code></td><td>105/127</td><td>YES</td></tr>
+          <tr><th scope="row">B054</th><td>DIRECT_POSTERIOR</td><td>7/20</td><td><code>SEMANTIC_NOT_ENTAILED</code></td><td>7/20</td><td>YES</td></tr>
+          <tr><th scope="row">B058</th><td>PREMISE_VALIDITY</td><td>39/179</td><td><code>UNSTABLE_BINDING</code></td><td>39/179</td><td>YES</td></tr>
+          <tr><th scope="row">B063</th><td>POPULATION_STRATA</td><td>92/127</td><td><code>UNSTABLE_BINDING</code></td><td>92/127</td><td>YES</td></tr>
+          <tr><th scope="row">B083</th><td>DETERMINISTIC_LINKAGE</td><td>4/5</td><td><code>SEMANTIC_NOT_ENTAILED</code></td><td>4/5</td><td>YES</td></tr>
+          <tr><th scope="row">B093</th><td>DIRECT_POSTERIOR</td><td>3/4</td><td><code>ZERO_SUPPORT_POSSIBLE</code></td><td>—</td><td>No (extractor refused)</td></tr>
+          <tr><th scope="row">B100</th><td>DIRECT_POSTERIOR</td><td>4/11</td><td><code>SEMANTIC_NOT_ENTAILED</code></td><td>4/11</td><td>YES</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="section" id="method" aria-labelledby="method-heading">
+    <header class="section-intro"><h2 id="method-heading">Scope, fairness, and cryptographic replay</h2></header>
+    <p class="metric-note">Jev and SubQ Snap are neural System-One probability/classification models rather than symbolic calculators; reporting &plusmn;1%, &plusmn;5%, &plusmn;10%, and MAE demonstrates that the gap persists even under wide tolerances (Jev MAE 0.0882, SubQ MAE 0.3787). Both vendors were queried live via their native SystemOne <code>choice</code> + <code>noul</code> APIs on 2026-11-24 with identical neutral instructions and 100/100 HTTP 200 completion.</p>
+    <p class="metric-note">Verify offline: <code>shasum -a 256 -c FREEZE.sha256 &amp;&amp; npm run verify</code></p>
+    <div class="table-scroll assay-hashes" tabindex="0" role="region" aria-label="Evidence digests">
+      <table class="wide assay-scores">
+        <thead><tr><th scope="col">Artifact</th><th scope="col">SHA-256 Digest</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">corpus/passages.json</th><td><code>1bbe1a27f0f47d2eed90d07a6543adbfd3e90e102e73977d527e4c3ca9403382</code></td></tr>
+          <tr><th scope="row">corpus/gold.json</th><td><code>8c04c8373ef04a684299a007ac3c552805ebaef360d273384cd34092e5ed27ee</code></td></tr>
+          <tr><th scope="row">Ed25519 scorecard public key (PEM)</th><td><code>8f9e320e4b3edf5b1fd78a1cc570bb11acd9867bbc9d5ab30c7f5969c24f4fc5</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><div><a class="nameplate" href="index.html">donttrustme.ai <span aria-hidden="true">✧</span></a><p>A LITTLE WONDER. NO CREATIVE ACCOUNTING.</p></div><div class="footer-links"><a href="https://jllevel.com">LEVEL &middot; jllevel.com</a><a href="products.html">Our tools</a><a href="gate.html">Rules &amp; review</a><a href="previous-boards.html">Earlier results</a></div><button class="motion-control js-only" data-motion aria-pressed="false"><span class="orbit-symbol" aria-hidden="true">✧</span><span class="motion-label">Still the sky</span></button><p>FORSETI RESEARCH © 2026</p></div></footer>
+</body>
+</html>

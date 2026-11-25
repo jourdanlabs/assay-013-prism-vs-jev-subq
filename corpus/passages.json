@@ -1,0 +1,402 @@
+[
+  {
+    "id": "B001",
+    "passage": "A hospital supply unit audits sealed packs of surgical sutures. Overall, one third of the suture packs are compromised and two thirds are sterile. A compromised suture pack will show a gap in the seal with probability 0.9 and fail the dye-penetration test with probability 5/6; a sterile suture pack will show a gap in the seal with probability 0.3 and fail the dye-penetration test with probability 1/4. Within either category, the rate at which suture packs fail the dye-penetration test is unchanged whether or not they show a gap in the seal. One suture pack drawn at random shows a gap in the seal and fails the dye-penetration test; what is the probability that it is sterile?"
+  },
+  {
+    "id": "B002",
+    "passage": "A museum monitors humidity sensors in its upper gallery and its lower gallery. At the lower gallery, two in nine of the sensors are drifting and seven in nine are calibrated. There, a drifting sensor will log a spurious humidity spike with probability three quarters, and a calibrated sensor will do so with probability one tenth. The upper gallery keeps its own books, which were not part of this review. A sensor drawn at random from the lower gallery logs a spurious humidity spike; what is the probability that it is drifting?"
+  },
+  {
+    "id": "B003",
+    "passage": "Technicians inspect the haul rope of a gondola line every night. Prior records put the share of fatigued cable sections at 30% and the share of sound ones at 70%. A fatigued cable section will show a broken outer wire with probability 5/8 and return a magnetic-flux anomaly with probability 0.5; a sound cable section will show a broken outer wire with probability 1/8 and return a magnetic-flux anomaly with probability 0.2. Within either category, the rate at which cable sections return a magnetic-flux anomaly is unchanged whether or not they show a broken outer wire. One cable section drawn at random shows a broken outer wire and returns a magnetic-flux anomaly; what is the probability that it is fatigued?"
+  },
+  {
+    "id": "B004",
+    "passage": "A nursery checks apple grafts after their first growing season. Overall, 0.35 of the grafts are failed and 0.65 are established. A failed graft will drop its buds early with probability 4/5; an established graft will do so with probability 0.12. A rival audit contests the split between failed and established grafts, as quoted above, and the two sources have not been reconciled. Suppose a graft picked blind drops its buds early. What is the probability that the graft is established?"
+  },
+  {
+    "id": "B005",
+    "passage": "A foraging club examines chanterelle look-alikes brought in by members. Overall, one sixth of the specimens are toxic and five sixths are edible. A toxic specimen will have blade-like false gills with probability 0.6 and glow faintly in the dark with probability 3/5; an edible specimen will have blade-like false gills with probability 0.1 and glow faintly in the dark with probability 10%. The two are locked together here: a specimen has blade-like false gills if and only if it glows faintly in the dark. One specimen drawn at random has blade-like false gills and glows faintly in the dark; what is the probability that it is toxic?"
+  },
+  {
+    "id": "B006",
+    "passage": "A mill's cold-press line is sampled by the lab every day. No overall count was kept of how many oil lots are oxidised. Among oxidised oil lots, 72% exceed the peroxide threshold. One oil lot that exceeds the peroxide threshold is drawn at random; what is the probability that it is oxidised?"
+  },
+  {
+    "id": "B007",
+    "passage": "A container port scans arriving boxes at its north dock and its south dock. At the south dock, one fifth of the containers are mislabelled and four fifths are correctly labelled. At the south dock the chance that a mislabelled container will fail the weight-manifest cross-check is 5/6, against 1/12 for a correctly labelled container. The north dock keeps its own books, which were not part of this review. A container drawn at random from the south dock fails the weight-manifest cross-check; what is the probability that it is mislabelled?"
+  },
+  {
+    "id": "B008",
+    "passage": "A glassblowing studio inspects vases after annealing. Prior records put the share of stressed vases at one seventh and the share of well-annealed ones at six sevenths. The chance that a stressed vase will show a rainbow under the polariscope is 70%, against 5% for a well-annealed vase. The studio floor is poured concrete, painted grey. One vase is drawn at random and the vase shows a rainbow under the polariscope. What is the probability that it is stressed?"
+  },
+  {
+    "id": "B009",
+    "passage": "A retreading plant tests used casings before new tread is bonded on. Prior records put the share of delaminated casings at 5/16 and the share of sound ones at 11/16. The chance that a delaminated casing will return a bubble on the shearography scan is 0.9, against one fifth for a sound casing. The rate at which sound casings return a bubble on the shearography scan quoted above is disputed: a second audit reports a different value, and the disagreement is unresolved. Suppose a casing picked blind returns a bubble on the shearography scan. What is the probability that the casing is sound?"
+  },
+  {
+    "id": "B010",
+    "passage": "A sawmill's kiln operators check boards of drying lumber. Historically, a case-hardened board turns up with probability 0.28, and an evenly dried board with probability 0.72. A case-hardened board will show end checks with probability 0.45 and show honeycomb cracking with probability two fifths; an evenly dried board will show end checks with probability 0.1 and show honeycomb cracking with probability 0.05. No board ever both shows end checks and shows honeycomb cracking; the two never occur together; yet the log records one board from this very population that shows end checks and shows honeycomb cracking at once. One board drawn at random shows end checks but does not show honeycomb cracking; what is the probability that it is case-hardened?"
+  },
+  {
+    "id": "B011",
+    "passage": "A dental clinic reviews titanium implants six months after placement. Historically, a failing implant turns up with probability 2/13, and a stable implant with probability 11/13. The chance that a stable implant will show bone loss on the follow-up X-ray is 0.25; the corresponding chance for a failing implant was never measured. A randomly chosen implant shows bone loss on the follow-up X-ray. Given this, how likely is the implant to be failing?"
+  },
+  {
+    "id": "B012",
+    "passage": "A bakery assesses its jars of sourdough starter each morning. Historically, a contaminated starter jar turns up with probability 4/9, and a healthy starter jar with probability 5/9. A contaminated starter jar will smell of acetone with probability two thirds and show pink streaks with probability 3/4; a healthy starter jar will smell of acetone with probability one sixth and show pink streaks with probability 1/5. Within both categories the two behaviours are not independent of one another, but how strongly they are linked is unknown. One starter jar drawn at random smells of acetone and shows pink streaks; what is the probability that it is healthy?"
+  },
+  {
+    "id": "B013",
+    "passage": "A coast guard depot services navigation buoys hauled in from the shipping lane. Historically, a leaking buoy turns up with probability 0.4, and a watertight buoy with probability 0.6. A leaking buoy will ride low in the water 2/3 of the time and report a flooded battery bay four fifths of the time, while a watertight buoy will ride low in the water 1/4 of the time and report a flooded battery bay three tenths of the time. For leaking buoys the two behaviours occur independently of each other, but nothing is known about watertight ones in this respect. One buoy drawn at random rides low in the water and reports a flooded battery bay; what is the probability that it is leaking?"
+  },
+  {
+    "id": "B014",
+    "passage": "A newspaper plant monitors its rotary presses overnight. No overall count was kept of how many print runs are misregistered and how many are aligned. Of all the misregistered print runs, 4/11 trigger a web-break alarm. One print run that triggers a web-break alarm is drawn at random; what is the probability that it is misregistered?"
+  },
+  {
+    "id": "B015",
+    "passage": "A concert hall's technician checks the strings of its grand pianos before recitals. Overall, 9/40 of the strings are slack and 31/40 are properly tensioned. Among slack strings, four fifths of them drift flat within an hour; among properly tensioned ones, one tenth do. Suppose a string picked blind drifts flat within an hour. What is the probability that the string is slack?"
+  },
+  {
+    "id": "B016",
+    "passage": "A cooperative monitors cacao heaps fermenting under banana leaves. Historically, an over-fermented heap turns up with probability 22%, and a well-fermented heap with probability 78%. An over-fermented heap will smell of ammonia with probability five in eight and darken at the core with probability 0.45; a well-fermented heap will smell of ammonia with probability one in eight and darken at the core with probability 0.15. The two sets of rates were compiled by different crews, with no record of how often both appeared on the same heap. One heap drawn at random smells of ammonia and darkens at the core; what is the probability that it is over-fermented?"
+  },
+  {
+    "id": "B017",
+    "passage": "An observatory examines mirror segments after they are recoated. Overall, 3/10 of the mirror segments are poorly coated and 7/10 are well coated. A poorly coated mirror segment will show pinholes under backlight three quarters of the time and reflect below the target reflectance 70% of the time, while a well coated mirror segment will show pinholes under backlight one fifth of the time and reflect below the target reflectance 10% of the time. Within both categories the two behaviours are not independent of one another, but how strongly they are linked is unknown. One mirror segment drawn at random shows pinholes under backlight and reflects below the target reflectance; what is the probability that it is poorly coated?"
+  },
+  {
+    "id": "B018",
+    "passage": "A violin workshop inspects freshly varnished instruments before they ship. Prior records put the share of poorly cured violins at one quarter and the share of fully cured ones at three quarters. Among poorly cured violins, 0.6 show surface tackiness and three fifths show a faint cloudy haze; among fully cured ones, 0.1 show surface tackiness and one fifth show a faint cloudy haze. The first behaviour was logged in one book and the second in a separate one, and the two logs were never cross-referenced. One violin drawn at random shows surface tackiness and shows a faint cloudy haze; what is the probability that it is poorly cured?"
+  },
+  {
+    "id": "B019",
+    "passage": "A rail yard tests the brake valves on freight cars before each departure. No count of worn versus serviceable brake valves was ever kept. Among worn brake valves, 0.88 of them leak air during the pressure-hold test; among serviceable ones, 0.12 do. One brake valve is drawn at random and the brake valve leaks air during the pressure-hold test. What is the probability that it is worn?"
+  },
+  {
+    "id": "B020",
+    "passage": "A locksmith's workshop checks rekeyed lock cylinders before dispatch. Prior records put the share of mis-pinned cylinders at three tenths and the share of correctly pinned ones at seven tenths. A mis-pinned cylinder will bind on the test key with probability three fifths; a correctly pinned cylinder will do so with probability one eighth. The split between mis-pinned and correctly pinned cylinders quoted above was later retracted by the team that compiled it, and no replacement figure has been issued. A randomly chosen cylinder binds on the test key. Given this, how likely is the cylinder to be mis-pinned?"
+  },
+  {
+    "id": "B021",
+    "passage": "A rail yard tests the brake valves on freight cars before each departure. Historically, a worn brake valve turns up with probability one in six, and a serviceable brake valve with probability five in six. Among worn brake valves, 0.88 of them leak air during the pressure-hold test; among serviceable ones, 0.12 do. One brake valve is drawn at random and the brake valve leaks air during the pressure-hold test. What is the probability that it is worn?"
+  },
+  {
+    "id": "B022",
+    "passage": "A film archive inspects acetate reels stored in its cold vault. No overall count was kept of how many reels are decaying. Among the reels that smell of vinegar, two fifths turned out to be decaying. One reel that smells of vinegar is drawn at random; what is the probability that it is decaying?"
+  },
+  {
+    "id": "B023",
+    "passage": "Engineers sample the stay cables of a suspension bridge. Prior records put the share of corroded cables at 5/12 and the share of intact ones at 7/12. Among corroded cables, 7/10 show a rust bloom at the socket and 0.7 show a pH drop in the socket grease; among intact ones, one eighth show a rust bloom at the socket and 12.5% show a pH drop in the socket grease. The two are locked together here: a cable shows a rust bloom at the socket if and only if it shows a pH drop in the socket grease; yet the log records one cable from this very population that shows a pH drop in the socket grease but does not show a rust bloom at the socket. One cable drawn at random shows a rust bloom at the socket and shows a pH drop in the socket grease; what is the probability that it is corroded?"
+  },
+  {
+    "id": "B024",
+    "passage": "A water utility screens daily wastewater samples for a viral marker. Historically, an outbreak-linked sample turns up with probability 0.2, and a background sample with probability 0.8. The chance that an outbreak-linked sample will amplify in the first PCR run is five sixths, against 0.1 for a background sample. The sample bottles all have green caps. Suppose a sample picked blind amplifies in the first PCR run. What is the probability that the sample is outbreak-linked?"
+  },
+  {
+    "id": "B025",
+    "passage": "A beekeeper inspects the brood frames of her hives each spring. Overall, three in ten of the frames are diseased and seven in ten are healthy. A diseased frame will show sunken, perforated cappings 0.5 of the time and have a patchy brood pattern 0.8 of the time, while a healthy frame will show sunken, perforated cappings 0.02 of the time and have a patchy brood pattern 0.1 of the time. Without exception, any frame that shows sunken, perforated cappings also has a patchy brood pattern; yet the log records one frame from this very population that shows sunken, perforated cappings but does not have a patchy brood pattern. One frame drawn at random shows sunken, perforated cappings and has a patchy brood pattern; what is the probability that it is diseased?"
+  },
+  {
+    "id": "B026",
+    "passage": "A site engineer cores slabs that were poured last week. No overall count was kept of the under-strength share of all slabs. Looking only at under-strength slabs, the fraction that fail the rebound-hammer screening was three quarters. One slab that fails the rebound-hammer screening is drawn at random; what is the probability that it is under-strength?"
+  },
+  {
+    "id": "B027",
+    "passage": "A transit agency tests the fare-gate turnstiles in its busiest stations. Prior records put the share of faulty turnstiles at 0.1 and the share of working ones at 0.9. Among faulty turnstiles, three fifths lock open and one fifth refuse valid cards; among working ones, 0.04 lock open and 0.07 refuse valid cards. The two are mutually exclusive here: a turnstile that locks open never refuses valid cards, and the reverse also holds; yet the log records one turnstile from this very population that locks open and refuses valid cards at once. One turnstile drawn at random locks open but does not refuse valid cards; what is the probability that it is working?"
+  },
+  {
+    "id": "B028",
+    "passage": "A regional pharmacy network audits vaccine shipments on arrival. Overall, one in twelve of the shipments are heat-exposed and eleven in twelve are properly chilled. A heat-exposed shipment will show a tripped heat-marker card with probability 0.95; a properly chilled shipment will do so with probability one sixth. The rate at which heat-exposed shipments show a tripped heat-marker card quoted above was passed along second-hand and has never been verified against any record. Suppose a shipment picked blind shows a tripped heat-marker card. What is the probability that the shipment is heat-exposed?"
+  },
+  {
+    "id": "B029",
+    "passage": "A hospital supply unit audits sealed packs of surgical sutures. Overall, one third of the suture packs are compromised and two thirds are sterile. A compromised suture pack will show a gap in the seal with probability 0.9 and fail the dye-penetration test with probability 5/6; a sterile suture pack will show a gap in the seal with probability 0.3 and fail the dye-penetration test with probability 1/4. For sterile suture packs the two behaviours occur independently of each other, but nothing is known about compromised ones in this respect. One suture pack drawn at random shows a gap in the seal and fails the dye-penetration test; what is the probability that it is sterile?"
+  },
+  {
+    "id": "B030",
+    "passage": "A city inspector reviews the safety circuits of lifts in older office towers. Prior records put the share of faulty safety circuits at 45% and the share of healthy ones at 55%. A faulty safety circuit will trip during the door-interlock test with probability seven eighths; a healthy safety circuit will do so with probability 3/20. The compilers have since withdrawn the rate at which healthy safety circuits trip during the door-interlock test, as quoted above, without supplying a corrected value. Suppose a safety circuit picked blind trips during the door-interlock test. What is the probability that the safety circuit is faulty?"
+  },
+  {
+    "id": "B031",
+    "passage": "A specialty roaster sends every morning's espresso shots past a tasting panel before the beans are bagged. Overall, three eighths of the espresso shots are under-extracted and five eighths are well-extracted. The chance that an under-extracted espresso shot will taste sharply sour is 0.72; the corresponding chance for a well-extracted espresso shot was never measured. One espresso shot is drawn at random and the espresso shot tastes sharply sour. What is the probability that it is under-extracted?"
+  },
+  {
+    "id": "B032",
+    "passage": "Technicians inspect the haul rope of a gondola line every night. Prior records put the share of fatigued cable sections at 30% and the share of sound ones at 70%. A fatigued cable section will show a broken outer wire with probability 5/8 and return a magnetic-flux anomaly with probability 0.5; a sound cable section will show a broken outer wire with probability 1/8 and return a magnetic-flux anomaly with probability 0.2. For fatigued cable sections the two behaviours occur independently of each other, but nothing is known about sound ones in this respect. One cable section drawn at random shows a broken outer wire and returns a magnetic-flux anomaly; what is the probability that it is fatigued?"
+  },
+  {
+    "id": "B033",
+    "passage": "A solar farm's maintenance crew reviews its tracker units each dawn. No overall count was kept of how many trackers are misaligned. Among the trackers that report a motor-current spike, 0.18 turned out to be misaligned. One tracker that reports a motor-current spike is drawn at random; what is the probability that it is misaligned?"
+  },
+  {
+    "id": "B034",
+    "passage": "A dental clinic reviews titanium implants six months after placement. Historically, a failing implant turns up with probability 2/13, and a stable implant with probability 11/13. The chance that a failing implant will show bone loss on the follow-up X-ray is 5/6, against 0.25 for a stable implant. A randomly chosen implant shows bone loss on the follow-up X-ray. Given this, how likely is the implant to be failing?"
+  },
+  {
+    "id": "B035",
+    "passage": "A glaciology team logs short ice cores drilled in the accumulation zone and the ablation zone of one glacier. Records from the ablation zone show contaminated cores making up one third of the stock and pristine ones two thirds. There, a contaminated core will show an elevated sodium reading with probability 4/5, and a pristine core will do so with probability one sixth. No comparable figures were ever compiled for the accumulation zone. A core drawn at random from the ablation zone shows an elevated sodium reading; what is the probability that it is contaminated?"
+  },
+  {
+    "id": "B036",
+    "passage": "A hospital emergency department screens arriving patients with a rapid bedside test. Overall, 12% of the patients are septic and 88% are non-septic. The chance that a septic patient will test positive on the lactate screen is 0.85, against one eighth for a non-septic patient. Suppose a patient picked blind tests positive on the lactate screen. What is the probability that the patient is septic?"
+  },
+  {
+    "id": "B037",
+    "passage": "A regional pharmacy network audits vaccine shipments on arrival. Overall, one in twelve of the shipments are heat-exposed and eleven in twelve are properly chilled. A heat-exposed shipment will show a tripped heat-marker card with probability 0.95; a properly chilled shipment will do so with probability one sixth. The shipping cartons are printed with a blue stripe. Suppose a shipment picked blind shows a tripped heat-marker card. What is the probability that the shipment is heat-exposed?"
+  },
+  {
+    "id": "B038",
+    "passage": "A retreading plant tests used casings before new tread is bonded on. Prior records put the share of delaminated casings at 5/16 and the share of sound ones at 11/16. The chance that a delaminated casing will return a bubble on the shearography scan is 0.9, against one fifth for a sound casing. The casings are stacked on yellow racks near the loading door. Suppose a casing picked blind returns a bubble on the shearography scan. What is the probability that the casing is sound?"
+  },
+  {
+    "id": "B039",
+    "passage": "An oyster farm samples its bay cages after every warm spell. Overall, 0.18 of the oysters are infected and 0.82 are uninfected. The chance that an infected oyster will gape slightly when handled is three quarters, against 6% for an uninfected oyster. One oyster is drawn at random and the oyster gapes slightly when handled. What is the probability that it is infected?"
+  },
+  {
+    "id": "B040",
+    "passage": "A cranberry cooperative grades berry lots from its winter harvest and its summer harvest. Records from the winter harvest show rot-prone berry lots making up 35% of the stock and firm ones 65%. Also at the winter harvest, 0.8 of rot-prone berry lots bounce poorly on the bounce-board test, versus one quarter of firm ones. The summer harvest keeps its own books, which were not part of this review. A berry lot drawn at random from the winter harvest bounces poorly on the bounce-board test; what is the probability that it is firm?"
+  },
+  {
+    "id": "B041",
+    "passage": "A recycling plant sorts spent battery cells as they arrive by the pallet. Historically, a damaged cell turns up with probability two fifths, and an undamaged cell with probability three fifths. Among damaged cells, 5/7 of them read below the cutoff voltage; no rate was ever measured among undamaged ones. Suppose a cell picked blind reads below the cutoff voltage. What is the probability that the cell is undamaged?"
+  },
+  {
+    "id": "B042",
+    "passage": "A mill's cold-press line is sampled by the lab every day. No overall count was kept of how many oil lots are oxidised. Among the oil lots that exceed the peroxide threshold, 72% turned out to be oxidised. One oil lot that exceeds the peroxide threshold is drawn at random; what is the probability that it is oxidised?"
+  },
+  {
+    "id": "B043",
+    "passage": "A foraging club examines chanterelle look-alikes brought in by members. Overall, one sixth of the specimens are toxic and five sixths are edible. A toxic specimen will have blade-like false gills with probability 0.6 and glow faintly in the dark with probability 3/5; an edible specimen will have blade-like false gills with probability 0.1 and glow faintly in the dark with probability 10%. A specimen has blade-like false gills almost always exactly when it glows faintly in the dark. One specimen drawn at random has blade-like false gills and glows faintly in the dark; what is the probability that it is toxic?"
+  },
+  {
+    "id": "B044",
+    "passage": "A regional dispatch centre logs every emergency call it receives. No overall count was kept of the life-threatening share of all calls. Looking only at calls that mention laboured breathing, the fraction found life-threatening was five in eight. One call that mentions laboured breathing is drawn at random; what is the probability that it is life-threatening?"
+  },
+  {
+    "id": "B045",
+    "passage": "An observatory vets its overnight scans for man-made interference. Prior records put the share of contaminated scans at 16% and the share of clean ones at 84%. Among contaminated scans, 0.75 of them show a narrow spike near 1.4 GHz; among clean ones, 1/15 do. No one has checked the rate at which clean scans show a narrow spike near 1.4 GHz, as quoted above, against the underlying data. A randomly chosen scan shows a narrow spike near 1.4 GHz. Given this, how likely is the scan to be contaminated?"
+  },
+  {
+    "id": "B046",
+    "passage": "A creamery ages wheels of alpine cheese in an east cave and a west cave. Records from the west cave show mite-infested wheels making up 3/16 of the stock and mite-free ones 13/16. There, a mite-infested wheel will show fine brown dust on the rind with probability two thirds, and a mite-free wheel will do so with probability 0.15. Nothing of this kind was ever tallied for the east cave. A wheel drawn at random from the east cave shows fine brown dust on the rind; what is the probability that it is mite-infested?"
+  },
+  {
+    "id": "B047",
+    "passage": "An observatory examines mirror segments after they are recoated. Overall, 3/10 of the mirror segments are poorly coated and 7/10 are well coated. A poorly coated mirror segment will show pinholes under backlight three quarters of the time and reflect below the target reflectance 70% of the time, while a well coated mirror segment will show pinholes under backlight one fifth of the time and reflect below the target reflectance 10% of the time. Within each category the two behaviours are conditionally independent. One mirror segment drawn at random shows pinholes under backlight and reflects below the target reflectance; what is the probability that it is poorly coated?"
+  },
+  {
+    "id": "B048",
+    "passage": "A city inspector reviews the safety circuits of lifts in older office towers. Prior records put the share of faulty safety circuits at 45% and the share of healthy ones at 55%. A faulty safety circuit will trip during the door-interlock test with probability seven eighths; a healthy safety circuit will do so with probability 3/20. All of the machine rooms visited were on the top floor. Suppose a safety circuit picked blind trips during the door-interlock test. What is the probability that the safety circuit is faulty?"
+  },
+  {
+    "id": "B049",
+    "passage": "A grading lab examines cut stones submitted by jewellers. No overall count was kept of how many stones are fracture-filled and how many are untreated. Of all the fracture-filled stones, 0.35 show a flash effect under darkfield lighting. One stone that shows a flash effect under darkfield lighting is drawn at random; what is the probability that it is fracture-filled?"
+  },
+  {
+    "id": "B050",
+    "passage": "A county health service runs rapid strep screening at a morning clinic and an evening clinic. At the morning clinic, 0.12 of the visitors are infected and 0.88 are uninfected. At the morning clinic the chance that an infected visitor will test positive on the rapid swab is 90%, against 0.07 for an uninfected visitor. Nothing of this kind was ever tallied for the evening clinic. A visitor drawn at random from the morning clinic tests positive on the rapid swab; what is the probability that it is infected?"
+  },
+  {
+    "id": "B051",
+    "passage": "An airport runs checked bags through X-ray screening in a domestic hall and an international hall. Records from the domestic hall show contraband-laden bags making up 0.03 of the stock and clean ones 0.97. At the domestic hall the chance that a contraband-laden bag will show a dense opaque block on the X-ray is 0.95, against 0.08 for a clean bag. The international hall keeps its own books, which were not part of this review. A bag drawn at random from the international hall shows a dense opaque block on the X-ray; what is the probability that it is contraband-laden?"
+  },
+  {
+    "id": "B052",
+    "passage": "A weaving mill checks its looms at every shift change. Prior records put the share of misadjusted looms at one fifth and the share of well adjusted ones at four fifths. A misadjusted loom will produce skipped picks 75% of the time and snap warp threads 0.65 of the time, while a well adjusted loom will produce skipped picks 15% of the time and snap warp threads 0.35 of the time. The two sets of rates were compiled by different crews, with no record of how often both appeared on the same loom. One loom drawn at random produces skipped picks and snaps warp threads; what is the probability that it is well adjusted?"
+  },
+  {
+    "id": "B053",
+    "passage": "A county health service runs rapid strep screening at a morning clinic and an evening clinic. At the morning clinic, 0.12 of the visitors are infected and 0.88 are uninfected. At the morning clinic the chance that an infected visitor will test positive on the rapid swab is 90%, against 0.07 for an uninfected visitor. Nothing of this kind was ever tallied for the evening clinic. A visitor drawn at random from the evening clinic tests positive on the rapid swab; what is the probability that it is infected?"
+  },
+  {
+    "id": "B054",
+    "passage": "A grading lab examines cut stones submitted by jewellers. No overall count was kept of how many stones are fracture-filled and how many are untreated. Of all the stones that show a flash effect under darkfield lighting, 0.35 were later confirmed fracture-filled. One stone that shows a flash effect under darkfield lighting is drawn at random; what is the probability that it is fracture-filled?"
+  },
+  {
+    "id": "B055",
+    "passage": "Biologists at a river fish ladder examine each salmon that climbs past the viewing window. Prior records put the share of hatchery-reared salmon at 35% and the share of wild-born ones at 65%. A hatchery-reared salmon will show a clipped adipose fin with probability two thirds; how often a wild-born salmon does so was never measured. A randomly chosen salmon shows a clipped adipose fin. Given this, how likely is the salmon to be wild-born?"
+  },
+  {
+    "id": "B056",
+    "passage": "A bakery assesses its jars of sourdough starter each morning. Historically, a contaminated starter jar turns up with probability 4/9, and a healthy starter jar with probability 5/9. A contaminated starter jar will smell of acetone with probability two thirds and show pink streaks with probability 3/4; a healthy starter jar will smell of acetone with probability one sixth and show pink streaks with probability 1/5. In both categories, a starter jar is equally likely to show pink streaks regardless of whether it also smells of acetone. One starter jar drawn at random smells of acetone and shows pink streaks; what is the probability that it is healthy?"
+  },
+  {
+    "id": "B057",
+    "passage": "A film archive inspects acetate reels stored in its cold vault. No overall count was kept of how many reels are decaying. Among decaying reels, two fifths smell of vinegar. One reel that smells of vinegar is drawn at random; what is the probability that it is decaying?"
+  },
+  {
+    "id": "B058",
+    "passage": "A nursery checks apple grafts after their first growing season. Overall, 0.35 of the grafts are failed and 0.65 are established. A failed graft will drop its buds early with probability 4/5; an established graft will do so with probability 0.12. The nursery rows run east to west. Suppose a graft picked blind drops its buds early. What is the probability that the graft is established?"
+  },
+  {
+    "id": "B059",
+    "passage": "A violin workshop inspects freshly varnished instruments before they ship. Prior records put the share of poorly cured violins at one quarter and the share of fully cured ones at three quarters. Among poorly cured violins, 0.6 show surface tackiness and three fifths show a faint cloudy haze; among fully cured ones, 0.1 show surface tackiness and one fifth show a faint cloudy haze. Within each category the two behaviours are conditionally independent. One violin drawn at random shows surface tackiness and shows a faint cloudy haze; what is the probability that it is poorly cured?"
+  },
+  {
+    "id": "B060",
+    "passage": "A locksmith's workshop checks rekeyed lock cylinders before dispatch. Prior records put the share of mis-pinned cylinders at three tenths and the share of correctly pinned ones at seven tenths. A mis-pinned cylinder will bind on the test key with probability three fifths; a correctly pinned cylinder will do so with probability one eighth. The brass housings all share the same satin finish. A randomly chosen cylinder binds on the test key. Given this, how likely is the cylinder to be mis-pinned?"
+  },
+  {
+    "id": "B061",
+    "passage": "An observatory vets its overnight scans for man-made interference. Prior records put the share of contaminated scans at 16% and the share of clean ones at 84%. Among contaminated scans, 0.75 of them show a narrow spike near 1.4 GHz; among clean ones, 1/15 do. The control-room clock hangs above the door. A randomly chosen scan shows a narrow spike near 1.4 GHz. Given this, how likely is the scan to be contaminated?"
+  },
+  {
+    "id": "B062",
+    "passage": "An airport runs checked bags through X-ray screening in a domestic hall and an international hall. Records from the domestic hall show contraband-laden bags making up 0.03 of the stock and clean ones 0.97. At the domestic hall the chance that a contraband-laden bag will show a dense opaque block on the X-ray is 0.95, against 0.08 for a clean bag. The international hall keeps its own books, which were not part of this review. A bag drawn at random from the domestic hall shows a dense opaque block on the X-ray; what is the probability that it is contraband-laden?"
+  },
+  {
+    "id": "B063",
+    "passage": "A trout hatchery raises a spring cohort and an autumn cohort each year. In the spring cohort, the prior probability of a diseased fingerling is 8% and of a healthy fingerling is 92%. There, a diseased fingerling will swim erratically in the grading tank with probability seven eighths, and a healthy fingerling will do so with probability 0.2. The autumn cohort keeps its own books, which were not part of this review. A fingerling drawn at random from the spring cohort swims erratically in the grading tank; what is the probability that it is healthy?"
+  },
+  {
+    "id": "B064",
+    "passage": "A recycling plant sorts spent battery cells as they arrive by the pallet. Historically, a damaged cell turns up with probability two fifths, and an undamaged cell with probability three fifths. Among damaged cells, 5/7 of them read below the cutoff voltage; among undamaged ones, 1/9 do. Suppose a cell picked blind reads below the cutoff voltage. What is the probability that the cell is undamaged?"
+  },
+  {
+    "id": "B065",
+    "passage": "A pottery studio inspects fired bowls as they come out of the kiln. Overall, 35% of the bowls are under-fired and 65% are properly fired. An under-fired bowl will show crazing 0.3 of the time and show a dull, matte glaze 0.6 of the time, while a properly fired bowl will show crazing 0.05 of the time and show a dull, matte glaze 0.2 of the time. Without exception, any bowl that shows crazing also shows a dull, matte glaze; yet the log records one bowl from this very population that shows crazing but does not show a dull, matte glaze. One bowl drawn at random shows crazing and shows a dull, matte glaze; what is the probability that it is under-fired?"
+  },
+  {
+    "id": "B066",
+    "passage": "A wind-tunnel lab tests a batch of 3D-printed wing sections. Prior records put the share of flawed airfoils at 0.15 and the share of flawless ones at 0.85. A flawed airfoil will stall early 80% of the time and shed vibration at the root seven tenths of the time, while a flawless airfoil will stall early 20% of the time and shed vibration at the root 0.25 of the time. Within each category the two behaviours are conditionally independent. One airfoil drawn at random stalls early and sheds vibration at the root; what is the probability that it is flawed?"
+  },
+  {
+    "id": "B067",
+    "passage": "A solar farm's maintenance crew reviews its tracker units each dawn. No overall count was kept of how many trackers are misaligned. Among misaligned trackers, 0.18 report a motor-current spike. One tracker that reports a motor-current spike is drawn at random; what is the probability that it is misaligned?"
+  },
+  {
+    "id": "B068",
+    "passage": "A creamery ages wheels of alpine cheese in an east cave and a west cave. Records from the west cave show mite-infested wheels making up 3/16 of the stock and mite-free ones 13/16. There, a mite-infested wheel will show fine brown dust on the rind with probability two thirds, and a mite-free wheel will do so with probability 0.15. Nothing of this kind was ever tallied for the east cave. A wheel drawn at random from the west cave shows fine brown dust on the rind; what is the probability that it is mite-infested?"
+  },
+  {
+    "id": "B069",
+    "passage": "A delivery company audits the battery packs returned from its drone fleet. No overall count was kept of the degraded share of all battery packs. Looking only at battery packs that show a swollen casing, the fraction found degraded was 3/8. One battery pack that shows a swollen casing is drawn at random; what is the probability that it is degraded?"
+  },
+  {
+    "id": "B070",
+    "passage": "A beekeeper inspects the brood frames of her hives each spring. Overall, three in ten of the frames are diseased and seven in ten are healthy. A diseased frame will show sunken, perforated cappings 0.5 of the time and have a patchy brood pattern 0.8 of the time, while a healthy frame will show sunken, perforated cappings 0.02 of the time and have a patchy brood pattern 0.1 of the time. Without exception, any frame that shows sunken, perforated cappings also has a patchy brood pattern. One frame drawn at random shows sunken, perforated cappings and has a patchy brood pattern; what is the probability that it is diseased?"
+  },
+  {
+    "id": "B071",
+    "passage": "A regional dispatch centre logs every emergency call it receives. No overall count was kept of the life-threatening share of all calls. Looking only at life-threatening calls, the fraction that mention laboured breathing was five in eight. One call that mentions laboured breathing is drawn at random; what is the probability that it is life-threatening?"
+  },
+  {
+    "id": "B072",
+    "passage": "A ground station screens the telemetry frames downlinked from a small imaging satellite. Historically, a corrupted telemetry frame turns up with probability 7%, and an intact telemetry frame with probability 93%. The chance that a corrupted telemetry frame will fail the checksum is nine tenths, against 4% for an intact telemetry frame. One telemetry frame is drawn at random and the telemetry frame fails the checksum. What is the probability that it is corrupted?"
+  },
+  {
+    "id": "B073",
+    "passage": "A delivery company audits the battery packs returned from its drone fleet. No overall count was kept of the degraded share of all battery packs. Looking only at degraded battery packs, the fraction that show a swollen casing was 3/8. One battery pack that shows a swollen casing is drawn at random; what is the probability that it is degraded?"
+  },
+  {
+    "id": "B074",
+    "passage": "A glassblowing studio inspects vases after annealing. Prior records put the share of stressed vases at one seventh and the share of well-annealed ones at six sevenths. The chance that a stressed vase will show a rainbow under the polariscope is 70%, against 5% for a well-annealed vase. No one has checked the split between stressed and well-annealed vases, as quoted above, against the underlying data. One vase is drawn at random and the vase shows a rainbow under the polariscope. What is the probability that it is stressed?"
+  },
+  {
+    "id": "B075",
+    "passage": "A hospital's biomedical team audits its infusion pumps each quarter. Prior records put the share of miscalibrated infusion pumps at 0.45 and the share of within tolerance ones at 0.55. A miscalibrated infusion pump will over-deliver with probability 10% and under-deliver with probability 15%; a within tolerance infusion pump will over-deliver with probability 2% and under-deliver with probability 3%. No infusion pump ever both over-delivers and under-delivers; the two never occur together. One infusion pump drawn at random does not over-deliver and does not under-deliver; what is the probability that it is miscalibrated?"
+  },
+  {
+    "id": "B076",
+    "passage": "A glaciology team logs short ice cores drilled in the accumulation zone and the ablation zone of one glacier. Records from the ablation zone show contaminated cores making up one third of the stock and pristine ones two thirds. There, a contaminated core will show an elevated sodium reading with probability 4/5, and a pristine core will do so with probability one sixth. No comparable figures were ever compiled for the accumulation zone. A core drawn at random from the accumulation zone shows an elevated sodium reading; what is the probability that it is contaminated?"
+  },
+  {
+    "id": "B077",
+    "passage": "A hospital emergency department screens arriving patients with a rapid bedside test. Nobody ever recorded how common septic patients are compared with non-septic ones. The chance that a septic patient will test positive on the lactate screen is 0.85, against one eighth for a non-septic patient. Suppose a patient picked blind tests positive on the lactate screen. What is the probability that the patient is septic?"
+  },
+  {
+    "id": "B078",
+    "passage": "Biologists at a river fish ladder examine each salmon that climbs past the viewing window. Prior records put the share of hatchery-reared salmon at 35% and the share of wild-born ones at 65%. A hatchery-reared salmon will show a clipped adipose fin with probability two thirds; a wild-born salmon will do so with probability 0.2. A randomly chosen salmon shows a clipped adipose fin. Given this, how likely is the salmon to be wild-born?"
+  },
+  {
+    "id": "B079",
+    "passage": "A hospital's biomedical team audits its infusion pumps each quarter. Prior records put the share of miscalibrated infusion pumps at 0.45 and the share of within tolerance ones at 0.55. A miscalibrated infusion pump will over-deliver with probability 10% and under-deliver with probability 15%; a within tolerance infusion pump will over-deliver with probability 2% and under-deliver with probability 3%. An infusion pump that over-delivers might never also under-deliver, though no one has confirmed this. One infusion pump drawn at random does not over-deliver and does not under-deliver; what is the probability that it is miscalibrated?"
+  },
+  {
+    "id": "B080",
+    "passage": "A museum monitors humidity sensors in its upper gallery and its lower gallery. At the lower gallery, two in nine of the sensors are drifting and seven in nine are calibrated. There, a drifting sensor will log a spurious humidity spike with probability three quarters, and a calibrated sensor will do so with probability one tenth. The upper gallery keeps its own books, which were not part of this review. A sensor drawn at random from the upper gallery logs a spurious humidity spike; what is the probability that it is drifting?"
+  },
+  {
+    "id": "B081",
+    "passage": "A weaving mill checks its looms at every shift change. Prior records put the share of misadjusted looms at one fifth and the share of well adjusted ones at four fifths. A misadjusted loom will produce skipped picks 75% of the time and snap warp threads 0.65 of the time, while a well adjusted loom will produce skipped picks 15% of the time and snap warp threads 0.35 of the time. In both categories, a loom is equally likely to snap warp threads regardless of whether it also produces skipped picks. One loom drawn at random produces skipped picks and snaps warp threads; what is the probability that it is well adjusted?"
+  },
+  {
+    "id": "B082",
+    "passage": "A brewery tests casks of ageing ale before bottling. Overall, 2/9 of the casks are spoiled and 7/9 are sound. A spoiled cask will smell of vinegar with probability one quarter and show a surface film with probability three quarters; a sound cask will smell of vinegar with probability 0.05 and show a surface film with probability 0.25. Usually, a cask that smells of vinegar also shows a surface film. One cask drawn at random shows a surface film but does not smell of vinegar; what is the probability that it is spoiled?"
+  },
+  {
+    "id": "B083",
+    "passage": "Engineers sample the stay cables of a suspension bridge. Prior records put the share of corroded cables at 5/12 and the share of intact ones at 7/12. Among corroded cables, 7/10 show a rust bloom at the socket and 0.7 show a pH drop in the socket grease; among intact ones, one eighth show a rust bloom at the socket and 12.5% show a pH drop in the socket grease. The two are locked together here: a cable shows a rust bloom at the socket if and only if it shows a pH drop in the socket grease. One cable drawn at random shows a rust bloom at the socket and shows a pH drop in the socket grease; what is the probability that it is corroded?"
+  },
+  {
+    "id": "B084",
+    "passage": "A cranberry cooperative grades berry lots from its winter harvest and its summer harvest. Records from the winter harvest show rot-prone berry lots making up 35% of the stock and firm ones 65%. Also at the winter harvest, 0.8 of rot-prone berry lots bounce poorly on the bounce-board test, versus one quarter of firm ones. The summer harvest keeps its own books, which were not part of this review. A berry lot drawn at random from the summer harvest bounces poorly on the bounce-board test; what is the probability that it is firm?"
+  },
+  {
+    "id": "B085",
+    "passage": "A transit agency tests the fare-gate turnstiles in its busiest stations. Prior records put the share of faulty turnstiles at 0.1 and the share of working ones at 0.9. Among faulty turnstiles, three fifths lock open and one fifth refuse valid cards; among working ones, 0.04 lock open and 0.07 refuse valid cards. The two are mutually exclusive here: a turnstile that locks open never refuses valid cards, and the reverse also holds. One turnstile drawn at random locks open but does not refuse valid cards; what is the probability that it is working?"
+  },
+  {
+    "id": "B086",
+    "passage": "A sawmill's kiln operators check boards of drying lumber. Historically, a case-hardened board turns up with probability 0.28, and an evenly dried board with probability 0.72. A case-hardened board will show end checks with probability 0.45 and show honeycomb cracking with probability two fifths; an evenly dried board will show end checks with probability 0.1 and show honeycomb cracking with probability 0.05. No board ever both shows end checks and shows honeycomb cracking; the two never occur together. One board drawn at random shows end checks but does not show honeycomb cracking; what is the probability that it is case-hardened?"
+  },
+  {
+    "id": "B087",
+    "passage": "A container port scans arriving boxes at its north dock and its south dock. At the south dock, one fifth of the containers are mislabelled and four fifths are correctly labelled. At the south dock the chance that a mislabelled container will fail the weight-manifest cross-check is 5/6, against 1/12 for a correctly labelled container. The north dock keeps its own books, which were not part of this review. A container drawn at random from the north dock fails the weight-manifest cross-check; what is the probability that it is mislabelled?"
+  },
+  {
+    "id": "B088",
+    "passage": "A brewery tests casks of ageing ale before bottling. Overall, 2/9 of the casks are spoiled and 7/9 are sound. A spoiled cask will smell of vinegar with probability one quarter and show a surface film with probability three quarters; a sound cask will smell of vinegar with probability 0.05 and show a surface film with probability 0.25. No cask ever smells of vinegar unless it also shows a surface film. One cask drawn at random shows a surface film but does not smell of vinegar; what is the probability that it is spoiled?"
+  },
+  {
+    "id": "B089",
+    "passage": "A specialty roaster sends every morning's espresso shots past a tasting panel before the beans are bagged. Overall, three eighths of the espresso shots are under-extracted and five eighths are well-extracted. The chance that an under-extracted espresso shot will taste sharply sour is 0.72, against 0.15 for a well-extracted espresso shot. One espresso shot is drawn at random and the espresso shot tastes sharply sour. What is the probability that it is under-extracted?"
+  },
+  {
+    "id": "B090",
+    "passage": "An oyster farm samples its bay cages after every warm spell. Nobody ever recorded how common infected oysters are compared with uninfected ones. The chance that an infected oyster will gape slightly when handled is three quarters, against 6% for an uninfected oyster. One oyster is drawn at random and the oyster gapes slightly when handled. What is the probability that it is infected?"
+  },
+  {
+    "id": "B091",
+    "passage": "A coast guard depot services navigation buoys hauled in from the shipping lane. Historically, a leaking buoy turns up with probability 0.4, and a watertight buoy with probability 0.6. A leaking buoy will ride low in the water 2/3 of the time and report a flooded battery bay four fifths of the time, while a watertight buoy will ride low in the water 1/4 of the time and report a flooded battery bay three tenths of the time. Within either category, the rate at which buoys report a flooded battery bay is unchanged whether or not they ride low in the water. One buoy drawn at random rides low in the water and reports a flooded battery bay; what is the probability that it is leaking?"
+  },
+  {
+    "id": "B092",
+    "passage": "A concert hall's technician checks the strings of its grand pianos before recitals. Overall, 9/40 of the strings are slack and 31/40 are properly tensioned. No rate was ever measured among slack strings; among properly tensioned ones, one tenth of them drift flat within an hour. Suppose a string picked blind drifts flat within an hour. What is the probability that the string is slack?"
+  },
+  {
+    "id": "B093",
+    "passage": "A site engineer cores slabs that were poured last week. No overall count was kept of the under-strength share of all slabs. Looking only at slabs that fail the rebound-hammer screening, the fraction found under-strength was three quarters. One slab that fails the rebound-hammer screening is drawn at random; what is the probability that it is under-strength?"
+  },
+  {
+    "id": "B094",
+    "passage": "A pottery studio inspects fired bowls as they come out of the kiln. Overall, 35% of the bowls are under-fired and 65% are properly fired. An under-fired bowl will show crazing 0.3 of the time and show a dull, matte glaze 0.6 of the time, while a properly fired bowl will show crazing 0.05 of the time and show a dull, matte glaze 0.2 of the time. Without exception, any bowl that shows crazing also shows a dull, matte glaze. One bowl drawn at random shows crazing and shows a dull, matte glaze; what is the probability that it is under-fired?"
+  },
+  {
+    "id": "B095",
+    "passage": "A trout hatchery raises a spring cohort and an autumn cohort each year. In the spring cohort, the prior probability of a diseased fingerling is 8% and of a healthy fingerling is 92%. There, a diseased fingerling will swim erratically in the grading tank with probability seven eighths, and a healthy fingerling will do so with probability 0.2. The autumn cohort keeps its own books, which were not part of this review. A fingerling drawn at random from the autumn cohort swims erratically in the grading tank; what is the probability that it is healthy?"
+  },
+  {
+    "id": "B096",
+    "passage": "A ground station screens the telemetry frames downlinked from a small imaging satellite. No count of corrupted versus intact telemetry frames was ever kept. The chance that a corrupted telemetry frame will fail the checksum is nine tenths, against 4% for an intact telemetry frame. One telemetry frame is drawn at random and the telemetry frame fails the checksum. What is the probability that it is corrupted?"
+  },
+  {
+    "id": "B097",
+    "passage": "A wind-tunnel lab tests a batch of 3D-printed wing sections. Prior records put the share of flawed airfoils at 0.15 and the share of flawless ones at 0.85. A flawed airfoil will stall early 80% of the time and shed vibration at the root seven tenths of the time, while a flawless airfoil will stall early 20% of the time and shed vibration at the root 0.25 of the time. The first behaviour was logged in one book and the second in a separate one, and the two logs were never cross-referenced. One airfoil drawn at random stalls early and sheds vibration at the root; what is the probability that it is flawed?"
+  },
+  {
+    "id": "B098",
+    "passage": "A water utility screens daily wastewater samples for a viral marker. Historically, an outbreak-linked sample turns up with probability 0.2, and a background sample with probability 0.8. The chance that an outbreak-linked sample will amplify in the first PCR run is five sixths, against 0.1 for a background sample. The rate at which outbreak-linked samples amplify in the first PCR run quoted above was later retracted by the team that compiled it, and no replacement figure has been issued. Suppose a sample picked blind amplifies in the first PCR run. What is the probability that the sample is outbreak-linked?"
+  },
+  {
+    "id": "B099",
+    "passage": "A cooperative monitors cacao heaps fermenting under banana leaves. Historically, an over-fermented heap turns up with probability 22%, and a well-fermented heap with probability 78%. An over-fermented heap will smell of ammonia with probability five in eight and darken at the core with probability 0.45; a well-fermented heap will smell of ammonia with probability one in eight and darken at the core with probability 0.15. In both categories, a heap is equally likely to darken at the core regardless of whether it also smells of ammonia. One heap drawn at random smells of ammonia and darkens at the core; what is the probability that it is over-fermented?"
+  },
+  {
+    "id": "B100",
+    "passage": "A newspaper plant monitors its rotary presses overnight. No overall count was kept of how many print runs are misregistered and how many are aligned. Of all the print runs that trigger a web-break alarm, 4/11 were later confirmed misregistered. One print run that triggers a web-break alarm is drawn at random; what is the probability that it is misregistered?"
+  }
+]

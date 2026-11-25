@@ -1,0 +1,802 @@
+[
+ {
+  "id": "B001",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.3,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.86,\"probabilities\":{\"ANSWER\":0.93,\"REFUSE\":0.07}},\"probability\":{\"type\":\"noul\",\"noul\":0.3}},\"usage\":{\"input_tokens\":619,\"output_tokens\":53}}",
+  "latencyMs": 111
+ },
+ {
+  "id": "B002",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.73,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.73}},\"usage\":{\"input_tokens\":564,\"output_tokens\":53}}",
+  "latencyMs": 123
+ },
+ {
+  "id": "B003",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.74,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.96,\"REFUSE\":0.04}},\"probability\":{\"type\":\"noul\",\"noul\":0.74}},\"usage\":{\"input_tokens\":619,\"output_tokens\":53}}",
+  "latencyMs": 140
+ },
+ {
+  "id": "B004",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.25,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.22,\"probabilities\":{\"ANSWER\":0.61,\"REFUSE\":0.39}},\"probability\":{\"type\":\"noul\",\"noul\":0.25}},\"usage\":{\"input_tokens\":569,\"output_tokens\":53}}",
+  "latencyMs": 122
+ },
+ {
+  "id": "B005",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.71,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.68,\"probabilities\":{\"ANSWER\":0.84,\"REFUSE\":0.16}},\"probability\":{\"type\":\"noul\",\"noul\":0.71}},\"usage\":{\"input_tokens\":610,\"output_tokens\":53}}",
+  "latencyMs": 145
+ },
+ {
+  "id": "B006",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.98,\"probabilities\":{\"ANSWER\":0.01,\"REFUSE\":0.99}},\"probability\":{\"type\":\"noul\",\"noul\":0.48}},\"usage\":{\"input_tokens\":532,\"output_tokens\":53}}",
+  "latencyMs": 113
+ },
+ {
+  "id": "B007",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.71,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.96,\"REFUSE\":0.04}},\"probability\":{\"type\":\"noul\",\"noul\":0.71}},\"usage\":{\"input_tokens\":579,\"output_tokens\":53}}",
+  "latencyMs": 164
+ },
+ {
+  "id": "B008",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.79,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.96,\"REFUSE\":0.04}},\"probability\":{\"type\":\"noul\",\"noul\":0.79}},\"usage\":{\"input_tokens\":569,\"output_tokens\":53}}",
+  "latencyMs": 147
+ },
+ {
+  "id": "B009",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.62,\"probabilities\":{\"ANSWER\":0.19,\"REFUSE\":0.81}},\"probability\":{\"type\":\"noul\",\"noul\":0.4}},\"usage\":{\"input_tokens\":603,\"output_tokens\":53}}",
+  "latencyMs": 131
+ },
+ {
+  "id": "B010",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.32,\"probabilities\":{\"ANSWER\":0.34,\"REFUSE\":0.66}},\"probability\":{\"type\":\"noul\",\"noul\":0.72}},\"usage\":{\"input_tokens\":628,\"output_tokens\":53}}",
+  "latencyMs": 131
+ },
+ {
+  "id": "B011",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.98,\"probabilities\":{\"ANSWER\":0.01,\"REFUSE\":0.99}},\"probability\":{\"type\":\"noul\",\"noul\":0.3}},\"usage\":{\"input_tokens\":560,\"output_tokens\":53}}",
+  "latencyMs": 185
+ },
+ {
+  "id": "B012",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.72,\"probabilities\":{\"ANSWER\":0.14,\"REFUSE\":0.86}},\"probability\":{\"type\":\"noul\",\"noul\":0.26}},\"usage\":{\"input_tokens\":602,\"output_tokens\":53}}",
+  "latencyMs": 143
+ },
+ {
+  "id": "B013",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.54,\"probabilities\":{\"ANSWER\":0.23,\"REFUSE\":0.77}},\"probability\":{\"type\":\"noul\",\"noul\":0.75}},\"usage\":{\"input_tokens\":617,\"output_tokens\":53}}",
+  "latencyMs": 133
+ },
+ {
+  "id": "B014",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.88,\"probabilities\":{\"ANSWER\":0.06,\"REFUSE\":0.94}},\"probability\":{\"type\":\"noul\",\"noul\":0.43}},\"usage\":{\"input_tokens\":535,\"output_tokens\":53}}",
+  "latencyMs": 135
+ },
+ {
+  "id": "B015",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.56,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.56}},\"usage\":{\"input_tokens\":546,\"output_tokens\":53}}",
+  "latencyMs": 119
+ },
+ {
+  "id": "B016",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.76,\"probabilities\":{\"ANSWER\":0.12,\"REFUSE\":0.88}},\"probability\":{\"type\":\"noul\",\"noul\":0.66}},\"usage\":{\"input_tokens\":606,\"output_tokens\":53}}",
+  "latencyMs": 122
+ },
+ {
+  "id": "B017",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.7,\"probabilities\":{\"ANSWER\":0.15,\"REFUSE\":0.85}},\"probability\":{\"type\":\"noul\",\"noul\":0.76}},\"usage\":{\"input_tokens\":615,\"output_tokens\":53}}",
+  "latencyMs": 122
+ },
+ {
+  "id": "B018",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.58,\"probabilities\":{\"ANSWER\":0.21,\"REFUSE\":0.79}},\"probability\":{\"type\":\"noul\",\"noul\":0.76}},\"usage\":{\"input_tokens\":595,\"output_tokens\":53}}",
+  "latencyMs": 199
+ },
+ {
+  "id": "B019",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.63}},\"usage\":{\"input_tokens\":549,\"output_tokens\":53}}",
+  "latencyMs": 126
+ },
+ {
+  "id": "B020",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.96,\"probabilities\":{\"ANSWER\":0.02,\"REFUSE\":0.98}},\"probability\":{\"type\":\"noul\",\"noul\":0.45}},\"usage\":{\"input_tokens\":585,\"output_tokens\":53}}",
+  "latencyMs": 131
+ },
+ {
+  "id": "B021",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.62,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.62}},\"usage\":{\"input_tokens\":565,\"output_tokens\":53}}",
+  "latencyMs": 118
+ },
+ {
+  "id": "B022",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.52,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.7,\"probabilities\":{\"ANSWER\":0.85,\"REFUSE\":0.15}},\"probability\":{\"type\":\"noul\",\"noul\":0.52}},\"usage\":{\"input_tokens\":527,\"output_tokens\":53}}",
+  "latencyMs": 202
+ },
+ {
+  "id": "B023",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.68,\"probabilities\":{\"ANSWER\":0.16,\"REFUSE\":0.84}},\"probability\":{\"type\":\"noul\",\"noul\":0.79}},\"usage\":{\"input_tokens\":658,\"output_tokens\":53}}",
+  "latencyMs": 132
+ },
+ {
+  "id": "B024",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.72,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.96,\"REFUSE\":0.04}},\"probability\":{\"type\":\"noul\",\"noul\":0.72}},\"usage\":{\"input_tokens\":560,\"output_tokens\":53}}",
+  "latencyMs": 186
+ },
+ {
+  "id": "B025",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.56,\"probabilities\":{\"ANSWER\":0.22,\"REFUSE\":0.78}},\"probability\":{\"type\":\"noul\",\"noul\":0.89}},\"usage\":{\"input_tokens\":656,\"output_tokens\":53}}",
+  "latencyMs": 120
+ },
+ {
+  "id": "B026",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.54,\"probabilities\":{\"ANSWER\":0.23,\"REFUSE\":0.77}},\"probability\":{\"type\":\"noul\",\"noul\":0.73}},\"usage\":{\"input_tokens\":538,\"output_tokens\":53}}",
+  "latencyMs": 125
+ },
+ {
+  "id": "B027",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.48,\"probabilities\":{\"ANSWER\":0.26,\"REFUSE\":0.74}},\"probability\":{\"type\":\"noul\",\"noul\":0.23}},\"usage\":{\"input_tokens\":612,\"output_tokens\":53}}",
+  "latencyMs": 133
+ },
+ {
+  "id": "B028",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.82,\"probabilities\":{\"ANSWER\":0.09,\"REFUSE\":0.91}},\"probability\":{\"type\":\"noul\",\"noul\":0.5}},\"usage\":{\"input_tokens\":577,\"output_tokens\":53}}",
+  "latencyMs": 134
+ },
+ {
+  "id": "B029",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.74,\"probabilities\":{\"ANSWER\":0.13,\"REFUSE\":0.87}},\"probability\":{\"type\":\"noul\",\"noul\":0.25}},\"usage\":{\"input_tokens\":612,\"output_tokens\":53}}",
+  "latencyMs": 151
+ },
+ {
+  "id": "B030",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.76,\"probabilities\":{\"ANSWER\":0.12,\"REFUSE\":0.88}},\"probability\":{\"type\":\"noul\",\"noul\":0.77}},\"usage\":{\"input_tokens\":590,\"output_tokens\":53}}",
+  "latencyMs": 131
+ },
+ {
+  "id": "B031",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.98,\"probabilities\":{\"ANSWER\":0.01,\"REFUSE\":0.99}},\"probability\":{\"type\":\"noul\",\"noul\":0.59}},\"usage\":{\"input_tokens\":568,\"output_tokens\":53}}",
+  "latencyMs": 112
+ },
+ {
+  "id": "B032",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.46,\"probabilities\":{\"ANSWER\":0.27,\"REFUSE\":0.73}},\"probability\":{\"type\":\"noul\",\"noul\":0.79}},\"usage\":{\"input_tokens\":617,\"output_tokens\":53}}",
+  "latencyMs": 127
+ },
+ {
+  "id": "B033",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.33,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.7,\"probabilities\":{\"ANSWER\":0.85,\"REFUSE\":0.15}},\"probability\":{\"type\":\"noul\",\"noul\":0.33}},\"usage\":{\"input_tokens\":532,\"output_tokens\":53}}",
+  "latencyMs": 132
+ },
+ {
+  "id": "B034",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.55,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.55}},\"usage\":{\"input_tokens\":559,\"output_tokens\":53}}",
+  "latencyMs": 118
+ },
+ {
+  "id": "B035",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.64,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.96,\"REFUSE\":0.04}},\"probability\":{\"type\":\"noul\",\"noul\":0.64}},\"usage\":{\"input_tokens\":569,\"output_tokens\":53}}",
+  "latencyMs": 130
+ },
+ {
+  "id": "B036",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.64,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.84,\"probabilities\":{\"ANSWER\":0.92,\"REFUSE\":0.08}},\"probability\":{\"type\":\"noul\",\"noul\":0.64}},\"usage\":{\"input_tokens\":551,\"output_tokens\":53}}",
+  "latencyMs": 135
+ },
+ {
+  "id": "B037",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.57,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.9,\"probabilities\":{\"ANSWER\":0.95,\"REFUSE\":0.05}},\"probability\":{\"type\":\"noul\",\"noul\":0.57}},\"usage\":{\"input_tokens\":557,\"output_tokens\":53}}",
+  "latencyMs": 133
+ },
+ {
+  "id": "B038",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.39,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.88,\"probabilities\":{\"ANSWER\":0.94,\"REFUSE\":0.06}},\"probability\":{\"type\":\"noul\",\"noul\":0.39}},\"usage\":{\"input_tokens\":579,\"output_tokens\":53}}",
+  "latencyMs": 118
+ },
+ {
+  "id": "B039",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.7,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.9,\"probabilities\":{\"ANSWER\":0.95,\"REFUSE\":0.05}},\"probability\":{\"type\":\"noul\",\"noul\":0.7}},\"usage\":{\"input_tokens\":549,\"output_tokens\":53}}",
+  "latencyMs": 130
+ },
+ {
+  "id": "B040",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.36,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.82,\"probabilities\":{\"ANSWER\":0.91,\"REFUSE\":0.09}},\"probability\":{\"type\":\"noul\",\"noul\":0.36}},\"usage\":{\"input_tokens\":578,\"output_tokens\":53}}",
+  "latencyMs": 135
+ },
+ {
+  "id": "B041",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.96,\"probabilities\":{\"ANSWER\":0.02,\"REFUSE\":0.98}},\"probability\":{\"type\":\"noul\",\"noul\":0.29}},\"usage\":{\"input_tokens\":550,\"output_tokens\":53}}",
+  "latencyMs": 147
+ },
+ {
+  "id": "B042",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.71,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.54,\"probabilities\":{\"ANSWER\":0.77,\"REFUSE\":0.23}},\"probability\":{\"type\":\"noul\",\"noul\":0.71}},\"usage\":{\"input_tokens\":538,\"output_tokens\":53}}",
+  "latencyMs": 116
+ },
+ {
+  "id": "B043",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.74,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.48,\"probabilities\":{\"ANSWER\":0.74,\"REFUSE\":0.26}},\"probability\":{\"type\":\"noul\",\"noul\":0.74}},\"usage\":{\"input_tokens\":603,\"output_tokens\":53}}",
+  "latencyMs": 133
+ },
+ {
+  "id": "B044",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.67,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.84,\"probabilities\":{\"ANSWER\":0.92,\"REFUSE\":0.08}},\"probability\":{\"type\":\"noul\",\"noul\":0.67}},\"usage\":{\"input_tokens\":525,\"output_tokens\":53}}",
+  "latencyMs": 134
+ },
+ {
+  "id": "B045",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.04,\"probabilities\":{\"ANSWER\":0.48,\"REFUSE\":0.52}},\"probability\":{\"type\":\"noul\",\"noul\":0.68}},\"usage\":{\"input_tokens\":585,\"output_tokens\":53}}",
+  "latencyMs": 147
+ },
+ {
+  "id": "B046",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.36}},\"usage\":{\"input_tokens\":585,\"output_tokens\":53}}",
+  "latencyMs": 189
+ },
+ {
+  "id": "B047",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.79,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.79}},\"usage\":{\"input_tokens\":606,\"output_tokens\":53}}",
+  "latencyMs": 130
+ },
+ {
+  "id": "B048",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.78,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.78}},\"usage\":{\"input_tokens\":570,\"output_tokens\":53}}",
+  "latencyMs": 188
+ },
+ {
+  "id": "B049",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.39}},\"usage\":{\"input_tokens\":536,\"output_tokens\":53}}",
+  "latencyMs": 123
+ },
+ {
+  "id": "B050",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.75,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.9,\"probabilities\":{\"ANSWER\":0.95,\"REFUSE\":0.05}},\"probability\":{\"type\":\"noul\",\"noul\":0.75}},\"usage\":{\"input_tokens\":577,\"output_tokens\":53}}",
+  "latencyMs": 146
+ },
+ {
+  "id": "B051",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.98,\"probabilities\":{\"ANSWER\":0.01,\"REFUSE\":0.99}},\"probability\":{\"type\":\"noul\",\"noul\":0.34}},\"usage\":{\"input_tokens\":594,\"output_tokens\":53}}",
+  "latencyMs": 132
+ },
+ {
+  "id": "B052",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.03,\"REFUSE\":0.97}},\"probability\":{\"type\":\"noul\",\"noul\":0.37}},\"usage\":{\"input_tokens\":607,\"output_tokens\":53}}",
+  "latencyMs": 131
+ },
+ {
+  "id": "B053",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.39}},\"usage\":{\"input_tokens\":577,\"output_tokens\":53}}",
+  "latencyMs": 121
+ },
+ {
+  "id": "B054",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.46,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.5,\"probabilities\":{\"ANSWER\":0.75,\"REFUSE\":0.25}},\"probability\":{\"type\":\"noul\",\"noul\":0.46}},\"usage\":{\"input_tokens\":540,\"output_tokens\":53}}",
+  "latencyMs": 131
+ },
+ {
+  "id": "B055",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.36}},\"usage\":{\"input_tokens\":560,\"output_tokens\":53}}",
+  "latencyMs": 129
+ },
+ {
+  "id": "B056",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.26,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.36,\"probabilities\":{\"ANSWER\":0.68,\"REFUSE\":0.32}},\"probability\":{\"type\":\"noul\",\"noul\":0.26}},\"usage\":{\"input_tokens\":606,\"output_tokens\":53}}",
+  "latencyMs": 183
+ },
+ {
+  "id": "B057",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.34,\"probabilities\":{\"ANSWER\":0.33,\"REFUSE\":0.67}},\"probability\":{\"type\":\"noul\",\"noul\":0.73}},\"usage\":{\"input_tokens\":521,\"output_tokens\":53}}",
+  "latencyMs": 119
+ },
+ {
+  "id": "B058",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.27,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.84,\"probabilities\":{\"ANSWER\":0.92,\"REFUSE\":0.08}},\"probability\":{\"type\":\"noul\",\"noul\":0.27}},\"usage\":{\"input_tokens\":549,\"output_tokens\":53}}",
+  "latencyMs": 129
+ },
+ {
+  "id": "B059",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.75,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.9,\"probabilities\":{\"ANSWER\":0.95,\"REFUSE\":0.05}},\"probability\":{\"type\":\"noul\",\"noul\":0.75}},\"usage\":{\"input_tokens\":581,\"output_tokens\":53}}",
+  "latencyMs": 131
+ },
+ {
+  "id": "B060",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.63,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.63}},\"usage\":{\"input_tokens\":564,\"output_tokens\":53}}",
+  "latencyMs": 196
+ },
+ {
+  "id": "B061",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.73,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.9,\"probabilities\":{\"ANSWER\":0.95,\"REFUSE\":0.05}},\"probability\":{\"type\":\"noul\",\"noul\":0.73}},\"usage\":{\"input_tokens\":564,\"output_tokens\":53}}",
+  "latencyMs": 134
+ },
+ {
+  "id": "B062",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.58,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.9,\"probabilities\":{\"ANSWER\":0.95,\"REFUSE\":0.05}},\"probability\":{\"type\":\"noul\",\"noul\":0.58}},\"usage\":{\"input_tokens\":594,\"output_tokens\":53}}",
+  "latencyMs": 111
+ },
+ {
+  "id": "B063",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.68,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.9,\"probabilities\":{\"ANSWER\":0.95,\"REFUSE\":0.05}},\"probability\":{\"type\":\"noul\",\"noul\":0.68}},\"usage\":{\"input_tokens\":592,\"output_tokens\":53}}",
+  "latencyMs": 173
+ },
+ {
+  "id": "B064",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.25,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.96,\"REFUSE\":0.04}},\"probability\":{\"type\":\"noul\",\"noul\":0.25}},\"usage\":{\"input_tokens\":551,\"output_tokens\":53}}",
+  "latencyMs": 133
+ },
+ {
+  "id": "B065",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.5,\"probabilities\":{\"ANSWER\":0.25,\"REFUSE\":0.75}},\"probability\":{\"type\":\"noul\",\"noul\":0.83}},\"usage\":{\"input_tokens\":633,\"output_tokens\":53}}",
+  "latencyMs": 145
+ },
+ {
+  "id": "B066",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.61,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.96,\"REFUSE\":0.04}},\"probability\":{\"type\":\"noul\",\"noul\":0.61}},\"usage\":{\"input_tokens\":603,\"output_tokens\":53}}",
+  "latencyMs": 119
+ },
+ {
+  "id": "B067",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.88,\"probabilities\":{\"ANSWER\":0.06,\"REFUSE\":0.94}},\"probability\":{\"type\":\"noul\",\"noul\":0.61}},\"usage\":{\"input_tokens\":526,\"output_tokens\":53}}",
+  "latencyMs": 126
+ },
+ {
+  "id": "B068",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.61,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.88,\"probabilities\":{\"ANSWER\":0.94,\"REFUSE\":0.06}},\"probability\":{\"type\":\"noul\",\"noul\":0.61}},\"usage\":{\"input_tokens\":585,\"output_tokens\":53}}",
+  "latencyMs": 118
+ },
+ {
+  "id": "B069",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.52,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.88,\"probabilities\":{\"ANSWER\":0.94,\"REFUSE\":0.06}},\"probability\":{\"type\":\"noul\",\"noul\":0.52}},\"usage\":{\"input_tokens\":528,\"output_tokens\":53}}",
+  "latencyMs": 128
+ },
+ {
+  "id": "B070",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.94,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.94}},\"usage\":{\"input_tokens\":625,\"output_tokens\":53}}",
+  "latencyMs": 115
+ },
+ {
+  "id": "B071",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.66,\"probabilities\":{\"ANSWER\":0.17,\"REFUSE\":0.83}},\"probability\":{\"type\":\"noul\",\"noul\":0.46}},\"usage\":{\"input_tokens\":524,\"output_tokens\":53}}",
+  "latencyMs": 163
+ },
+ {
+  "id": "B072",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.71,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.71}},\"usage\":{\"input_tokens\":552,\"output_tokens\":53}}",
+  "latencyMs": 125
+ },
+ {
+  "id": "B073",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.73,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.1,\"probabilities\":{\"ANSWER\":0.55,\"REFUSE\":0.45}},\"probability\":{\"type\":\"noul\",\"noul\":0.73}},\"usage\":{\"input_tokens\":527,\"output_tokens\":53}}",
+  "latencyMs": 125
+ },
+ {
+  "id": "B074",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.78,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.18,\"probabilities\":{\"ANSWER\":0.59,\"REFUSE\":0.41}},\"probability\":{\"type\":\"noul\",\"noul\":0.78}},\"usage\":{\"input_tokens\":584,\"output_tokens\":53}}",
+  "latencyMs": 123
+ },
+ {
+  "id": "B075",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.41,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.96,\"REFUSE\":0.04}},\"probability\":{\"type\":\"noul\",\"noul\":0.41}},\"usage\":{\"input_tokens\":601,\"output_tokens\":53}}",
+  "latencyMs": 150
+ },
+ {
+  "id": "B076",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.32}},\"usage\":{\"input_tokens\":568,\"output_tokens\":53}}",
+  "latencyMs": 141
+ },
+ {
+  "id": "B077",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.55}},\"usage\":{\"input_tokens\":545,\"output_tokens\":53}}",
+  "latencyMs": 120
+ },
+ {
+  "id": "B078",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.34,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.86,\"probabilities\":{\"ANSWER\":0.93,\"REFUSE\":0.07}},\"probability\":{\"type\":\"noul\",\"noul\":0.34}},\"usage\":{\"input_tokens\":562,\"output_tokens\":53}}",
+  "latencyMs": 135
+ },
+ {
+  "id": "B079",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.38,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.62,\"probabilities\":{\"ANSWER\":0.81,\"REFUSE\":0.19}},\"probability\":{\"type\":\"noul\",\"noul\":0.38}},\"usage\":{\"input_tokens\":603,\"output_tokens\":53}}",
+  "latencyMs": 129
+ },
+ {
+  "id": "B080",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.04,\"REFUSE\":0.96}},\"probability\":{\"type\":\"noul\",\"noul\":0.38}},\"usage\":{\"input_tokens\":564,\"output_tokens\":53}}",
+  "latencyMs": 121
+ },
+ {
+  "id": "B081",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.37,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.6,\"probabilities\":{\"ANSWER\":0.8,\"REFUSE\":0.2}},\"probability\":{\"type\":\"noul\",\"noul\":0.37}},\"usage\":{\"input_tokens\":605,\"output_tokens\":53}}",
+  "latencyMs": 139
+ },
+ {
+  "id": "B082",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.34,\"probabilities\":{\"ANSWER\":0.33,\"REFUSE\":0.67}},\"probability\":{\"type\":\"noul\",\"noul\":0.25}},\"usage\":{\"input_tokens\":581,\"output_tokens\":53}}",
+  "latencyMs": 144
+ },
+ {
+  "id": "B083",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.82,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.64,\"probabilities\":{\"ANSWER\":0.82,\"REFUSE\":0.18}},\"probability\":{\"type\":\"noul\",\"noul\":0.82}},\"usage\":{\"input_tokens\":627,\"output_tokens\":53}}",
+  "latencyMs": 126
+ },
+ {
+  "id": "B084",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.31}},\"usage\":{\"input_tokens\":578,\"output_tokens\":53}}",
+  "latencyMs": 125
+ },
+ {
+  "id": "B085",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.3,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.9,\"probabilities\":{\"ANSWER\":0.95,\"REFUSE\":0.05}},\"probability\":{\"type\":\"noul\",\"noul\":0.3}},\"usage\":{\"input_tokens\":590,\"output_tokens\":53}}",
+  "latencyMs": 146
+ },
+ {
+  "id": "B086",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.77,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.77}},\"usage\":{\"input_tokens\":606,\"output_tokens\":53}}",
+  "latencyMs": 133
+ },
+ {
+  "id": "B087",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.3}},\"usage\":{\"input_tokens\":579,\"output_tokens\":53}}",
+  "latencyMs": 120
+ },
+ {
+  "id": "B088",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.31,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.68,\"probabilities\":{\"ANSWER\":0.84,\"REFUSE\":0.16}},\"probability\":{\"type\":\"noul\",\"noul\":0.31}},\"usage\":{\"input_tokens\":581,\"output_tokens\":53}}",
+  "latencyMs": 138
+ },
+ {
+  "id": "B089",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.72,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.92,\"probabilities\":{\"ANSWER\":0.96,\"REFUSE\":0.04}},\"probability\":{\"type\":\"noul\",\"noul\":0.72}},\"usage\":{\"input_tokens\":568,\"output_tokens\":53}}",
+  "latencyMs": 127
+ },
+ {
+  "id": "B090",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.7}},\"usage\":{\"input_tokens\":541,\"output_tokens\":53}}",
+  "latencyMs": 114
+ },
+ {
+  "id": "B091",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.76,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.76}},\"usage\":{\"input_tokens\":618,\"output_tokens\":53}}",
+  "latencyMs": 150
+ },
+ {
+  "id": "B092",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.46,\"probabilities\":{\"ANSWER\":0.27,\"REFUSE\":0.73}},\"probability\":{\"type\":\"noul\",\"noul\":0.32}},\"usage\":{\"input_tokens\":546,\"output_tokens\":53}}",
+  "latencyMs": 115
+ },
+ {
+  "id": "B093",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.76,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.9,\"probabilities\":{\"ANSWER\":0.95,\"REFUSE\":0.05}},\"probability\":{\"type\":\"noul\",\"noul\":0.76}},\"usage\":{\"input_tokens\":539,\"output_tokens\":53}}",
+  "latencyMs": 118
+ },
+ {
+  "id": "B094",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.86,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.94,\"probabilities\":{\"ANSWER\":0.97,\"REFUSE\":0.03}},\"probability\":{\"type\":\"noul\",\"noul\":0.86}},\"usage\":{\"input_tokens\":607,\"output_tokens\":53}}",
+  "latencyMs": 115
+ },
+ {
+  "id": "B095",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.98,\"probabilities\":{\"ANSWER\":0.01,\"REFUSE\":0.99}},\"probability\":{\"type\":\"noul\",\"noul\":0.4}},\"usage\":{\"input_tokens\":592,\"output_tokens\":53}}",
+  "latencyMs": 158
+ },
+ {
+  "id": "B096",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":1.0,\"probabilities\":{\"ANSWER\":0.0,\"REFUSE\":1.0}},\"probability\":{\"type\":\"noul\",\"noul\":0.65}},\"usage\":{\"input_tokens\":537,\"output_tokens\":53}}",
+  "latencyMs": 130
+ },
+ {
+  "id": "B097",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.56,\"probabilities\":{\"ANSWER\":0.22,\"REFUSE\":0.78}},\"probability\":{\"type\":\"noul\",\"noul\":0.65}},\"usage\":{\"input_tokens\":617,\"output_tokens\":53}}",
+  "latencyMs": 117
+ },
+ {
+  "id": "B098",
+  "status": "REFUSE",
+  "rational": null,
+  "decimal": null,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"REFUSE\",\"confidence\":0.98,\"probabilities\":{\"ANSWER\":0.01,\"REFUSE\":0.99}},\"probability\":{\"type\":\"noul\",\"noul\":0.43}},\"usage\":{\"input_tokens\":586,\"output_tokens\":53}}",
+  "latencyMs": 115
+ },
+ {
+  "id": "B099",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.61,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.74,\"probabilities\":{\"ANSWER\":0.87,\"REFUSE\":0.13}},\"probability\":{\"type\":\"noul\",\"noul\":0.61}},\"usage\":{\"input_tokens\":606,\"output_tokens\":53}}",
+  "latencyMs": 163
+ },
+ {
+  "id": "B100",
+  "status": "ANSWER",
+  "rational": null,
+  "decimal": 0.48,
+  "raw": "{\"model\":\"jev-1.14.0\",\"answers\":{\"gate\":{\"type\":\"choice\",\"choice\":\"ANSWER\",\"confidence\":0.62,\"probabilities\":{\"ANSWER\":0.81,\"REFUSE\":0.19}},\"probability\":{\"type\":\"noul\",\"noul\":0.48}},\"usage\":{\"input_tokens\":539,\"output_tokens\":53}}",
+  "latencyMs": 124
+ }
+]

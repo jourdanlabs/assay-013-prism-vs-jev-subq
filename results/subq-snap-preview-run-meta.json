@@ -1,0 +1,15 @@
+{
+ "vendor": "subq",
+ "endpoint": "https://api.subq.ai/v1/systemone",
+ "requested_model": "subq-snap-preview",
+ "returned_models": [
+  "subq-snap-preview"
+ ],
+ "started_utc": "2026-11-24T16:30:47.043552+00:00",
+ "finished_utc": "2026-11-24T16:31:14.006634+00:00",
+ "passages": 100,
+ "predictions": 100,
+ "answer": 51,
+ "refuse": 49,
+ "errors": []
+}
